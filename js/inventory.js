@@ -106,11 +106,10 @@ function populateTeams() {
 }
 
 // ------------------------------
-// APPLY FILTERS
+// APPLY FILTERS (when inside a year)
 // ------------------------------
 function applyFilters() {
   const search = document.getElementById("search").value.toLowerCase();
-  const year = document.getElementById("yearFilter").value;
   const team = document.getElementById("teamFilter").value;
 
   filteredCards = allCards;
@@ -157,9 +156,49 @@ function renderCards() {
 }
 
 // ------------------------------
+// GLOBAL SEARCH (search from landing page)
+// ------------------------------
+async function globalSearch() {
+  const query = document.getElementById("search").value.toLowerCase();
+
+  // If search is empty → return to set landing page
+  if (!query) {
+    renderSetLanding();
+    return;
+  }
+
+  // Load ALL years for global search
+  const years = [1985, 1986, 1987, 1988, 1989];
+  allCards = [];
+
+  for (const y of years) {
+    const file = `data/topps_baseball_${y}.json`;
+    try {
+      const res = await fetch(file);
+      const data = await res.json();
+      allCards = allCards.concat(data);
+    } catch (e) {
+      console.warn(`Missing file: ${file}`);
+    }
+  }
+
+  // Filter by player name or card number
+  filteredCards = allCards.filter(card =>
+    card.player.toLowerCase().includes(query) ||
+    card.number.includes(query)
+  );
+
+  // Show card grid, hide set grid
+  document.getElementById("setGrid").style.display = "none";
+  document.getElementById("cardGrid").style.display = "grid";
+
+  renderCards();
+}
+
+// ------------------------------
 // EVENT LISTENERS
 // ------------------------------
-document.getElementById("search").addEventListener("input", applyFilters);
+document.getElementById("search").addEventListener("input", globalSearch);
 
 document.getElementById("yearFilter").addEventListener("change", (e) => {
   const year = e.target.value;
