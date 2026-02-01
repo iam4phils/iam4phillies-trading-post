@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Card Details – iam4phillies Trading Post</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script defer>
+    async function loadCard() {
+      const params = new URLSearchParams(window.location.search);
+      const id = parseInt(params.get("id"));
+
+      const response = await fetch("data/cards.json");
+      const cards = await response.json();
+      const card = cards.find(c => c.id === id);
+
+      if (!card) return;
+
+      document.getElementById("title").textContent =
+        `#${card.number} – ${card.player}`;
+
+      document.getElementById("front").src = card.front_url;
+      document.getElementById("back").src = card.back_url;
+
+      document.getElementById("player").textContent = card.player;
+      document.getElementById("team").textContent = card.team;
+      document.getElementById("note").textContent = card.note;
+
+      document.getElementById("raw").textContent = `$${card.price_raw}`;
+      document.getElementById("psa9").textContent = `$${card.price_psa9}`;
+      document.getElementById("psa10").textContent = `$${card.price_psa10}`;
+
+      document.getElementById("ebay").href = card.ebay_url;
+    }
+
+    loadCard();
+  </script>
+</head>
+
+<body>
+  <header>
+    <h1 id="title">Card Details</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="inventory.html">Inventory</a>
+    </nav>
+  </header>
+
+  <section class="card-detail">
+    <img id="front" alt="Front of card">
+    <img id="back" alt="Back of card">
+
+    <h2 id="player"></h2>
+    <p id="team"></p>
+    <p id="note"></p>
+
+    <h3>Pricing</h3>
+    <ul>
+      <li>Raw: <span id="raw"></span></li>
+      <li>PSA 9: <span id="psa9"></span></li>
+      <li>PSA 10: <span id="psa10"></span></li>
+    </ul>
+
+    <a id="ebay" class="button" target="_blank">View on eBay</a>
+  </section>
+
+  <footer>
+    <p>© 2026 iam4phillies Trading Post</p>
+  </footer>
+</body>
+</html>

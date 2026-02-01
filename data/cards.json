@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "year": 1988,
+    "set": "Topps",
+    "number": "1",
+    "player": "Bo Jackson",
+    "team": "Royals",
+    "note": "",
+    "front_url": "https://raw.githubusercontent.com/yourrepo/1988/001-Front.jpg",
+    "back_url": "https://raw.githubusercontent.com/yourrepo/1988/001-Back.jpg",
+    "price_raw": 3.00,
+    "price_psa9": 18.00,
+    "price_psa10": 75.00,
+    "ebay_url": "https://www.ebay.com/itm/yourlisting"
+  },
+  {
+    "id": 2,
+    "year": 1988,
+    "set": "Topps",
+    "number": "2",
+    "player": "Mike Schmidt",
+    "team": "Phillies",
+    "note": "",
+    "front_url": "https://raw.githubusercontent.com/yourrepo/1988/002-Front.jpg",
+    "back_url": "https://raw.githubusercontent.com/yourrepo/1988/002-Back.jpg",
+    "price_raw": 2.00,
+    "price_psa9": 12.00,
+    "price_psa10": 60.00,
+    "ebay_url": "https://www.ebay.com/itm/yourlisting"
+  }
+]
