@@ -22,7 +22,7 @@ main {
    Header & Navigation
 --------------------------------*/
 header {
-  background: #003366;
+  background: #b30000;   /* Phillies red */
   color: white;
   padding: 20px;
   text-align: center;
@@ -177,4 +177,6 @@ footer {
   .card-images img {
     width: 100%;
   }
+}h1, h2, h3 {
+  color: #b30000;   /* Phillies red */
 }
