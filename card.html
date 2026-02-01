@@ -4,80 +4,94 @@
   <meta charset="UTF-8">
   <title>Card Details – iam4phillies Trading Post</title>
   <link rel="stylesheet" href="css/style.css">
-  <script>
-async function loadCard() {
-    const params = new URLSearchParams(window.location.search);
-    const year = params.get("year");
-    const id = parseInt(params.get("id"));
-
-    if (!year || !id) {
-        document.getElementById("card-container").innerHTML =
-            "<p>Invalid card link.</p>";
-        return;
-    }
-
-    const response = await fetch(`data/topps_baseball_${year}.json`);
-    const cards = await response.json();
-
-    const card = cards.find(c => c.id === id);
-
-    if (!card) {
-        document.getElementById("card-container").innerHTML =
-            "<p>Card not found.</p>";
-        return;
-    }
-
-    document.getElementById("card-title").textContent =
-        `${card.year} Topps #${card.number} - ${card.player}`;
-
-    document.getElementById("front-img").src = card.front_url;
-    document.getElementById("back-img").src = card.back_url;
-
-    document.getElementById("player").textContent = card.player;
-    document.getElementById("team").textContent = card.team;
-    document.getElementById("note").textContent = card.note || "";
-    document.getElementById("price-raw").textContent = card.price_raw;
-    document.getElementById("price-psa9").textContent = card.price_psa9;
-    document.getElementById("price-psa10").textContent = card.price_psa10;
-
-    const ebayLink = document.getElementById("ebay-link");
-    ebayLink.href = card.ebay_url || "#";
-    ebayLink.style.display = card.ebay_url ? "inline-block" : "none";
-}
-
-loadCard();
-</script>
 </head>
 
 <body>
   <header>
-    <h1 id="title">Card Details</h1>
+    <h1 id="card-title">Loading...</h1>
     <nav>
       <a href="index.html">Home</a>
       <a href="inventory.html">Inventory</a>
+      <a href="about.html">About</a>
     </nav>
   </header>
 
-  <section class="card-detail">
-    <img id="front" alt="Front of card">
-    <img id="back" alt="Back of card">
+  <main id="card-container" class="card-detail">
 
-    <h2 id="player"></h2>
-    <p id="team"></p>
-    <p id="note"></p>
+    <div class="images">
+      <img id="front-img" alt="Front of card">
+      <img id="back-img" alt="Back of card">
+    </div>
 
-    <h3>Pricing</h3>
-    <ul>
-      <li>Raw: <span id="raw"></span></li>
-      <li>PSA 9: <span id="psa9"></span></li>
-      <li>PSA 10: <span id="psa10"></span></li>
-    </ul>
+    <div class="details">
+      <p><strong>Player:</strong> <span id="player"></span></p>
+      <p><strong>Team:</strong> <span id="team"></span></p>
+      <p><strong>Note:</strong> <span id="note"></span></p>
 
-    <a id="ebay" class="button" target="_blank">View on eBay</a>
-  </section>
+      <h3>Prices</h3>
+      <p><strong>Raw:</strong> $<span id="price-raw"></span></p>
+      <p><strong>PSA 9:</strong> $<span id="price-psa9"></span></p>
+      <p><strong>PSA 10:</strong> $<span id="price-psa10"></span></p>
+
+      <a id="ebay-link" href="#" target="_blank" class="button">View on eBay</a>
+    </div>
+
+  </main>
 
   <footer>
     <p>© 2026 iam4phillies Trading Post</p>
   </footer>
+
+  <script>
+    async function loadCard() {
+      const params = new URLSearchParams(window.location.search);
+      const year = params.get("year");
+      const id = parseInt(params.get("id"));
+
+      if (!year || !id) {
+        document.getElementById("card-container").innerHTML =
+          "<p>Invalid card link.</p>";
+        return;
+      }
+
+      // Load correct JSON file using Option B3 naming
+      const response = await fetch(`data/topps_baseball_${year}.json`);
+      const cards = await response.json();
+
+      const card = cards.find(c => c.id === id);
+
+      if (!card) {
+        document.getElementById("card-container").innerHTML =
+          "<p>Card not found.</p>";
+        return;
+      }
+
+      // Title
+      document.getElementById("card-title").textContent =
+        `${card.year} Topps #${card.number} – ${card.player}`;
+
+      // Images
+      document.getElementById("front-img").src = card.front_url;
+      document.getElementById("back-img").src = card.back_url;
+
+      // Details
+      document.getElementById("player").textContent = card.player;
+      document.getElementById("team").textContent = card.team;
+      document.getElementById("note").textContent = card.note || "";
+
+      // Prices
+      document.getElementById("price-raw").textContent = card.price_raw;
+      document.getElementById("price-psa9").textContent = card.price_psa9;
+      document.getElementById("price-psa10").textContent = card.price_psa10;
+
+      // eBay link
+      const ebayLink = document.getElementById("ebay-link");
+      ebayLink.href = card.ebay_url || "#";
+      ebayLink.style.display = card.ebay_url ? "inline-block" : "none";
+    }
+
+    loadCard();
+  </script>
+
 </body>
 </html>
