@@ -1,32 +1,32 @@
 [
   {
-    "id": 1,
-    "year": 1988,
+    "id": 1985001,
+    "year": 1985,
     "set": "Topps",
-    "number": "1",
-    "player": "Bo Jackson",
-    "team": "Royals",
+    "number": "001",
+    "player": "Carlton Fisk",
+    "team": "White Sox",
     "note": "",
-    "front_url": "https://raw.githubusercontent.com/yourrepo/1988/001-Front.jpg",
-    "back_url": "https://raw.githubusercontent.com/yourrepo/1988/001-Back.jpg",
-    "price_raw": 3.00,
-    "price_psa9": 18.00,
+    "front_url": "https://raw.githubusercontent.com/iam4phils/Ebay_card_Listings/main/topps_baseball_1985/Card%20001%20-%20Carlton%20Fisk%20-%20A%20-%20Front.jpg",
+    "back_url": "https://raw.githubusercontent.com/iam4phils/Ebay_card_Listings/main/topps_baseball_1985/Card%20001%20-%20Carlton%20Fisk%20-%20B%20-%20Back.jpg",
+    "price_raw": 0.50,
+    "price_psa9": 12.00,
     "price_psa10": 75.00,
-    "ebay_url": "https://www.ebay.com/itm/yourlisting"
+    "ebay_url": ""
   },
   {
-    "id": 2,
-    "year": 1988,
+    "id": 1985002,
+    "year": 1985,
     "set": "Topps",
-    "number": "2",
-    "player": "Mike Schmidt",
-    "team": "Phillies",
-    "note": "",
-    "front_url": "https://raw.githubusercontent.com/yourrepo/1988/002-Front.jpg",
-    "back_url": "https://raw.githubusercontent.com/yourrepo/1988/002-Back.jpg",
-    "price_raw": 2.00,
-    "price_psa9": 12.00,
+    "number": "002",
+    "player": "Steve Garvey",
+    "team": "Padres",
+    "note": "Record Breaker",
+    "front_url": "https://raw.githubusercontent.com/iam4phils/Ebay_card_Listings/main/topps_baseball_1985/Card%20002%20-%20Steve%20Garvey%20-%20A%20-%20Front.jpg",
+    "back_url": "https://raw.githubusercontent.com/iam4phils/Ebay_card_Listings/main/topps_baseball_1985/Card%20002%20-%20Steve%20Garvey%20-%20B%20-%20Back.jpg",
+    "price_raw": 0.50,
+    "price_psa9": 10.00,
     "price_psa10": 60.00,
-    "ebay_url": "https://www.ebay.com/itm/yourlisting"
+    "ebay_url": ""
   }
 ]
