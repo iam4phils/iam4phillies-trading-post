@@ -2,6 +2,10 @@
 let allCards = [];
 let filteredCards = [];
 
+// Detect if user arrived from a landing page (inventory.html?year=1985)
+const urlParams = new URLSearchParams(window.location.search);
+const preselectYear = urlParams.get("year");
+
 // Load cards for a specific year OR all years
 async function loadCards(year) {
   allCards = [];
@@ -37,7 +41,6 @@ function populateTeams() {
   const teamFilter = document.getElementById("teamFilter");
   const selectedTeam = teamFilter.value;
 
-  // Clear existing options
   teamFilter.innerHTML = `<option value="">All Teams</option>`;
 
   const teams = [...new Set(allCards.map(card => card.team).sort())];
@@ -49,7 +52,6 @@ function populateTeams() {
     teamFilter.appendChild(opt);
   });
 
-  // Restore previous selection if still valid
   if (selectedTeam) {
     teamFilter.value = selectedTeam;
   }
@@ -114,10 +116,24 @@ document.getElementById("search").addEventListener("input", applyFilters);
 
 document.getElementById("yearFilter").addEventListener("change", (e) => {
   const year = e.target.value;
-  loadCards(year);
+
+  if (year) {
+    // Redirect to landing page
+    window.location.href = `sets/topps_baseball_${year}.html`;
+  } else {
+    // Load all years
+    loadCards("");
+  }
 });
 
 document.getElementById("teamFilter").addEventListener("change", applyFilters);
 
-// Initial load: load ALL cards so search works immediately
-loadCards("");
+// Initial load
+if (preselectYear) {
+  // Coming from landing page → auto-load that year
+  document.getElementById("yearFilter").value = preselectYear;
+  loadCards(preselectYear);
+} else {
+  // Default → load all years
+  loadCards("");
+}
