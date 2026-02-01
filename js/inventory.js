@@ -1,72 +1,57 @@
-let cards = [];
+let allCards = [];
 
-async function loadCards() {
-  const response = await fetch("data/cards.json");
-  cards = await response.json();
-  populateFilters();
-  renderCards(cards);
+// Load a specific year's JSON file
+async function loadYear(year) {
+    const response = await fetch(`data/topps_baseball_${year}.json`);
+    allCards = await response.json();
+    renderCards(allCards);
 }
 
-function populateFilters() {
-  const years = [...new Set(cards.map(c => c.year))].sort();
-  const teams = [...new Set(cards.map(c => c.team))].sort();
+// Render cards into the grid
+function renderCards(cards) {
+    const container = document.getElementById("cardGrid");
+    container.innerHTML = "";
 
-  const yearFilter = document.getElementById("yearFilter");
-  const teamFilter = document.getElementById("teamFilter");
+    cards.forEach(card => {
+        const div = document.createElement("div");
+        div.className = "card-item";
 
-  years.forEach(y => {
-    const opt = document.createElement("option");
-    opt.value = y;
-    opt.textContent = y;
-    yearFilter.appendChild(opt);
-  });
+        div.innerHTML = `
+            <a href="card.html?year=${card.year}&id=${card.id}">
+                <img src="${card.front_url}" alt="${card.player}">
+                <p>${card.number} - ${card.player}</p>
+            </a>
+        `;
 
-  teams.forEach(t => {
-    const opt = document.createElement("option");
-    opt.value = t;
-    opt.textContent = t;
-    teamFilter.appendChild(opt);
-  });
+        container.appendChild(div);
+    });
 }
 
-function renderCards(list) {
-  const grid = document.getElementById("cardGrid");
-  grid.innerHTML = "";
+// Apply search + team filter
+function applyFilters() {
+    const search = document.getElementById("search").value.toLowerCase();
+    const team = document.getElementById("teamFilter").value;
 
-  list.forEach(card => {
-    const div = document.createElement("div");
-    div.className = "card";
+    const filtered = allCards.filter(card => {
+        const matchesSearch =
+            card.player.toLowerCase().includes(search) ||
+            card.number.includes(search);
 
-    div.innerHTML = `
-      <img src="${card.front_url}" alt="${card.player}">
-      <h3>#${card.number} – ${card.player}</h3>
-      <p>${card.team}</p>
-      <a class="button" href="card.html?id=${card.id}">View Details</a>
-    `;
+        const matchesTeam =
+            team === "" || card.team === team;
 
-    grid.appendChild(div);
-  });
+        return matchesSearch && matchesTeam;
+    });
+
+    renderCards(filtered);
 }
 
-document.getElementById("search").addEventListener("input", e => {
-  const term = e.target.value.toLowerCase();
-  const filtered = cards.filter(c => c.player.toLowerCase().includes(term));
-  renderCards(filtered);
+// When user selects a year, load that year's JSON
+document.getElementById("yearFilter").addEventListener("change", (e) => {
+    const year = e.target.value;
+    if (year !== "") loadYear(year);
 });
 
-document.getElementById("yearFilter").addEventListener("change", () => applyFilters());
-document.getElementById("teamFilter").addEventListener("change", () => applyFilters());
-
-function applyFilters() {
-  const year = document.getElementById("yearFilter").value;
-  const team = document.getElementById("teamFilter").value;
-
-  let filtered = cards;
-
-  if (year) filtered = filtered.filter(c => c.year == year);
-  if (team) filtered = filtered.filter(c => c.team == team);
-
-  renderCards(filtered);
-}
-
-loadCards();
+// Search + team filter listeners
+document.getElementById("search").addEventListener("input", applyFilters);
+document.getElementById("teamFilter").addEventListener("change", applyFilters);
