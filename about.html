@@ -54,9 +54,17 @@
 
   <script>
     async function updateCounter() {
-      const res = await fetch("https://api.countapi.xyz/hit/iam4phillies.com/about");
-      const data = await res.json();
-      document.getElementById("viewCounter").textContent = data.value;
+      const url = "https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https://iam4phillies.github.io/about";
+
+      try {
+        const res = await fetch(url);
+        const svgText = await res.text();
+        const match = svgText.match(/>(\d+)</);
+        const count = match ? match[1] : "N/A";
+        document.getElementById("viewCounter").textContent = count;
+      } catch (e) {
+        document.getElementById("viewCounter").textContent = "N/A";
+      }
     }
 
     updateCounter();
