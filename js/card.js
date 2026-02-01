@@ -46,13 +46,11 @@ function renderCard() {
     </div>
 
     <p><strong>Team:</strong> ${card.team}</p>
-    <p><strong>Note:</strong> ${card.note || "None"}</p>
+    <p><strong>Note:</strong> ${card.notes || "None"}</p>
 
     <h3>Pricing</h3>
     <ul>
-      <li><strong>Ungraded:</strong> $${card.ungraded}</li>
-      <li><strong>Grade 9:</strong> $${card.grade9}</li>
-      <li><strong>PSA 10:</strong> $${card.psa10}</li>
+      <li><strong>Ungraded:</strong> $${card.price_ungraded ?? "N/A"}</li>
     </ul>
 
     <a href="inventory.html" class="back-btn">← Back to Inventory</a>
