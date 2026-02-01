@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>iam4phillies Trading Post</title>
+  <title>Home – iam4phillies Trading Post</title>
   <link rel="stylesheet" href="css/style.css">
 </head>
 
@@ -16,17 +16,28 @@
     </nav>
   </header>
 
-  <section class="hero">
-    <h2>Your Home for Vintage & Modern Sports Cards</h2>
-    <p>Baseball • Football • Basketball • Non‑Sport</p>
-  </section>
-
-  <section class="cta">
-    <a class="button" href="inventory.html">Browse Inventory</a>
-  </section>
+  <main>
+    <section class="intro">
+      <h2>Welcome</h2>
+      <p>Your home for vintage and modern baseball cards, organized with a clean, deterministic cataloging system.</p>
+      <p>Browse the inventory, explore card details, and enjoy a smooth, fast, drift‑proof experience.</p>
+    </section>
+  </main>
 
   <footer>
     <p>© 2026 iam4phillies Trading Post</p>
+    <p>Page views: <span id="viewCounter">Loading...</span></p>
   </footer>
+
+  <script>
+    async function updateCounter() {
+      const res = await fetch("https://api.countapi.xyz/hit/iam4phillies.com/home");
+      const data = await res.json();
+      document.getElementById("viewCounter").textContent = data.value;
+    }
+
+    updateCounter();
+  </script>
+
 </body>
 </html>

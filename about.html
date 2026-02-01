@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>About – iam4phillies Trading Post</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <header>
+    <h1>About This Site</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="inventory.html">Inventory</a>
+      <a href="about.html">About</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="about">
+      <h2>Our Mission</h2>
+      <p>
+        iam4phillies Trading Post is built for collectors who value accuracy, organization,
+        and a clean browsing experience. Every card is cataloged using a deterministic,
+        drift‑proof system designed to scale as new sets and years are added.
+      </p>
+
+      <h2>How the Site Works</h2>
+      <p>
+        The inventory browser loads card data directly from structured JSON files, ensuring
+        fast performance and consistent formatting. Each card includes front and back images,
+        pricing tiers, and optional eBay links for collectors looking to buy or compare.
+      </p>
+
+      <h2>Future Plans</h2>
+      <p>
+        More sets, more years, and more features are on the way. The goal is to create a
+        comprehensive, reliable, and enjoyable resource for baseball card collectors of all kinds.
+      </p>
+
+      <h2>Contact</h2>
+      <p>
+        Have questions, suggestions, or want to get in touch?  
+        You can reach me at:  
+        <strong>iam4phils@comcast.net</strong>
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2026 iam4phillies Trading Post</p>
+    <p>Page views: <span id="viewCounter">Loading...</span></p>
+  </footer>
+
+  <script>
+    async function updateCounter() {
+      const res = await fetch("https://api.countapi.xyz/hit/iam4phillies.com/about");
+      const data = await res.json();
+      document.getElementById("viewCounter").textContent = data.value;
+    }
+
+    updateCounter();
+  </script>
+
+</body>
+</html>

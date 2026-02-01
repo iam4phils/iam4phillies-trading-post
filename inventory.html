@@ -38,6 +38,18 @@
 
   <footer>
     <p>© 2026 iam4phillies Trading Post</p>
+    <p>Page views: <span id="viewCounter">Loading...</span></p>
   </footer>
+
+  <script>
+    async function updateCounter() {
+      const res = await fetch("https://api.countapi.xyz/hit/iam4phillies.com/inventory");
+      const data = await res.json();
+      document.getElementById("viewCounter").textContent = data.value;
+    }
+
+    updateCounter();
+  </script>
+
 </body>
 </html>
