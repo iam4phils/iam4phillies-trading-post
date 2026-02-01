@@ -1,57 +1,123 @@
+// Global card storage
 let allCards = [];
+let filteredCards = [];
 
-// Load a specific year's JSON file
-async function loadYear(year) {
-    const response = await fetch(`data/topps_baseball_${year}.json`);
-    allCards = await response.json();
-    renderCards(allCards);
+// Load cards for a specific year OR all years
+async function loadCards(year) {
+  allCards = [];
+
+  if (year) {
+    // Load only the selected year
+    const file = `data/topps_baseball_${year}.json`;
+    const res = await fetch(file);
+    const data = await res.json();
+    allCards = data;
+  } else {
+    // Load ALL years when no year is selected
+    const years = [1985, 1986, 1987, 1988, 1989];
+
+    for (const y of years) {
+      const file = `data/topps_baseball_${y}.json`;
+      try {
+        const res = await fetch(file);
+        const data = await res.json();
+        allCards = allCards.concat(data);
+      } catch (e) {
+        console.warn(`Missing or unreadable file: ${file}`);
+      }
+    }
+  }
+
+  populateTeams();
+  applyFilters();
 }
 
-// Render cards into the grid
-function renderCards(cards) {
-    const container = document.getElementById("cardGrid");
-    container.innerHTML = "";
+// Populate team dropdown dynamically
+function populateTeams() {
+  const teamFilter = document.getElementById("teamFilter");
+  const selectedTeam = teamFilter.value;
 
-    cards.forEach(card => {
-        const div = document.createElement("div");
-        div.className = "card-item";
+  // Clear existing options
+  teamFilter.innerHTML = `<option value="">All Teams</option>`;
 
-        div.innerHTML = `
-            <a href="card.html?year=${card.year}&id=${card.id}">
-                <img src="${card.front_url}" alt="${card.player}">
-                <p>${card.number} - ${card.player}</p>
-            </a>
-        `;
+  const teams = [...new Set(allCards.map(card => card.team).sort())];
 
-        container.appendChild(div);
-    });
+  teams.forEach(team => {
+    const opt = document.createElement("option");
+    opt.value = team;
+    opt.textContent = team;
+    teamFilter.appendChild(opt);
+  });
+
+  // Restore previous selection if still valid
+  if (selectedTeam) {
+    teamFilter.value = selectedTeam;
+  }
 }
 
-// Apply search + team filter
+// Apply search, year, and team filters
 function applyFilters() {
-    const search = document.getElementById("search").value.toLowerCase();
-    const team = document.getElementById("teamFilter").value;
+  const search = document.getElementById("search").value.toLowerCase();
+  const year = document.getElementById("yearFilter").value;
+  const team = document.getElementById("teamFilter").value;
 
-    const filtered = allCards.filter(card => {
-        const matchesSearch =
-            card.player.toLowerCase().includes(search) ||
-            card.number.includes(search);
+  filteredCards = allCards;
 
-        const matchesTeam =
-            team === "" || card.team === team;
+  // Search filter
+  if (search) {
+    filteredCards = filteredCards.filter(card =>
+      card.player.toLowerCase().includes(search) ||
+      card.number.includes(search)
+    );
+  }
 
-        return matchesSearch && matchesTeam;
-    });
+  // Year filter (only applies when a year is selected)
+  if (year) {
+    filteredCards = filteredCards.filter(card => card.year == year);
+  }
 
-    renderCards(filtered);
+  // Team filter
+  if (team) {
+    filteredCards = filteredCards.filter(card => card.team === team);
+  }
+
+  renderCards();
 }
 
-// When user selects a year, load that year's JSON
+// Render cards to the grid
+function renderCards() {
+  const grid = document.getElementById("cardGrid");
+  grid.innerHTML = "";
+
+  if (filteredCards.length === 0) {
+    grid.innerHTML = "<p>No cards found.</p>";
+    return;
+  }
+
+  filteredCards.forEach(card => {
+    const div = document.createElement("div");
+    div.className = "card";
+
+    div.innerHTML = `
+      <img src="${card.front_url}" alt="${card.player}">
+      <h3>${card.number} – ${card.player}</h3>
+      <p>${card.team}</p>
+      <a href="card.html?id=${card.id}" class="details-btn">View Details</a>
+    `;
+
+    grid.appendChild(div);
+  });
+}
+
+// Event listeners
+document.getElementById("search").addEventListener("input", applyFilters);
+
 document.getElementById("yearFilter").addEventListener("change", (e) => {
-    const year = e.target.value;
-    if (year !== "") loadYear(year);
+  const year = e.target.value;
+  loadCards(year);
 });
 
-// Search + team filter listeners
-document.getElementById("search").addEventListener("input", applyFilters);
 document.getElementById("teamFilter").addEventListener("change", applyFilters);
+
+// Initial load: load ALL cards so search works immediately
+loadCards("");

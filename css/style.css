@@ -1,43 +1,180 @@
+/* ------------------------------
+   Global Layout & Typography
+--------------------------------*/
 body {
-  font-family: Arial, sans-serif;
   margin: 0;
-  background: #f7f7f7;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #f4f4f4;
+  color: #222;
 }
 
+h1, h2, h3 {
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  padding: 20px;
+}
+
+/* ------------------------------
+   Header & Navigation
+--------------------------------*/
 header {
-  background: #b30000;
+  background: #003366;
   color: white;
   padding: 20px;
   text-align: center;
+}
+
+nav {
+  margin-top: 10px;
 }
 
 nav a {
   color: white;
-  margin: 0 15px;
   text-decoration: none;
+  margin: 0 12px;
   font-weight: bold;
 }
 
-.hero {
-  padding: 60px;
-  text-align: center;
-  background: white;
+nav a:hover {
+  text-decoration: underline;
 }
 
-.button {
+/* ------------------------------
+   Footer
+--------------------------------*/
+footer {
+  margin-top: 40px;
+  padding: 20px;
+  text-align: center;
+  background: #003366;
+  color: white;
+}
+
+/* ------------------------------
+   Inventory Filters
+--------------------------------*/
+.filters {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.filters input,
+.filters select {
+  padding: 8px;
+  font-size: 16px;
+}
+
+/* ------------------------------
+   Inventory Grid
+--------------------------------*/
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  background: white;
+  padding: 12px;
+  border-radius: 6px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.15);
+  text-align: center;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+
+.details-btn {
   display: inline-block;
-  padding: 12px 24px;
-  background: #b30000;
+  margin-top: 10px;
+  padding: 8px 12px;
+  background: #003366;
   color: white;
   text-decoration: none;
-  border-radius: 6px;
-  font-size: 18px;
+  border-radius: 4px;
 }
 
-footer {
-  text-align: center;
+.details-btn:hover {
+  background: #0055aa;
+}
+
+/* ------------------------------
+   Card Details Page
+--------------------------------*/
+.card-details {
+  background: white;
   padding: 20px;
-  margin-top: 40px;
-  background: #222;
+  border-radius: 6px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.15);
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.card-details h2 {
+  margin-bottom: 20px;
+}
+
+.card-images {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.card-images img {
+  width: 45%;
+  border-radius: 6px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.2);
+}
+
+.back-btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 14px;
+  background: #003366;
   color: white;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+.back-btn:hover {
+  background: #0055aa;
+}
+
+/* ------------------------------
+   About Page
+--------------------------------*/
+.about {
+  background: white;
+  padding: 20px;
+  border-radius: 6px;
+  max-width: 900px;
+  margin: 0 auto;
+  box-shadow: 0 0 5px rgba(0,0,0,0.15);
+}
+
+.about h2 {
+  margin-top: 20px;
+}
+
+/* ------------------------------
+   Responsive Adjustments
+--------------------------------*/
+@media (max-width: 700px) {
+  .card-images {
+    flex-direction: column;
+  }
+
+  .card-images img {
+    width: 100%;
+  }
 }
