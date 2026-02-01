@@ -17,24 +17,33 @@
     </nav>
   </header>
 
-  <section class="filters">
-    <input type="text" id="search" placeholder="Search by player name">
+  <main>
 
-    <select id="yearFilter">
-      <option value="">All Years</option>
-      <option value="1985">1985</option>
-      <option value="1986">1986</option>
-      <option value="1987">1987</option>
-      <option value="1988">1988</option>
-      <option value="1989">1989</option>
-    </select>
+    <!-- Filters stay for now (we may hide them on landing later) -->
+    <section class="filters">
+      <input type="text" id="search" placeholder="Search by player name">
 
-    <select id="teamFilter">
-      <option value="">All Teams</option>
-    </select>
-  </section>
+      <select id="yearFilter">
+        <option value="">All Years</option>
+        <option value="1985">1985</option>
+        <option value="1986">1986</option>
+        <option value="1987">1987</option>
+        <option value="1988">1988</option>
+        <option value="1989">1989</option>
+      </select>
 
-  <section id="cardGrid" class="grid"></section>
+      <select id="teamFilter">
+        <option value="">All Teams</option>
+      </select>
+    </section>
+
+    <!-- NEW: Set landing grid -->
+    <section id="setGrid" class="grid"></section>
+
+    <!-- Card grid will be injected ONLY when a year is selected -->
+    <section id="cardGrid" class="grid" style="display:none;"></section>
+
+  </main>
 
   <footer>
     <p>© 2026 iam4phillies Trading Post</p>
