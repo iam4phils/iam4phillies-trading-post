@@ -88,7 +88,7 @@ function renderSetLanding() {
     const div = document.createElement("div");
     div.className = "card set-tile";
 
-    // ⭐ NEW: Universal inventory engine link
+    // ⭐ UNIVERSAL INVENTORY ENGINE LINK
     const link = `inventory.html?year=${set.year}&category=${set.category}`;
 
     div.innerHTML = `
