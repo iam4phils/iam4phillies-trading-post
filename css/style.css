@@ -101,7 +101,7 @@ footer {
 /* ⭐ Uniform tile image height */
 .card img {
   width: 100%;
-  height: 180px;        /* consistent tile height */
+  height: 150px;        /* consistent tile height */
   object-fit: cover;    /* clean crop, no distortion */
   border-radius: 4px;
   margin-bottom: 10px;
