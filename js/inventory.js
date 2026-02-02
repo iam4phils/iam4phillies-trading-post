@@ -41,7 +41,7 @@ let allCards = [];
 let filteredCards = [];
 
 // ------------------------------
-// ABSOLUTE PATHS FOR GITHUB PAGES
+// JSON FILES TO LOAD
 // ------------------------------
 const dataFiles = [
   "/iam4phillies-trading-post/data/topps_baseball_1985.json",
@@ -88,7 +88,7 @@ function renderSetLanding() {
     const div = document.createElement("div");
     div.className = "card set-tile";
 
-    // ⭐ UNIVERSAL INVENTORY ENGINE LINK
+    // ⭐ UNIVERSAL ENGINE LINK
     const link = `inventory.html?year=${set.year}&category=${set.category}`;
 
     div.innerHTML = `
