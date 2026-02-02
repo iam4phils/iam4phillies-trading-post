@@ -40,7 +40,7 @@ async function loadCard() {
   const card = allCards.find(c => String(c.id) === cardId);
 
   if (!card) {
-    document.getElementById("cardContainer").innerHTML = "<p>Card not found.</p>";
+    document.getElementById("cardDetails").innerHTML = "<p>Card not found.</p>";
     return;
   }
 
@@ -51,7 +51,7 @@ async function loadCard() {
 // RENDER CARD DETAILS (Sports + GPK)
 // ------------------------------
 function renderCard(card) {
-  const container = document.getElementById("cardContainer");
+  const container = document.getElementById("cardDetails");
 
   // Determine if this is Sports or Non-Sports
   const isSports = card.category === "sports";
