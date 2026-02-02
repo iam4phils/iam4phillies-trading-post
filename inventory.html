@@ -18,9 +18,9 @@
   </header>
 
   <main>
+
     <section class="filters">
 
-      <!-- ⭐ NEW CATEGORY DROPDOWN -->
       <label for="categoryFilter">Category:</label>
       <select id="categoryFilter">
         <option value="all">All Categories</option>
@@ -28,21 +28,18 @@
         <option value="nonsports">Non‑Sports</option>
       </select>
 
-      <!-- ⭐ UPDATED SEARCH BOX -->
-      <label for="searchInput">Search:</label>
+      <label for="search">Search:</label>
       <input 
         type="text" 
-        id="searchInput" 
-        placeholder="Search by player/character name"
+        id="search"
+        placeholder="Search by player/character"
       >
 
-      <!-- YEAR DROPDOWN (JS will populate) -->
       <label for="yearFilter">Year:</label>
       <select id="yearFilter">
         <option value="all">All Years</option>
       </select>
 
-      <!-- TEAM DROPDOWN (JS will populate) -->
       <label for="teamFilter">Team:</label>
       <select id="teamFilter">
         <option value="all">All Teams</option>
@@ -50,10 +47,11 @@
 
     </section>
 
-    <!-- Inventory grid -->
-    <section id="inventoryGrid" class="inventory-grid">
-      <!-- JS will populate this -->
-    </section>
+    <!-- ⭐ Set landing grid -->
+    <section id="setGrid" class="grid"></section>
+
+    <!-- ⭐ Card results grid -->
+    <section id="cardGrid" class="grid"></section>
 
   </main>
 
