@@ -46,18 +46,16 @@ const urlParams = new URLSearchParams(window.location.search);
 const preselectYear = urlParams.get("year");
 
 // ------------------------------
-// UNIVERSAL DATA FILE LIST
+// ABSOLUTE PATHS FOR GITHUB PAGES
 // ------------------------------
 const dataFiles = [
-  // Sports
-  "data/topps_baseball_1985.json",
-  "data/topps_baseball_1986.json",
-  "data/topps_baseball_1987.json",
-  "data/topps_baseball_1988.json",
-  "data/topps_baseball_1989.json",
+  "/iam4phillies-trading-post/data/topps_baseball_1985.json",
+  "/iam4phillies-trading-post/data/topps_baseball_1986.json",
+  "/iam4phillies-trading-post/data/topps_baseball_1987.json",
+  "/iam4phillies-trading-post/data/topps_baseball_1988.json",
+  "/iam4phillies-trading-post/data/topps_baseball_1989.json",
 
-  // Non-Sports
-  "data/gpk_topps_2025_media_menace.json"
+  "/iam4phillies-trading-post/data/gpk_topps_2025_media_menace.json"
 ];
 
 // ------------------------------
@@ -100,7 +98,7 @@ function renderSetLanding() {
     div.innerHTML = `
       <img src="${set.img}" alt="${set.year}">
       <h3>${set.year} ${set.category === "sports" ? "Topps Baseball" : "Topps GPK Media Menace"}</h3>
-      <a href="sets/${set.category}_${set.year}.html" class="details-btn">View Set</a>
+      <a href="sets/topps_${set.category}_media_menace_${set.year}.html" class="details-btn">View Set</a>
     `;
 
     setGrid.appendChild(div);
@@ -108,7 +106,7 @@ function renderSetLanding() {
 }
 
 // ------------------------------
-// POPULATE YEAR DROPDOWN (Step 5)
+// POPULATE YEAR DROPDOWN
 // ------------------------------
 function populateYears() {
   const yearFilter = document.getElementById("yearFilter");
@@ -137,7 +135,7 @@ function populateYears() {
 }
 
 // ------------------------------
-// POPULATE TEAM DROPDOWN (Step 6)
+// POPULATE TEAM DROPDOWN
 // ------------------------------
 function populateTeams() {
   const teamFilter = document.getElementById("teamFilter");
@@ -153,7 +151,6 @@ function populateTeams() {
       .map(card => card.team)
   )].sort();
 
-  // ⭐ Non-Sports → only show N/A
   if (category === "nonsports") {
     teams = ["N/A"];
   }
@@ -171,7 +168,7 @@ function populateTeams() {
 }
 
 // ------------------------------
-// APPLY FILTERS (Category + Year + Search + Team)
+// APPLY FILTERS
 // ------------------------------
 function applyFilters() {
   const search = document.getElementById("search").value.toLowerCase();
@@ -181,17 +178,14 @@ function applyFilters() {
 
   filteredCards = allCards;
 
-  // CATEGORY FILTER
   if (category !== "all") {
     filteredCards = filteredCards.filter(card => card.category === category);
   }
 
-  // YEAR FILTER
   if (year !== "all") {
     filteredCards = filteredCards.filter(card => String(card.year) === year);
   }
 
-  // SEARCH FILTER
   if (search) {
     filteredCards = filteredCards.filter(card =>
       card.player.toLowerCase().includes(search) ||
@@ -199,7 +193,6 @@ function applyFilters() {
     );
   }
 
-  // TEAM FILTER
   if (team !== "all") {
     filteredCards = filteredCards.filter(card => card.team === team);
   }
@@ -235,7 +228,7 @@ function renderCards() {
 }
 
 // ------------------------------
-// GLOBAL SEARCH (Category + Year aware)
+// GLOBAL SEARCH
 // ------------------------------
 async function globalSearch() {
   const query = document.getElementById("search").value.toLowerCase();
@@ -261,17 +254,14 @@ async function globalSearch() {
 
   let results = allCards;
 
-  // CATEGORY FILTER
   if (category !== "all") {
     results = results.filter(card => card.category === category);
   }
 
-  // YEAR FILTER
   if (year !== "all") {
     results = results.filter(card => String(card.year) === year);
   }
 
-  // SEARCH FILTER
   filteredCards = results.filter(card =>
     card.player.toLowerCase().includes(query) ||
     card.number.includes(query)
