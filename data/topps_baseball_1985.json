@@ -2,6 +2,8 @@
   {
     "id": 1,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "001",
     "player": "Carlton Fisk",
     "team": "Chicago White Sox",
@@ -14,6 +16,8 @@
   {
     "id": 2,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "002",
     "player": "Steve Garvey",
     "team": "San Diego Padres",
@@ -26,6 +30,8 @@
   {
     "id": 3,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "003",
     "player": "Dwight Gooden",
     "team": "New York Mets",
@@ -38,6 +44,8 @@
   {
     "id": 4,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "004",
     "player": "Cliff Johnson",
     "team": "Toronto Blue Jays",
@@ -50,6 +58,8 @@
   {
     "id": 5,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "005",
     "player": "Joe Morgan",
     "team": "Oakland Athletics",
@@ -62,6 +72,8 @@
   {
     "id": 6,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "006",
     "player": "Pete Rose",
     "team": "Cincinnati Reds",
@@ -74,6 +86,8 @@
   {
     "id": 7,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "007",
     "player": "Nolan Ryan",
     "team": "Houston Astros",
@@ -86,6 +100,8 @@
   {
     "id": 8,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "008",
     "player": "Juan Samuel",
     "team": "Philadelphia Phillies",
@@ -98,6 +114,8 @@
   {
     "id": 9,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "009",
     "player": "Bruce Sutter",
     "team": "St. Louis Cardinals",
@@ -110,6 +128,8 @@
   {
     "id": 10,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "010",
     "player": "Don Sutton",
     "team": "Milwaukee Brewers",
@@ -122,6 +142,8 @@
   {
     "id": 11,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "011",
     "player": "Ralph Houk",
     "team": "Boston Red Sox",
@@ -134,6 +156,8 @@
   {
     "id": 12,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "012",
     "player": "Dave Lopes",
     "team": "Oakland Athletics",
@@ -146,6 +170,8 @@
   {
     "id": 13,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "013",
     "player": "Tim Lollar",
     "team": "San Diego Padres",
@@ -158,6 +184,8 @@
   {
     "id": 14,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "014",
     "player": "Chris Bando",
     "team": "Cleveland Indians",
@@ -170,6 +198,8 @@
   {
     "id": 15,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "015",
     "player": "Jerry Koosman",
     "team": "Philadelphia Phillies",
@@ -182,6 +212,8 @@
   {
     "id": 16,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "016",
     "player": "Bobby Meacham",
     "team": "New York Yankees",
@@ -194,6 +226,8 @@
   {
     "id": 17,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "017",
     "player": "Mike Scott",
     "team": "Houston Astros",
@@ -206,6 +240,8 @@
   {
     "id": 18,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "018",
     "player": "Mickey Hatcher",
     "team": "Minnesota Twins",
@@ -218,6 +254,8 @@
   {
     "id": 19,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "019",
     "player": "George Frazier",
     "team": "Chicago Cubs",
@@ -230,6 +268,8 @@
   {
     "id": 20,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "020",
     "player": "Chet Lemon",
     "team": "Detroit Tigers",
@@ -242,6 +282,8 @@
   {
     "id": 21,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "021",
     "player": "Lee Tunnell",
     "team": "Pittsburgh Pirates",
@@ -254,6 +296,8 @@
   {
     "id": 22,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "022",
     "player": "Duane Kuiper",
     "team": "San Francisco Giants",
@@ -266,6 +310,8 @@
   {
     "id": 23,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "023",
     "player": "Bret Saberhagen",
     "team": "Kansas City Royals",
@@ -278,6 +324,8 @@
   {
     "id": 24,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "024",
     "player": "Jesse Barfield",
     "team": "Toronto Blue Jays",
@@ -290,6 +338,8 @@
   {
     "id": 25,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "025",
     "player": "Steve Bedrosian",
     "team": "Atlanta Braves",
@@ -302,6 +352,8 @@
   {
     "id": 26,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "026",
     "player": "Roy Smalley",
     "team": "Chicago White Sox",
@@ -314,6 +366,8 @@
   {
     "id": 27,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "027",
     "player": "Bruce Berenyi",
     "team": "New York Mets",
@@ -326,6 +380,8 @@
   {
     "id": 28,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "028",
     "player": "Dann Bilardello",
     "team": "Cincinnati Reds",
@@ -338,6 +394,8 @@
   {
     "id": 29,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "029",
     "player": "Odell Jones",
     "team": "Texas Rangers",
@@ -350,6 +408,8 @@
   {
     "id": 30,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "030",
     "player": "Cal Ripken",
     "team": "Baltimore Orioles",
@@ -362,6 +422,8 @@
   {
     "id": 31,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "031",
     "player": "Terry Whitfield",
     "team": "Los Angeles Dodgers",
@@ -374,6 +436,8 @@
   {
     "id": 32,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "032",
     "player": "Chuck Porter",
     "team": "Milwaukee Brewers",
@@ -386,6 +450,8 @@
   {
     "id": 33,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "033",
     "player": "Tito Landrum",
     "team": "St. Louis Cardinals",
@@ -398,6 +464,8 @@
   {
     "id": 34,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "034",
     "player": "Ed Nunez",
     "team": "Seattle Mariners",
@@ -410,6 +478,8 @@
   {
     "id": 35,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "035",
     "player": "Graig Nettles",
     "team": "San Diego Padres",
@@ -422,6 +492,8 @@
   {
     "id": 36,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "036",
     "player": "Fred Breining",
     "team": "Montreal Expos",
@@ -434,6 +506,8 @@
   {
     "id": 37,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "037",
     "player": "Reid Nichols",
     "team": "Boston Red Sox",
@@ -446,6 +520,8 @@
   {
     "id": 38,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "038",
     "player": "Jackie Moore",
     "team": "Oakland Athletics",
@@ -458,6 +534,8 @@
   {
     "id": 39,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "039",
     "player": "John Wockenfuss",
     "team": "Philadelphia Phillies",
@@ -470,6 +548,8 @@
   {
     "id": 40,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "040",
     "player": "Phil Niekro",
     "team": "New York Yankees",
@@ -482,6 +562,8 @@
   {
     "id": 41,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "041",
     "player": "Mike Fischlin",
     "team": "Cleveland Indians",
@@ -494,6 +576,8 @@
   {
     "id": 42,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "042",
     "player": "Luis Sanchez",
     "team": "California Angels",
@@ -506,6 +590,8 @@
   {
     "id": 43,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "043",
     "player": "Andre David",
     "team": "Minnesota Twins",
@@ -518,6 +604,8 @@
   {
     "id": 44,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "044",
     "player": "Dickie Thon",
     "team": "Houston Astros",
@@ -530,6 +618,8 @@
   {
     "id": 45,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "045",
     "player": "Greg Minton",
     "team": "San Francisco Giants",
@@ -542,6 +632,8 @@
   {
     "id": 46,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "046",
     "player": "Gary Woods",
     "team": "Chicago Cubs",
@@ -554,6 +646,8 @@
   {
     "id": 47,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "047",
     "player": "Dave Rozema",
     "team": "Detroit Tigers",
@@ -566,6 +660,8 @@
   {
     "id": 48,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "048",
     "player": "Tony Fernandez",
     "team": "Toronto Blue Jays",
@@ -578,6 +674,8 @@
   {
     "id": 49,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "049",
     "player": "Butch Davis",
     "team": "Kansas City Royals",
@@ -590,6 +688,8 @@
   {
     "id": 50,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "050",
     "player": "John Candelaria",
     "team": "Pittsburgh Pirates",
@@ -602,6 +702,8 @@
   {
     "id": 51,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "051",
     "player": "Bob Watson",
     "team": "Atlanta Braves",
@@ -614,6 +716,8 @@
   {
     "id": 52,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "052",
     "player": "Jerry Dybzinski",
     "team": "Chicago White Sox",
@@ -626,6 +730,8 @@
   {
     "id": 53,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "053",
     "player": "Tom Gorman",
     "team": "New York Mets",
@@ -638,6 +744,8 @@
   {
     "id": 54,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "054",
     "player": "Cesar Cedeno",
     "team": "Cincinnati Reds",
@@ -650,6 +758,8 @@
   {
     "id": 55,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "055",
     "player": "Frank Tanana",
     "team": "Texas Rangers",
@@ -662,6 +772,8 @@
   {
     "id": 56,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "056",
     "player": "Jim Dwyer",
     "team": "Baltimore Orioles",
@@ -674,6 +786,8 @@
   {
     "id": 57,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "057",
     "player": "Pat Zachry",
     "team": "Los Angeles Dodgers",
@@ -686,6 +800,8 @@
   {
     "id": 58,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "058",
     "player": "Orlando Mercado",
     "team": "Seattle Mariners",
@@ -698,6 +814,8 @@
   {
     "id": 59,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "059",
     "player": "Rick Waits",
     "team": "Milwaukee Brewers",
@@ -710,6 +828,8 @@
   {
     "id": 60,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "060",
     "player": "George Hendrick",
     "team": "St. Louis Cardinals",
@@ -722,6 +842,8 @@
   {
     "id": 61,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "061",
     "player": "Curt Kaufman",
     "team": "California Angels",
@@ -734,6 +856,8 @@
   {
     "id": 62,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "062",
     "player": "Mike Ramsey",
     "team": "Montreal Expos",
@@ -746,6 +870,8 @@
   {
     "id": 63,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "063",
     "player": "Steve McCatty",
     "team": "Oakland Athletics",
@@ -758,6 +884,8 @@
   {
     "id": 64,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "064",
     "player": "Mark Bailey",
     "team": "Houston Astros",
@@ -770,6 +898,8 @@
   {
     "id": 65,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "065",
     "player": "Bill Buckner",
     "team": "Boston Red Sox",
@@ -782,6 +912,8 @@
   {
     "id": 66,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "066",
     "player": "Dick Williams",
     "team": "San Diego Padres",
@@ -794,6 +926,8 @@
   {
     "id": 67,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "067",
     "player": "Rafael Santana",
     "team": "New York Mets",
@@ -806,6 +940,8 @@
   {
     "id": 68,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "068",
     "player": "Von Hayes",
     "team": "Philadelphia Phillies",
@@ -818,6 +954,8 @@
   {
     "id": 69,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "069",
     "player": "Jim Winn",
     "team": "Pittsburgh Pirates",
@@ -830,6 +968,8 @@
   {
     "id": 70,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "070",
     "player": "Don Baylor",
     "team": "New York Yankees",
@@ -842,6 +982,8 @@
   {
     "id": 71,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "071",
     "player": "Tim Laudner",
     "team": "Minnesota Twins",
@@ -854,6 +996,8 @@
   {
     "id": 72,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "072",
     "player": "Rick Sutcliffe",
     "team": "Chicago Cubs",
@@ -866,6 +1010,8 @@
   {
     "id": 73,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "073",
     "player": "Rusty Kuntz",
     "team": "Detroit Tigers",
@@ -878,6 +1024,8 @@
   {
     "id": 74,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "074",
     "player": "Mike Krukow",
     "team": "San Francisco Giants",
@@ -890,6 +1038,8 @@
   {
     "id": 75,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "075",
     "player": "Willie Upshaw",
     "team": "Toronto Blue Jays",
@@ -902,6 +1052,8 @@
   {
     "id": 76,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "076",
     "player": "Alan Bannister",
     "team": "Texas Rangers",
@@ -914,6 +1066,8 @@
   {
     "id": 77,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "077",
     "player": "Joe Beckwith",
     "team": "Kansas City Royals",
@@ -926,6 +1080,8 @@
   {
     "id": 78,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "078",
     "player": "Scott Fletcher",
     "team": "Chicago White Sox",
@@ -938,6 +1094,8 @@
   {
     "id": 79,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "079",
     "player": "Rick Mahler",
     "team": "Atlanta Braves",
@@ -950,6 +1108,8 @@
   {
     "id": 80,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "080",
     "player": "Keith Hernandez",
     "team": "New York Mets",
@@ -962,6 +1122,8 @@
   {
     "id": 81,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "081",
     "player": "Lenn Sakata",
     "team": "Baltimore Orioles",
@@ -974,6 +1136,8 @@
   {
     "id": 82,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "082",
     "player": "Joe Price",
     "team": "Cincinnati Reds",
@@ -986,6 +1150,8 @@
   {
     "id": 83,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "083",
     "player": "Charlie Moore",
     "team": "Milwaukee Brewers",
@@ -998,6 +1164,8 @@
   {
     "id": 84,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "084",
     "player": "Spike Owen",
     "team": "Seattle Mariners",
@@ -1010,6 +1178,8 @@
   {
     "id": 85,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "085",
     "player": "Mike Marshall",
     "team": "Los Angeles Dodgers",
@@ -1022,6 +1192,8 @@
   {
     "id": 86,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "086",
     "player": "Don Aase",
     "team": "California Angels",
@@ -1034,6 +1206,8 @@
   {
     "id": 87,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "087",
     "player": "David Green",
     "team": "St. Louis Cardinals",
@@ -1046,6 +1220,8 @@
   {
     "id": 88,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "088",
     "player": "Bryn Smith",
     "team": "Montreal Expos",
@@ -1058,6 +1234,8 @@
   {
     "id": 89,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "089",
     "player": "Jackie Gutierrez",
     "team": "Boston Red Sox",
@@ -1070,6 +1248,8 @@
   {
     "id": 90,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "090",
     "player": "Rich Gossage",
     "team": "San Diego Padres",
@@ -1082,6 +1262,8 @@
   {
     "id": 91,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "091",
     "player": "Jeff Burroughs",
     "team": "Oakland Athletics",
@@ -1094,6 +1276,8 @@
   {
     "id": 92,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "092",
     "player": "Paul Owens",
     "team": "Philadelphia Phillies",
@@ -1106,6 +1290,8 @@
   {
     "id": 93,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "093",
     "player": "Don Schulze",
     "team": "Cleveland Indians",
@@ -1118,6 +1304,8 @@
   {
     "id": 94,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "094",
     "player": "Toby Harrah",
     "team": "New York Yankees",
@@ -1130,6 +1318,8 @@
   {
     "id": 95,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "095",
     "player": "Jose Cruz",
     "team": "Houston Astros",
@@ -1142,6 +1332,8 @@
   {
     "id": 96,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "096",
     "player": "Johnny Ray",
     "team": "Pittsburgh Pirates",
@@ -1154,6 +1346,8 @@
   {
     "id": 97,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "097",
     "player": "Pete Filson",
     "team": "Minnesota Twins",
@@ -1166,6 +1360,8 @@
   {
     "id": 98,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "098",
     "player": "Steve Lake",
     "team": "Chicago Cubs",
@@ -1178,6 +1374,8 @@
   {
     "id": 99,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "099",
     "player": "Milt Wilcox",
     "team": "Detroit Tigers",
@@ -1190,6 +1388,8 @@
   {
     "id": 100,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "100",
     "player": "George Brett",
     "team": "Kansas City Royals",
@@ -1202,6 +1402,8 @@
   {
     "id": 101,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "101",
     "player": "Jim Acker",
     "team": "Toronto Blue Jays",
@@ -1214,6 +1416,8 @@
   {
     "id": 102,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "102",
     "player": "Tommy Dunbar",
     "team": "Texas Rangers",
@@ -1226,6 +1430,8 @@
   {
     "id": 103,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "103",
     "player": "Randy Lerch",
     "team": "San Francisco Giants",
@@ -1238,6 +1444,8 @@
   {
     "id": 104,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "104",
     "player": "Mike Fitzgerald",
     "team": "New York Mets",
@@ -1250,6 +1458,8 @@
   {
     "id": 105,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "105",
     "player": "Ron Kittle",
     "team": "Chicago White Sox",
@@ -1262,6 +1472,8 @@
   {
     "id": 106,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "106",
     "player": "Pascual Perez",
     "team": "Atlanta Braves",
@@ -1274,6 +1486,8 @@
   {
     "id": 107,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "107",
     "player": "Tom Foley",
     "team": "Cincinnati Reds",
@@ -1286,6 +1500,8 @@
   {
     "id": 108,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "108",
     "player": "Darnell Coles",
     "team": "Seattle Mariners",
@@ -1298,6 +1514,8 @@
   {
     "id": 109,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "109",
     "player": "Gary Roenicke",
     "team": "Baltimore Orioles",
@@ -1310,6 +1528,8 @@
   {
     "id": 110,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "110",
     "player": "Alejandro Pena",
     "team": "Los Angeles Dodgers",
@@ -1322,6 +1542,8 @@
   {
     "id": 111,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "111",
     "player": "Doug DeCinces",
     "team": "California Angels",
@@ -1334,6 +1556,8 @@
   {
     "id": 112,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "112",
     "player": "Tom Tellmann",
     "team": "Milwaukee Brewers",
@@ -1346,6 +1570,8 @@
   {
     "id": 113,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "113",
     "player": "Tom Herr",
     "team": "St. Louis Cardinals",
@@ -1358,6 +1584,8 @@
   {
     "id": 114,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "114",
     "player": "Bob James",
     "team": "Montreal Expos",
@@ -1370,6 +1598,8 @@
   {
     "id": 115,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "115",
     "player": "Rickey Henderson",
     "team": "Oakland Athletics",
@@ -1382,6 +1612,8 @@
   {
     "id": 116,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "116",
     "player": "Dennis Boyd",
     "team": "Boston Red Sox",
@@ -1394,6 +1626,8 @@
   {
     "id": 117,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "117",
     "player": "Greg Gross",
     "team": "Philadelphia Phillies",
@@ -1406,6 +1640,8 @@
   {
     "id": 118,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "118",
     "player": "Eric Show",
     "team": "San Diego Padres",
@@ -1418,6 +1654,8 @@
   {
     "id": 119,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "119",
     "player": "Pat Corrales",
     "team": "Cleveland Indians",
@@ -1430,6 +1668,8 @@
   {
     "id": 120,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "120",
     "player": "Steve Kemp",
     "team": "New York Yankees",
@@ -1442,6 +1682,8 @@
   {
     "id": 121,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "121",
     "player": "Checklist: 1-132",
     "team": "nan",
@@ -1454,6 +1696,8 @@
   {
     "id": 122,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "122",
     "player": "Tom Brunansky",
     "team": "Minnesota Twins",
@@ -1466,6 +1710,8 @@
   {
     "id": 123,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "123",
     "player": "Dave Smith",
     "team": "Houston Astros",
@@ -1478,6 +1724,8 @@
   {
     "id": 124,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "124",
     "player": "Rich Hebner",
     "team": "Chicago Cubs",
@@ -1490,6 +1738,8 @@
   {
     "id": 125,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "125",
     "player": "Kent Tekulve",
     "team": "Pittsburgh Pirates",
@@ -1502,6 +1752,8 @@
   {
     "id": 126,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "126",
     "player": "Ruppert Jones",
     "team": "Detroit Tigers",
@@ -1514,6 +1766,8 @@
   {
     "id": 127,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "127",
     "player": "Mark Gubicza",
     "team": "Kansas City Royals",
@@ -1526,6 +1780,8 @@
   {
     "id": 128,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "128",
     "player": "Ernie Whitt",
     "team": "Toronto Blue Jays",
@@ -1538,6 +1794,8 @@
   {
     "id": 129,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "129",
     "player": "Gene Garber",
     "team": "Atlanta Braves",
@@ -1550,6 +1808,8 @@
   {
     "id": 130,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "130",
     "player": "Al Oliver",
     "team": "Philadelphia Phillies",
@@ -1562,6 +1822,8 @@
   {
     "id": 131,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "131",
     "player": "Buddy_Gus Bell",
     "team": "Cincinnati Reds",
@@ -1574,6 +1836,8 @@
   {
     "id": 132,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "132",
     "player": "Yogi_Dale Berra",
     "team": "New York Yankees",
@@ -1586,6 +1850,8 @@
   {
     "id": 133,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "133",
     "player": "Bob_Ray Boone",
     "team": "Detroit Tigers",
@@ -1598,6 +1864,8 @@
   {
     "id": 134,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "134",
     "player": "Terry_Tito Francona",
     "team": "Montreal Expos",
@@ -1610,6 +1878,8 @@
   {
     "id": 135,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "135",
     "player": "Terry_Bob Kennedy",
     "team": "Cleveland Indians",
@@ -1622,6 +1892,8 @@
   {
     "id": 136,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "136",
     "player": "Jeff_Bill Kunkel",
     "team": "New York Yankees",
@@ -1634,6 +1906,8 @@
   {
     "id": 137,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "137",
     "player": "Vance_Vern Law",
     "team": "Chicago White Sox",
@@ -1646,6 +1920,8 @@
   {
     "id": 138,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "138",
     "player": "Dick_Dick Schofield",
     "team": "Pittsburgh Pirates",
@@ -1658,6 +1934,8 @@
   {
     "id": 139,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "139",
     "player": "Joel_Bob Skinner",
     "team": "Chicago White Sox",
@@ -1670,6 +1948,8 @@
   {
     "id": 140,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "140",
     "player": "Roy_Roy Smalley",
     "team": "Chicago White Sox",
@@ -1682,6 +1962,8 @@
   {
     "id": 141,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "141",
     "player": "Mike_Dave Stenhouse",
     "team": "Montreal Expos",
@@ -1694,6 +1976,8 @@
   {
     "id": 142,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "142",
     "player": "Steve_Dizzy Trout",
     "team": "Boston Red Sox",
@@ -1706,6 +1990,8 @@
   {
     "id": 143,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "143",
     "player": "Ozzie_Ossie Virgil",
     "team": "Detroit Tigers",
@@ -1718,6 +2004,8 @@
   {
     "id": 144,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "144",
     "player": "Ron Gardenhire",
     "team": "New York Mets",
@@ -1730,6 +2018,8 @@
   {
     "id": 145,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "145",
     "player": "Alvin Davis",
     "team": "Seattle Mariners",
@@ -1742,6 +2032,8 @@
   {
     "id": 146,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "146",
     "player": "Gary Redus",
     "team": "Cincinnati Reds",
@@ -1754,6 +2046,8 @@
   {
     "id": 147,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "147",
     "player": "Bill Swaggerty",
     "team": "Baltimore Orioles",
@@ -1766,6 +2060,8 @@
   {
     "id": 148,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "148",
     "player": "Steve Yeager",
     "team": "Los Angeles Dodgers",
@@ -1778,6 +2074,8 @@
   {
     "id": 149,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "149",
     "player": "Dickie Noles",
     "team": "Texas Rangers",
@@ -1790,6 +2088,8 @@
   {
     "id": 150,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "150",
     "player": "Jim Rice",
     "team": "Boston Red Sox",
@@ -1802,6 +2102,8 @@
   {
     "id": 151,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "151",
     "player": "Moose Haas",
     "team": "Milwaukee Brewers",
@@ -1814,6 +2116,8 @@
   {
     "id": 152,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "152",
     "player": "Steve Braun",
     "team": "St. Louis Cardinals",
@@ -1826,6 +2130,8 @@
   {
     "id": 153,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "153",
     "player": "Frank LaCorte",
     "team": "California Angels",
@@ -1838,6 +2144,8 @@
   {
     "id": 154,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "154",
     "player": "Angel Salazar",
     "team": "Montreal Expos",
@@ -1850,6 +2158,8 @@
   {
     "id": 155,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "155",
     "player": "Yogi Berra",
     "team": "New York Yankees",
@@ -1862,6 +2172,8 @@
   {
     "id": 156,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "156",
     "player": "Craig Reynolds",
     "team": "Houston Astros",
@@ -1874,6 +2186,8 @@
   {
     "id": 157,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "157",
     "player": "Tug McGraw",
     "team": "Philadelphia Phillies",
@@ -1886,6 +2200,8 @@
   {
     "id": 158,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "158",
     "player": "Pat Tabler",
     "team": "Cleveland Indians",
@@ -1898,6 +2214,8 @@
   {
     "id": 159,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "159",
     "player": "Carlos Diaz",
     "team": "Los Angeles Dodgers",
@@ -1910,6 +2228,8 @@
   {
     "id": 160,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "160",
     "player": "Lance Parrish",
     "team": "Detroit Tigers",
@@ -1922,6 +2242,8 @@
   {
     "id": 161,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "161",
     "player": "Ken Schrom",
     "team": "Minnesota Twins",
@@ -1934,6 +2256,8 @@
   {
     "id": 162,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "162",
     "player": "Benny Distefano",
     "team": "Pittsburgh Pirates",
@@ -1946,6 +2270,8 @@
   {
     "id": 163,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "163",
     "player": "Dennis Eckersley",
     "team": "Chicago Cubs",
@@ -1958,6 +2284,8 @@
   {
     "id": 164,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "164",
     "player": "Jorge Orta",
     "team": "Kansas City Royals",
@@ -1970,6 +2298,8 @@
   {
     "id": 165,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "165",
     "player": "Dusty Baker",
     "team": "San Francisco Giants",
@@ -1982,6 +2312,8 @@
   {
     "id": 166,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "166",
     "player": "Keith Atherton",
     "team": "Oakland Athletics",
@@ -1994,6 +2326,8 @@
   {
     "id": 167,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "167",
     "player": "Rufino Linares",
     "team": "Atlanta Braves",
@@ -2006,6 +2340,8 @@
   {
     "id": 168,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "168",
     "player": "Garth Iorg",
     "team": "Toronto Blue Jays",
@@ -2018,6 +2354,8 @@
   {
     "id": 169,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "169",
     "player": "Dan Spillner",
     "team": "Chicago White Sox",
@@ -2030,6 +2368,8 @@
   {
     "id": 170,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "170",
     "player": "George Foster",
     "team": "New York Mets",
@@ -2042,6 +2382,8 @@
   {
     "id": 171,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "171",
     "player": "Bill Stein",
     "team": "Texas Rangers",
@@ -2054,6 +2396,8 @@
   {
     "id": 172,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "172",
     "player": "Jack Perconte",
     "team": "Seattle Mariners",
@@ -2066,6 +2410,8 @@
   {
     "id": 173,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "173",
     "player": "Mike Young",
     "team": "Baltimore Orioles",
@@ -2078,6 +2424,8 @@
   {
     "id": 174,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "174",
     "player": "Rick Honeycutt",
     "team": "Los Angeles Dodgers",
@@ -2090,6 +2438,8 @@
   {
     "id": 175,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "175",
     "player": "Dave Parker",
     "team": "Cincinnati Reds",
@@ -2102,6 +2452,8 @@
   {
     "id": 176,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "176",
     "player": "Bill Schroeder",
     "team": "Milwaukee Brewers",
@@ -2114,6 +2466,8 @@
   {
     "id": 177,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "177",
     "player": "Dave Von Ohlen",
     "team": "St. Louis Cardinals",
@@ -2126,6 +2480,8 @@
   {
     "id": 178,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "178",
     "player": "Miguel Dilone",
     "team": "Montreal Expos",
@@ -2138,6 +2494,8 @@
   {
     "id": 179,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "179",
     "player": "Tommy John",
     "team": "California Angels",
@@ -2150,6 +2508,8 @@
   {
     "id": 180,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "180",
     "player": "Dave Winfield",
     "team": "New York Yankees",
@@ -2162,6 +2522,8 @@
   {
     "id": 181,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "181",
     "player": "Roger Clemens",
     "team": "Boston Red Sox",
@@ -2174,6 +2536,8 @@
   {
     "id": 182,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "182",
     "player": "Tim Flannery",
     "team": "San Diego Padres",
@@ -2186,6 +2550,8 @@
   {
     "id": 183,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "183",
     "player": "Larry McWilliams",
     "team": "Pittsburgh Pirates",
@@ -2198,6 +2564,8 @@
   {
     "id": 184,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "184",
     "player": "Carmen Castillo",
     "team": "Cleveland Indians",
@@ -2210,6 +2578,8 @@
   {
     "id": 185,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "185",
     "player": "Al Holland",
     "team": "Philadelphia Phillies",
@@ -2222,6 +2592,8 @@
   {
     "id": 186,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "186",
     "player": "Bob Lillis",
     "team": "Houston Astros",
@@ -2234,6 +2606,8 @@
   {
     "id": 187,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "187",
     "player": "Mike Walters",
     "team": "Minnesota Twins",
@@ -2246,6 +2620,8 @@
   {
     "id": 188,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "188",
     "player": "Greg Pryor",
     "team": "Kansas City Royals",
@@ -2258,6 +2634,8 @@
   {
     "id": 189,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "189",
     "player": "Warren Brusstar",
     "team": "Chicago Cubs",
@@ -2270,6 +2648,8 @@
   {
     "id": 190,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "190",
     "player": "Rusty Staub",
     "team": "New York Mets",
@@ -2282,6 +2662,8 @@
   {
     "id": 191,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "191",
     "player": "Steve Nicosia",
     "team": "San Francisco Giants",
@@ -2294,6 +2676,8 @@
   {
     "id": 192,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "192",
     "player": "Howard Johnson",
     "team": "Detroit Tigers",
@@ -2306,6 +2690,8 @@
   {
     "id": 193,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "193",
     "player": "Jimmy Key",
     "team": "Toronto Blue Jays",
@@ -2318,6 +2704,8 @@
   {
     "id": 194,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "194",
     "player": "Dave Stegman",
     "team": "Chicago White Sox",
@@ -2330,6 +2718,8 @@
   {
     "id": 195,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "195",
     "player": "Glenn Hubbard",
     "team": "Atlanta Braves",
@@ -2342,6 +2732,8 @@
   {
     "id": 196,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "196",
     "player": "Pete O'Brien",
     "team": "Texas Rangers",
@@ -2354,6 +2746,8 @@
   {
     "id": 197,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "197",
     "player": "Mike Warren",
     "team": "Oakland Athletics",
@@ -2366,6 +2760,8 @@
   {
     "id": 198,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "198",
     "player": "Eddie Milner",
     "team": "Cincinnati Reds",
@@ -2378,6 +2774,8 @@
   {
     "id": 199,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "199",
     "player": "Dennis Martinez",
     "team": "Baltimore Orioles",
@@ -2390,6 +2788,8 @@
   {
     "id": 200,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "200",
     "player": "Reggie Jackson",
     "team": "California Angels",
@@ -2402,6 +2802,8 @@
   {
     "id": 201,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "201",
     "player": "Burt Hooton",
     "team": "Los Angeles Dodgers",
@@ -2414,6 +2816,8 @@
   {
     "id": 202,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "202",
     "player": "Gorman Thomas",
     "team": "Seattle Mariners",
@@ -2426,6 +2830,8 @@
   {
     "id": 203,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "203",
     "player": "Bob McClure",
     "team": "Milwaukee Brewers",
@@ -2438,6 +2844,8 @@
   {
     "id": 204,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "204",
     "player": "Art Howe",
     "team": "St. Louis Cardinals",
@@ -2450,6 +2858,8 @@
   {
     "id": 205,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "205",
     "player": "Steve Rogers",
     "team": "Montreal Expos",
@@ -2462,6 +2872,8 @@
   {
     "id": 206,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "206",
     "player": "Phil Garner",
     "team": "Houston Astros",
@@ -2474,6 +2886,8 @@
   {
     "id": 207,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "207",
     "player": "Mark Clear",
     "team": "Boston Red Sox",
@@ -2486,6 +2900,8 @@
   {
     "id": 208,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "208",
     "player": "Champ Summers",
     "team": "San Diego Padres",
@@ -2498,6 +2914,8 @@
   {
     "id": 209,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "209",
     "player": "Bill Campbell",
     "team": "Philadelphia Phillies",
@@ -2510,6 +2928,8 @@
   {
     "id": 210,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "210",
     "player": "Gary Matthews",
     "team": "Chicago Cubs",
@@ -2522,6 +2942,8 @@
   {
     "id": 211,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "211",
     "player": "Clay Christiansen",
     "team": "New York Yankees",
@@ -2534,6 +2956,8 @@
   {
     "id": 212,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "212",
     "player": "George Vukovich",
     "team": "Cleveland Indians",
@@ -2546,6 +2970,8 @@
   {
     "id": 213,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "213",
     "player": "Billy Gardner",
     "team": "Minnesota Twins",
@@ -2558,6 +2984,8 @@
   {
     "id": 214,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "214",
     "player": "John Tudor",
     "team": "Pittsburgh Pirates",
@@ -2570,6 +2998,8 @@
   {
     "id": 215,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "215",
     "player": "Bob Brenly",
     "team": "San Francisco Giants",
@@ -2582,6 +3012,8 @@
   {
     "id": 216,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "216",
     "player": "Jerry Don Gleaton",
     "team": "Chicago White Sox",
@@ -2594,6 +3026,8 @@
   {
     "id": 217,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "217",
     "player": "Leon Roberts",
     "team": "Kansas City Royals",
@@ -2606,6 +3040,8 @@
   {
     "id": 218,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "218",
     "player": "Doyle Alexander",
     "team": "Toronto Blue Jays",
@@ -2618,6 +3054,8 @@
   {
     "id": 219,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "219",
     "player": "Gerald Perry",
     "team": "Atlanta Braves",
@@ -2630,6 +3068,8 @@
   {
     "id": 220,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "220",
     "player": "Fred Lynn",
     "team": "California Angels",
@@ -2642,6 +3082,8 @@
   {
     "id": 221,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "221",
     "player": "Ron Reed",
     "team": "Chicago White Sox",
@@ -2654,6 +3096,8 @@
   {
     "id": 222,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "222",
     "player": "Hubie Brooks",
     "team": "New York Mets",
@@ -2666,6 +3110,8 @@
   {
     "id": 223,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "223",
     "player": "Tom Hume",
     "team": "Cincinnati Reds",
@@ -2678,6 +3124,8 @@
   {
     "id": 224,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "224",
     "player": "Al Cowens",
     "team": "Seattle Mariners",
@@ -2690,6 +3138,8 @@
   {
     "id": 225,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "225",
     "player": "Mike Boddicker",
     "team": "Baltimore Orioles",
@@ -2702,6 +3152,8 @@
   {
     "id": 226,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "226",
     "player": "Juan Beniquez",
     "team": "California Angels",
@@ -2714,6 +3166,8 @@
   {
     "id": 227,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "227",
     "player": "Danny Darwin",
     "team": "Texas Rangers",
@@ -2726,6 +3180,8 @@
   {
     "id": 228,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "228",
     "player": "Dion James",
     "team": "Milwaukee Brewers",
@@ -2738,6 +3194,8 @@
   {
     "id": 229,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "229",
     "player": "Dave LaPoint",
     "team": "St. Louis Cardinals",
@@ -2750,6 +3208,8 @@
   {
     "id": 230,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "230",
     "player": "Gary Carter",
     "team": "Montreal Expos",
@@ -2762,6 +3222,8 @@
   {
     "id": 231,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "231",
     "player": "Dwayne Murphy",
     "team": "Oakland Athletics",
@@ -2774,6 +3236,8 @@
   {
     "id": 232,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "232",
     "player": "Dave Beard",
     "team": "Seattle Mariners",
@@ -2786,6 +3250,8 @@
   {
     "id": 233,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "233",
     "player": "Ed Jurak",
     "team": "Boston Red Sox",
@@ -2798,6 +3264,8 @@
   {
     "id": 234,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "234",
     "player": "Jerry Narron",
     "team": "California Angels",
@@ -2810,6 +3278,8 @@
   {
     "id": 235,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "235",
     "player": "Garry Maddox",
     "team": "Philadelphia Phillies",
@@ -2822,6 +3292,8 @@
   {
     "id": 236,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "236",
     "player": "Mark Thurmond",
     "team": "San Diego Padres",
@@ -2834,6 +3306,8 @@
   {
     "id": 237,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "237",
     "player": "Julio Franco",
     "team": "Cleveland Indians",
@@ -2846,6 +3320,8 @@
   {
     "id": 238,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "238",
     "player": "Jose Rijo",
     "team": "New York Yankees",
@@ -2858,6 +3334,8 @@
   {
     "id": 239,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "239",
     "player": "Tim Teufel",
     "team": "Minnesota Twins",
@@ -2870,6 +3348,8 @@
   {
     "id": 240,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "240",
     "player": "Dave Stieb",
     "team": "Toronto Blue Jays",
@@ -2882,6 +3362,8 @@
   {
     "id": 241,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "241",
     "player": "Jim Frey",
     "team": "Chicago Cubs",
@@ -2894,6 +3376,8 @@
   {
     "id": 242,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "242",
     "player": "Greg Harris",
     "team": "San Diego Padres",
@@ -2906,6 +3390,8 @@
   {
     "id": 243,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "243",
     "player": "Barbaro Garbey",
     "team": "Detroit Tigers",
@@ -2918,6 +3404,8 @@
   {
     "id": 244,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "244",
     "player": "Mike Jones",
     "team": "Kansas City Royals",
@@ -2930,6 +3418,8 @@
   {
     "id": 245,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "245",
     "player": "Chili Davis",
     "team": "San Francisco Giants",
@@ -2942,6 +3432,8 @@
   {
     "id": 246,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "246",
     "player": "Mike Norris",
     "team": "Oakland Athletics",
@@ -2954,6 +3446,8 @@
   {
     "id": 247,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "247",
     "player": "Wayne Tolleson",
     "team": "Texas Rangers",
@@ -2966,6 +3460,8 @@
   {
     "id": 248,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "248",
     "player": "Terry Forster",
     "team": "Atlanta Braves",
@@ -2978,6 +3474,8 @@
   {
     "id": 249,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "249",
     "player": "Harold Baines",
     "team": "Chicago White Sox",
@@ -2990,6 +3488,8 @@
   {
     "id": 250,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "250",
     "player": "Jesse Orosco",
     "team": "New York Mets",
@@ -3002,6 +3502,8 @@
   {
     "id": 251,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "251",
     "player": "Brad Gulden",
     "team": "Cincinnati Reds",
@@ -3014,6 +3516,8 @@
   {
     "id": 252,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "252",
     "player": "Dan Ford",
     "team": "Baltimore Orioles",
@@ -3026,6 +3530,8 @@
   {
     "id": 253,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "253",
     "player": "Sid Bream",
     "team": "Los Angeles Dodgers",
@@ -3038,6 +3544,8 @@
   {
     "id": 254,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "254",
     "player": "Pete Vuckovich",
     "team": "Milwaukee Brewers",
@@ -3050,6 +3558,8 @@
   {
     "id": 255,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "255",
     "player": "Lonnie Smith",
     "team": "St. Louis Cardinals",
@@ -3062,6 +3572,8 @@
   {
     "id": 256,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "256",
     "player": "Mike Stanton",
     "team": "Seattle Mariners",
@@ -3074,6 +3586,8 @@
   {
     "id": 257,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "257",
     "player": "Bryan Little",
     "team": "Montreal Expos",
@@ -3086,6 +3600,8 @@
   {
     "id": 258,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "258",
     "player": "Mike C. Brown",
     "team": "California Angels",
@@ -3098,6 +3614,8 @@
   {
     "id": 259,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "259",
     "player": "Gary Allenson",
     "team": "Boston Red Sox",
@@ -3110,6 +3628,8 @@
   {
     "id": 260,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "260",
     "player": "Dave Righetti",
     "team": "New York Yankees",
@@ -3122,6 +3642,8 @@
   {
     "id": 261,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "261",
     "player": "Checklist: 133-264",
     "team": "nan",
@@ -3134,6 +3656,8 @@
   {
     "id": 262,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "262",
     "player": "Greg Booker",
     "team": "San Diego Padres",
@@ -3146,6 +3670,8 @@
   {
     "id": 263,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "263",
     "player": "Mel Hall",
     "team": "Cleveland Indians",
@@ -3158,6 +3684,8 @@
   {
     "id": 264,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "264",
     "player": "Joe Sambito",
     "team": "Houston Astros",
@@ -3170,6 +3698,8 @@
   {
     "id": 265,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "265",
     "player": "Juan Samuel",
     "team": "Philadelphia Phillies",
@@ -3182,6 +3712,8 @@
   {
     "id": 266,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "266",
     "player": "Frank Viola",
     "team": "Minnesota Twins",
@@ -3194,6 +3726,8 @@
   {
     "id": 267,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "267",
     "player": "Henry Cotto",
     "team": "Chicago Cubs",
@@ -3206,6 +3740,8 @@
   {
     "id": 268,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "268",
     "player": "Chuck Tanner",
     "team": "Pittsburgh Pirates",
@@ -3218,6 +3754,8 @@
   {
     "id": 269,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "269",
     "player": "Doug Baker",
     "team": "Detroit Tigers",
@@ -3230,6 +3768,8 @@
   {
     "id": 270,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "270",
     "player": "Dan Quisenberry",
     "team": "Kansas City Royals",
@@ -3242,6 +3782,8 @@
   {
     "id": 271,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "271",
     "player": "Tim Foli",
     "team": "New York Mets",
@@ -3254,6 +3796,8 @@
   {
     "id": 272,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "272",
     "player": "Jeff Burroughs",
     "team": "Washington Senators",
@@ -3266,6 +3810,8 @@
   {
     "id": 273,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "273",
     "player": "Bill Almon",
     "team": "San Diego Padres",
@@ -3278,6 +3824,8 @@
   {
     "id": 274,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "274",
     "player": "Floyd Bannister",
     "team": "Houston Astros",
@@ -3290,6 +3838,8 @@
   {
     "id": 275,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "275",
     "player": "Harold Baines",
     "team": "Chicago White Sox",
@@ -3302,6 +3852,8 @@
   {
     "id": 276,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "276",
     "player": "Bob Horner",
     "team": "Atlanta Braves",
@@ -3314,6 +3866,8 @@
   {
     "id": 277,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "277",
     "player": "Al Chambers",
     "team": "Seattle Mariners",
@@ -3326,6 +3880,8 @@
   {
     "id": 278,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "278",
     "player": "Darryl Strawberry",
     "team": "New York Mets",
@@ -3338,6 +3894,8 @@
   {
     "id": 279,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "279",
     "player": "Mike Moore",
     "team": "Seattle Mariners",
@@ -3350,6 +3908,8 @@
   {
     "id": 280,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "280",
     "player": "Shawon Dunston",
     "team": "Chicago Cubs",
@@ -3362,6 +3922,8 @@
   {
     "id": 281,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "281",
     "player": "Tim Belcher",
     "team": "Minnesota Twins",
@@ -3374,6 +3936,8 @@
   {
     "id": 282,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "282",
     "player": "Shawn Abner",
     "team": "New York Mets",
@@ -3386,6 +3950,8 @@
   {
     "id": 283,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "283",
     "player": "Fran Mullins",
     "team": "San Francisco Giants",
@@ -3398,6 +3964,8 @@
   {
     "id": 284,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "284",
     "player": "Marty Bystrom",
     "team": "New York Yankees",
@@ -3410,6 +3978,8 @@
   {
     "id": 285,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "285",
     "player": "Dan Driessen",
     "team": "Montreal Expos",
@@ -3422,6 +3992,8 @@
   {
     "id": 286,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "286",
     "player": "Rudy Law",
     "team": "Chicago White Sox",
@@ -3434,6 +4006,8 @@
   {
     "id": 287,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "287",
     "player": "Walt Terrell",
     "team": "New York Mets",
@@ -3446,6 +4020,8 @@
   {
     "id": 288,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "288",
     "player": "Jeff Kunkel",
     "team": "Texas Rangers",
@@ -3458,6 +4034,8 @@
   {
     "id": 289,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "289",
     "player": "Tom Underwood",
     "team": "Baltimore Orioles",
@@ -3470,6 +4048,8 @@
   {
     "id": 290,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "290",
     "player": "Cecil Cooper",
     "team": "Milwaukee Brewers",
@@ -3482,6 +4062,8 @@
   {
     "id": 291,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "291",
     "player": "Bob Welch",
     "team": "Los Angeles Dodgers",
@@ -3494,6 +4076,8 @@
   {
     "id": 292,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "292",
     "player": "Brad Komminsk",
     "team": "Atlanta Braves",
@@ -3506,6 +4090,8 @@
   {
     "id": 293,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "293",
     "player": "Curt Young",
     "team": "Oakland Athletics",
@@ -3518,6 +4104,8 @@
   {
     "id": 294,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "294",
     "player": "Tom Nieto",
     "team": "St. Louis Cardinals",
@@ -3530,6 +4118,8 @@
   {
     "id": 295,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "295",
     "player": "Joe Niekro",
     "team": "Houston Astros",
@@ -3542,6 +4132,8 @@
   {
     "id": 296,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "296",
     "player": "Ricky Nelson",
     "team": "Seattle Mariners",
@@ -3554,6 +4146,8 @@
   {
     "id": 297,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "297",
     "player": "Gary Lucas",
     "team": "Montreal Expos",
@@ -3566,6 +4160,8 @@
   {
     "id": 298,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "298",
     "player": "Marty Barrett",
     "team": "Boston Red Sox",
@@ -3578,6 +4174,8 @@
   {
     "id": 299,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "299",
     "player": "Andy Hawkins",
     "team": "San Diego Padres",
@@ -3590,6 +4188,8 @@
   {
     "id": 300,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "300",
     "player": "Rod Carew",
     "team": "California Angels",
@@ -3602,6 +4202,8 @@
   {
     "id": 301,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "301",
     "player": "John Montefusco",
     "team": "New York Yankees",
@@ -3614,6 +4216,8 @@
   {
     "id": 302,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "302",
     "player": "Tim Corcoran",
     "team": "Philadelphia Phillies",
@@ -3626,6 +4230,8 @@
   {
     "id": 303,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "303",
     "player": "Mike Jeffcoat",
     "team": "Cleveland Indians",
@@ -3638,6 +4244,8 @@
   {
     "id": 304,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "304",
     "player": "Gary Gaetti",
     "team": "Minnesota Twins",
@@ -3650,6 +4258,8 @@
   {
     "id": 305,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "305",
     "player": "Dale Berra",
     "team": "Pittsburgh Pirates",
@@ -3662,6 +4272,8 @@
   {
     "id": 306,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "306",
     "player": "Rick Reuschel",
     "team": "Chicago Cubs",
@@ -3674,6 +4286,8 @@
   {
     "id": 307,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "307",
     "player": "Sparky Anderson",
     "team": "Detroit Tigers",
@@ -3686,6 +4300,8 @@
   {
     "id": 308,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "308",
     "player": "John Wathan",
     "team": "Kansas City Royals",
@@ -3698,6 +4314,8 @@
   {
     "id": 309,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "309",
     "player": "Mike Witt",
     "team": "California Angels",
@@ -3710,6 +4328,8 @@
   {
     "id": 310,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "310",
     "player": "Manny Trillo",
     "team": "San Francisco Giants",
@@ -3722,6 +4342,8 @@
   {
     "id": 311,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "311",
     "player": "Jim Gott",
     "team": "Toronto Blue Jays",
@@ -3734,6 +4356,8 @@
   {
     "id": 312,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "312",
     "player": "Marc Hill",
     "team": "Chicago White Sox",
@@ -3746,6 +4370,8 @@
   {
     "id": 313,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "313",
     "player": "Dave Schmidt",
     "team": "Texas Rangers",
@@ -3758,6 +4384,8 @@
   {
     "id": 314,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "314",
     "player": "Ron Oester",
     "team": "Cincinnati Reds",
@@ -3770,6 +4398,8 @@
   {
     "id": 315,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "315",
     "player": "Doug Sisk",
     "team": "New York Mets",
@@ -3782,6 +4412,8 @@
   {
     "id": 316,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "316",
     "player": "John Lowenstein",
     "team": "Baltimore Orioles",
@@ -3794,6 +4426,8 @@
   {
     "id": 317,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "317",
     "player": "Jack Lazorko",
     "team": "Milwaukee Brewers",
@@ -3806,6 +4440,8 @@
   {
     "id": 318,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "318",
     "player": "Ted Simmons",
     "team": "Milwaukee Brewers",
@@ -3818,6 +4454,8 @@
   {
     "id": 319,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "319",
     "player": "Jeff Jones",
     "team": "Oakland Athletics",
@@ -3830,6 +4468,8 @@
   {
     "id": 320,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "320",
     "player": "Dale Murphy",
     "team": "Atlanta Braves",
@@ -3842,6 +4482,8 @@
   {
     "id": 321,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "321",
     "player": "Ricky Horton",
     "team": "St. Louis Cardinals",
@@ -3854,6 +4496,8 @@
   {
     "id": 322,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "322",
     "player": "Dave Stapleton",
     "team": "Boston Red Sox",
@@ -3866,6 +4510,8 @@
   {
     "id": 323,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "323",
     "player": "Andy McGaffigan",
     "team": "Cincinnati Reds",
@@ -3878,6 +4524,8 @@
   {
     "id": 324,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "324",
     "player": "Bruce Bochy",
     "team": "San Diego Padres",
@@ -3890,6 +4538,8 @@
   {
     "id": 325,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "325",
     "player": "John Denny",
     "team": "Philadelphia Phillies",
@@ -3902,6 +4552,8 @@
   {
     "id": 326,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "326",
     "player": "Kevin Bass",
     "team": "Houston Astros",
@@ -3914,6 +4566,8 @@
   {
     "id": 327,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "327",
     "player": "Brook Jacoby",
     "team": "Cleveland Indians",
@@ -3926,6 +4580,8 @@
   {
     "id": 328,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "328",
     "player": "Bob Shirley",
     "team": "New York Yankees",
@@ -3938,6 +4594,8 @@
   {
     "id": 329,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "329",
     "player": "Ron Washington",
     "team": "Minnesota Twins",
@@ -3950,6 +4608,8 @@
   {
     "id": 330,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "330",
     "player": "Leon Durham",
     "team": "Chicago Cubs",
@@ -3962,6 +4622,8 @@
   {
     "id": 331,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "331",
     "player": "Bill Laskey",
     "team": "San Francisco Giants",
@@ -3974,6 +4636,8 @@
   {
     "id": 332,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "332",
     "player": "Brian Harper",
     "team": "Pittsburgh Pirates",
@@ -3986,6 +4650,8 @@
   {
     "id": 333,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "333",
     "player": "Willie Hernandez",
     "team": "Detroit Tigers",
@@ -3998,6 +4664,8 @@
   {
     "id": 334,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "334",
     "player": "Dick Howser",
     "team": "Kansas City Royals",
@@ -4010,6 +4678,8 @@
   {
     "id": 335,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "335",
     "player": "Bruce Benedict",
     "team": "Atlanta Braves",
@@ -4022,6 +4692,8 @@
   {
     "id": 336,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "336",
     "player": "Rance Mulliniks",
     "team": "Toronto Blue Jays",
@@ -4034,6 +4706,8 @@
   {
     "id": 337,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "337",
     "player": "Billy Sample",
     "team": "Texas Rangers",
@@ -4046,6 +4720,8 @@
   {
     "id": 338,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "338",
     "player": "Britt Burns",
     "team": "Chicago White Sox",
@@ -4058,6 +4734,8 @@
   {
     "id": 339,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "339",
     "player": "Danny Heep",
     "team": "New York Mets",
@@ -4070,6 +4748,8 @@
   {
     "id": 340,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "340",
     "player": "Robin Yount",
     "team": "Milwaukee Brewers",
@@ -4082,6 +4762,8 @@
   {
     "id": 341,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "341",
     "player": "Floyd Rayford",
     "team": "Baltimore Orioles",
@@ -4094,6 +4776,8 @@
   {
     "id": 342,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "342",
     "player": "Ted Power",
     "team": "Cincinnati Reds",
@@ -4106,6 +4790,8 @@
   {
     "id": 343,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "343",
     "player": "Bill Russell",
     "team": "Los Angeles Dodgers",
@@ -4118,6 +4804,8 @@
   {
     "id": 344,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "344",
     "player": "Dave Henderson",
     "team": "Seattle Mariners",
@@ -4130,6 +4818,8 @@
   {
     "id": 345,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "345",
     "player": "Charlie Lea",
     "team": "Montreal Expos",
@@ -4142,6 +4832,8 @@
   {
     "id": 346,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "346",
     "player": "Terry Pendleton",
     "team": "St. Louis Cardinals",
@@ -4154,6 +4846,8 @@
   {
     "id": 347,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "347",
     "player": "Rick Langford",
     "team": "Oakland Athletics",
@@ -4166,6 +4860,8 @@
   {
     "id": 348,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "348",
     "player": "Bob Boone",
     "team": "California Angels",
@@ -4178,6 +4874,8 @@
   {
     "id": 349,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "349",
     "player": "Domingo Ramos",
     "team": "Seattle Mariners",
@@ -4190,6 +4888,8 @@
   {
     "id": 350,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "350",
     "player": "Wade Boggs",
     "team": "Boston Red Sox",
@@ -4202,6 +4902,8 @@
   {
     "id": 351,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "351",
     "player": "Juan Agosto",
     "team": "Chicago White Sox",
@@ -4214,6 +4916,8 @@
   {
     "id": 352,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "352",
     "player": "Joe Morgan",
     "team": "Oakland Athletics",
@@ -4226,6 +4930,8 @@
   {
     "id": 353,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "353",
     "player": "Julio Solano",
     "team": "Houston Astros",
@@ -4238,6 +4944,8 @@
   {
     "id": 354,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "354",
     "player": "Andre Robertson",
     "team": "New York Yankees",
@@ -4250,6 +4958,8 @@
   {
     "id": 355,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "355",
     "player": "Bert Blyleven",
     "team": "Cleveland Indians",
@@ -4262,6 +4972,8 @@
   {
     "id": 356,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "356",
     "player": "Dave Meier",
     "team": "Minnesota Twins",
@@ -4274,6 +4986,8 @@
   {
     "id": 357,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "357",
     "player": "Rich Bordi",
     "team": "Chicago Cubs",
@@ -4286,6 +5000,8 @@
   {
     "id": 358,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "358",
     "player": "Tony Pena",
     "team": "Pittsburgh Pirates",
@@ -4298,6 +5014,8 @@
   {
     "id": 359,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "359",
     "player": "Pat Sheridan",
     "team": "Kansas City Royals",
@@ -4310,6 +5028,8 @@
   {
     "id": 360,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "360",
     "player": "Steve Carlton",
     "team": "Philadelphia Phillies",
@@ -4322,6 +5042,8 @@
   {
     "id": 361,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "361",
     "player": "Alfredo Griffin",
     "team": "Toronto Blue Jays",
@@ -4334,6 +5056,8 @@
   {
     "id": 362,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "362",
     "player": "Craig McMurtry",
     "team": "Atlanta Braves",
@@ -4346,6 +5070,8 @@
   {
     "id": 363,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "363",
     "player": "Ron Hodges",
     "team": "New York Mets",
@@ -4358,6 +5084,8 @@
   {
     "id": 364,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "364",
     "player": "Richard Dotson",
     "team": "Chicago White Sox",
@@ -4370,6 +5098,8 @@
   {
     "id": 365,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "365",
     "player": "Danny Ozark",
     "team": "San Francisco Giants",
@@ -4382,6 +5112,8 @@
   {
     "id": 366,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "366",
     "player": "Todd Cruz",
     "team": "Baltimore Orioles",
@@ -4394,6 +5126,8 @@
   {
     "id": 367,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "367",
     "player": "Keefe Cato",
     "team": "Cincinnati Reds",
@@ -4406,6 +5140,8 @@
   {
     "id": 368,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "368",
     "player": "Dave Bergman",
     "team": "Detroit Tigers",
@@ -4418,6 +5154,8 @@
   {
     "id": 369,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "369",
     "player": "R.J. Reynolds",
     "team": "Los Angeles Dodgers",
@@ -4430,6 +5168,8 @@
   {
     "id": 370,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "370",
     "player": "Bruce Sutter",
     "team": "St. Louis Cardinals",
@@ -4442,6 +5182,8 @@
   {
     "id": 371,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "371",
     "player": "Mickey Rivers",
     "team": "Texas Rangers",
@@ -4454,6 +5196,8 @@
   {
     "id": 372,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "372",
     "player": "Roy Howell",
     "team": "Milwaukee Brewers",
@@ -4466,6 +5210,8 @@
   {
     "id": 373,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "373",
     "player": "Mike Moore",
     "team": "Seattle Mariners",
@@ -4478,6 +5224,8 @@
   {
     "id": 374,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "374",
     "player": "Brian Downing",
     "team": "California Angels",
@@ -4490,6 +5238,8 @@
   {
     "id": 375,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "375",
     "player": "Jeff Reardon",
     "team": "Montreal Expos",
@@ -4502,6 +5252,8 @@
   {
     "id": 376,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "376",
     "player": "Jeff Newman",
     "team": "Boston Red Sox",
@@ -4514,6 +5266,8 @@
   {
     "id": 377,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "377",
     "player": "Checklist: 265-396",
     "team": "nan",
@@ -4526,6 +5280,8 @@
   {
     "id": 378,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "378",
     "player": "Alan Wiggins",
     "team": "San Diego Padres",
@@ -4538,6 +5294,8 @@
   {
     "id": 379,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "379",
     "player": "Charles Hudson",
     "team": "Philadelphia Phillies",
@@ -4550,6 +5308,8 @@
   {
     "id": 380,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "380",
     "player": "Ken Griffey",
     "team": "New York Yankees",
@@ -4562,6 +5322,8 @@
   {
     "id": 381,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "381",
     "player": "Roy Smith",
     "team": "Cleveland Indians",
@@ -4574,6 +5336,8 @@
   {
     "id": 382,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "382",
     "player": "Denny Walling",
     "team": "Houston Astros",
@@ -4586,6 +5350,8 @@
   {
     "id": 383,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "383",
     "player": "Rick Lysander",
     "team": "Minnesota Twins",
@@ -4598,6 +5364,8 @@
   {
     "id": 384,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "384",
     "player": "Jody Davis",
     "team": "Chicago Cubs",
@@ -4610,6 +5378,8 @@
   {
     "id": 385,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "385",
     "player": "Jose DeLeon",
     "team": "Pittsburgh Pirates",
@@ -4622,6 +5392,8 @@
   {
     "id": 386,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "386",
     "player": "Dan Gladden",
     "team": "San Francisco Giants",
@@ -4634,6 +5406,8 @@
   {
     "id": 387,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "387",
     "player": "Buddy Biancalana",
     "team": "Kansas City Royals",
@@ -4646,6 +5420,8 @@
   {
     "id": 388,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "388",
     "player": "Bert Roberge",
     "team": "Chicago White Sox",
@@ -4658,6 +5434,8 @@
   {
     "id": 389,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "389",
     "player": "Rod Dedeaux",
     "team": "Team USA",
@@ -4670,6 +5448,8 @@
   {
     "id": 390,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "390",
     "player": "Sid Akins",
     "team": "Team USA",
@@ -4682,6 +5462,8 @@
   {
     "id": 391,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "391",
     "player": "Flavio Alfaro",
     "team": "Team USA",
@@ -4694,6 +5476,8 @@
   {
     "id": 392,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "392",
     "player": "Don August",
     "team": "Team USA",
@@ -4706,6 +5490,8 @@
   {
     "id": 393,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "393",
     "player": "Scott Bankhead OLY",
     "team": "Team USA",
@@ -4718,6 +5504,8 @@
   {
     "id": 394,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "394",
     "player": "Bob Caffrey",
     "team": "Team USA",
@@ -4730,6 +5518,8 @@
   {
     "id": 395,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "395",
     "player": "Mike Dunne",
     "team": "Team USA",
@@ -4742,6 +5532,8 @@
   {
     "id": 396,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "396",
     "player": "Gary Green",
     "team": "Team USA",
@@ -4754,6 +5546,8 @@
   {
     "id": 397,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "397",
     "player": "John Hoover",
     "team": "Team USA",
@@ -4766,6 +5560,8 @@
   {
     "id": 398,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "398",
     "player": "Shane Mack",
     "team": "Team USA",
@@ -4778,6 +5574,8 @@
   {
     "id": 399,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "399",
     "player": "John Marzano",
     "team": "Team USA",
@@ -4790,6 +5588,8 @@
   {
     "id": 400,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "400",
     "player": "Oddibe McDowell",
     "team": "Team USA",
@@ -4802,6 +5602,8 @@
   {
     "id": 401,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "401",
     "player": "Mark McGwire",
     "team": "Team USA",
@@ -4814,6 +5616,8 @@
   {
     "id": 402,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "402",
     "player": "Pat Pacillo",
     "team": "Team USA",
@@ -4826,6 +5630,8 @@
   {
     "id": 403,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "403",
     "player": "Cory Snyder",
     "team": "Team USA",
@@ -4838,6 +5644,8 @@
   {
     "id": 404,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "404",
     "player": "Bill Swift",
     "team": "Team USA",
@@ -4850,6 +5658,8 @@
   {
     "id": 405,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "405",
     "player": "Tom Veryzer",
     "team": "Chicago Cubs",
@@ -4862,6 +5672,8 @@
   {
     "id": 406,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "406",
     "player": "Len Whitehouse",
     "team": "Minnesota Twins",
@@ -4874,6 +5686,8 @@
   {
     "id": 407,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "407",
     "player": "Bobby Ramos",
     "team": "Montreal Expos",
@@ -4886,6 +5700,8 @@
   {
     "id": 408,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "408",
     "player": "Sid Monge",
     "team": "Detroit Tigers",
@@ -4898,6 +5714,8 @@
   {
     "id": 409,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "409",
     "player": "Brad Wellman",
     "team": "San Francisco Giants",
@@ -4910,6 +5728,8 @@
   {
     "id": 410,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "410",
     "player": "Bob Horner",
     "team": "Atlanta Braves",
@@ -4922,6 +5742,8 @@
   {
     "id": 411,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "411",
     "player": "Bobby Cox",
     "team": "Toronto Blue Jays",
@@ -4934,6 +5756,8 @@
   {
     "id": 412,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "412",
     "player": "Bud Black",
     "team": "Kansas City Royals",
@@ -4946,6 +5770,8 @@
   {
     "id": 413,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "413",
     "player": "Vance Law",
     "team": "Chicago White Sox",
@@ -4958,6 +5784,8 @@
   {
     "id": 414,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "414",
     "player": "Gary Ward",
     "team": "Texas Rangers",
@@ -4970,6 +5798,8 @@
   {
     "id": 415,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "415",
     "player": "Ron Darling",
     "team": "New York Mets",
@@ -4982,6 +5812,8 @@
   {
     "id": 416,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "416",
     "player": "Wayne Gross",
     "team": "Baltimore Orioles",
@@ -4994,6 +5826,8 @@
   {
     "id": 417,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "417",
     "player": "John Franco",
     "team": "Cincinnati Reds",
@@ -5006,6 +5840,8 @@
   {
     "id": 418,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "418",
     "player": "Ken Landreaux",
     "team": "Los Angeles Dodgers",
@@ -5018,6 +5854,8 @@
   {
     "id": 419,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "419",
     "player": "Mike Caldwell",
     "team": "Milwaukee Brewers",
@@ -5030,6 +5868,8 @@
   {
     "id": 420,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "420",
     "player": "Andre Dawson",
     "team": "Montreal Expos",
@@ -5042,6 +5882,8 @@
   {
     "id": 421,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "421",
     "player": "Dave Rucker",
     "team": "St. Louis Cardinals",
@@ -5054,6 +5896,8 @@
   {
     "id": 422,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "422",
     "player": "Carney Lansford",
     "team": "Oakland Athletics",
@@ -5066,6 +5910,8 @@
   {
     "id": 423,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "423",
     "player": "Barry Bonnell",
     "team": "Seattle Mariners",
@@ -5078,6 +5924,8 @@
   {
     "id": 424,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "424",
     "player": "Al Nipper",
     "team": "Boston Red Sox",
@@ -5090,6 +5938,8 @@
   {
     "id": 425,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "425",
     "player": "Mike Hargrove",
     "team": "Cleveland Indians",
@@ -5102,6 +5952,8 @@
   {
     "id": 426,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "426",
     "player": "Vern Ruhle",
     "team": "Houston Astros",
@@ -5114,6 +5966,8 @@
   {
     "id": 427,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "427",
     "player": "Mario Ramirez",
     "team": "San Diego Padres",
@@ -5126,6 +5980,8 @@
   {
     "id": 428,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "428",
     "player": "Larry Andersen",
     "team": "Philadelphia Phillies",
@@ -5138,6 +5994,8 @@
   {
     "id": 429,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "429",
     "player": "Rick Cerone",
     "team": "New York Yankees",
@@ -5150,6 +6008,8 @@
   {
     "id": 430,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "430",
     "player": "Ron Davis",
     "team": "Minnesota Twins",
@@ -5162,6 +6022,8 @@
   {
     "id": 431,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "431",
     "player": "U.L. Washington",
     "team": "Kansas City Royals",
@@ -5174,6 +6036,8 @@
   {
     "id": 432,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "432",
     "player": "Thad Bosley",
     "team": "Chicago Cubs",
@@ -5186,6 +6050,8 @@
   {
     "id": 433,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "433",
     "player": "Jim Morrison",
     "team": "Pittsburgh Pirates",
@@ -5198,6 +6064,8 @@
   {
     "id": 434,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "434",
     "player": "Gene Richards",
     "team": "San Francisco Giants",
@@ -5210,6 +6078,8 @@
   {
     "id": 435,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "435",
     "player": "Dan Petry",
     "team": "Detroit Tigers",
@@ -5222,6 +6092,8 @@
   {
     "id": 436,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "436",
     "player": "Willie Aikens",
     "team": "Toronto Blue Jays",
@@ -5234,6 +6106,8 @@
   {
     "id": 437,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "437",
     "player": "Al Jones",
     "team": "Chicago White Sox",
@@ -5246,6 +6120,8 @@
   {
     "id": 438,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "438",
     "player": "Joe Torre",
     "team": "Atlanta Braves",
@@ -5258,6 +6134,8 @@
   {
     "id": 439,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "439",
     "player": "Junior Ortiz",
     "team": "New York Mets",
@@ -5270,6 +6148,8 @@
   {
     "id": 440,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "440",
     "player": "Fernando Valenzuela",
     "team": "Los Angeles Dodgers",
@@ -5282,6 +6162,8 @@
   {
     "id": 441,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "441",
     "player": "Duane Walker",
     "team": "Cincinnati Reds",
@@ -5294,6 +6176,8 @@
   {
     "id": 442,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "442",
     "player": "Ken Forsch",
     "team": "California Angels",
@@ -5306,6 +6190,8 @@
   {
     "id": 443,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "443",
     "player": "George Wright",
     "team": "Texas Rangers",
@@ -5318,6 +6204,8 @@
   {
     "id": 444,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "444",
     "player": "Tony Phillips",
     "team": "Oakland Athletics",
@@ -5330,6 +6218,8 @@
   {
     "id": 445,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "445",
     "player": "Tippy Martinez",
     "team": "Baltimore Orioles",
@@ -5342,6 +6232,8 @@
   {
     "id": 446,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "446",
     "player": "Jim Sundberg",
     "team": "Milwaukee Brewers",
@@ -5354,6 +6246,8 @@
   {
     "id": 447,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "447",
     "player": "Jeff Lahti",
     "team": "St. Louis Cardinals",
@@ -5366,6 +6260,8 @@
   {
     "id": 448,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "448",
     "player": "Derrel Thomas",
     "team": "Montreal Expos",
@@ -5378,6 +6274,8 @@
   {
     "id": 449,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "449",
     "player": "Phil Bradley",
     "team": "Seattle Mariners",
@@ -5390,6 +6288,8 @@
   {
     "id": 450,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "450",
     "player": "Steve Garvey",
     "team": "San Diego Padres",
@@ -5402,6 +6302,8 @@
   {
     "id": 451,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "451",
     "player": "Bruce Hurst",
     "team": "Boston Red Sox",
@@ -5414,6 +6316,8 @@
   {
     "id": 452,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "452",
     "player": "John Castino",
     "team": "Minnesota Twins",
@@ -5426,6 +6330,8 @@
   {
     "id": 453,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "453",
     "player": "Tom Waddell",
     "team": "Cleveland Indians",
@@ -5438,6 +6344,8 @@
   {
     "id": 454,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "454",
     "player": "Glenn Wilson",
     "team": "Philadelphia Phillies",
@@ -5450,6 +6358,8 @@
   {
     "id": 455,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "455",
     "player": "Bob Knepper",
     "team": "Houston Astros",
@@ -5462,6 +6372,8 @@
   {
     "id": 456,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "456",
     "player": "Tim Foli",
     "team": "New York Yankees",
@@ -5474,6 +6386,8 @@
   {
     "id": 457,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "457",
     "player": "Cecilio Guante",
     "team": "Pittsburgh Pirates",
@@ -5486,6 +6400,8 @@
   {
     "id": 458,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "458",
     "player": "Randy Johnson",
     "team": "Atlanta Braves",
@@ -5498,6 +6414,8 @@
   {
     "id": 459,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "459",
     "player": "Charlie Leibrandt",
     "team": "Kansas City Royals",
@@ -5510,6 +6428,8 @@
   {
     "id": 460,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "460",
     "player": "Ryne Sandberg",
     "team": "Chicago Cubs",
@@ -5522,6 +6442,8 @@
   {
     "id": 461,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "461",
     "player": "Marty Castillo",
     "team": "Detroit Tigers",
@@ -5534,6 +6456,8 @@
   {
     "id": 462,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "462",
     "player": "Gary Lavelle",
     "team": "San Francisco Giants",
@@ -5546,6 +6470,8 @@
   {
     "id": 463,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "463",
     "player": "Dave Collins",
     "team": "Toronto Blue Jays",
@@ -5558,6 +6484,8 @@
   {
     "id": 464,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "464",
     "player": "Mike Mason",
     "team": "Texas Rangers",
@@ -5570,6 +6498,8 @@
   {
     "id": 465,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "465",
     "player": "Bob Grich",
     "team": "California Angels",
@@ -5582,6 +6512,8 @@
   {
     "id": 466,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "466",
     "player": "Tony LaRussa",
     "team": "Chicago White Sox",
@@ -5594,6 +6526,8 @@
   {
     "id": 467,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "467",
     "player": "Ed Lynch",
     "team": "New York Mets",
@@ -5606,6 +6540,8 @@
   {
     "id": 468,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "468",
     "player": "Wayne Krenchicki",
     "team": "Cincinnati Reds",
@@ -5618,6 +6554,8 @@
   {
     "id": 469,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "469",
     "player": "Sammy Stewart",
     "team": "Baltimore Orioles",
@@ -5630,6 +6568,8 @@
   {
     "id": 470,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "470",
     "player": "Steve Sax",
     "team": "Los Angeles Dodgers",
@@ -5642,6 +6582,8 @@
   {
     "id": 471,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "471",
     "player": "Pete Ladd",
     "team": "Milwaukee Brewers",
@@ -5654,6 +6596,8 @@
   {
     "id": 472,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "472",
     "player": "Jim Essian",
     "team": "Oakland Athletics",
@@ -5666,6 +6610,8 @@
   {
     "id": 473,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "473",
     "player": "Tim Wallach",
     "team": "Montreal Expos",
@@ -5678,6 +6624,8 @@
   {
     "id": 474,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "474",
     "player": "Kurt Kepshire",
     "team": "St. Louis Cardinals",
@@ -5690,6 +6638,8 @@
   {
     "id": 475,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "475",
     "player": "Andre Thornton",
     "team": "Cleveland Indians",
@@ -5702,6 +6652,8 @@
   {
     "id": 476,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "476",
     "player": "Jeff Stone",
     "team": "Philadelphia Phillies",
@@ -5714,6 +6666,8 @@
   {
     "id": 477,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "477",
     "player": "Bob Ojeda",
     "team": "Boston Red Sox",
@@ -5726,6 +6680,8 @@
   {
     "id": 478,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "478",
     "player": "Kurt Bevacqua",
     "team": "San Diego Padres",
@@ -5738,6 +6694,8 @@
   {
     "id": 479,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "479",
     "player": "Mike Madden",
     "team": "Houston Astros",
@@ -5750,6 +6708,8 @@
   {
     "id": 480,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "480",
     "player": "Lou Whitaker",
     "team": "Detroit Tigers",
@@ -5762,6 +6722,8 @@
   {
     "id": 481,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "481",
     "player": "Dale Murray",
     "team": "New York Yankees",
@@ -5774,6 +6736,8 @@
   {
     "id": 482,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "482",
     "player": "Harry Spilman",
     "team": "Houston Astros",
@@ -5786,6 +6750,8 @@
   {
     "id": 483,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "483",
     "player": "Mike Smithson",
     "team": "Minnesota Twins",
@@ -5798,6 +6764,8 @@
   {
     "id": 484,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "484",
     "player": "Larry Bowa",
     "team": "Chicago Cubs",
@@ -5810,6 +6778,8 @@
   {
     "id": 485,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "485",
     "player": "Matt Young",
     "team": "Seattle Mariners",
@@ -5822,6 +6792,8 @@
   {
     "id": 486,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "486",
     "player": "Steve Balboni",
     "team": "Kansas City Royals",
@@ -5834,6 +6806,8 @@
   {
     "id": 487,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "487",
     "player": "Frank Williams",
     "team": "San Francisco Giants",
@@ -5846,6 +6820,8 @@
   {
     "id": 488,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "488",
     "player": "Joel Skinner",
     "team": "Chicago White Sox",
@@ -5858,6 +6834,8 @@
   {
     "id": 489,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "489",
     "player": "Bryan Clark",
     "team": "Toronto Blue Jays",
@@ -5870,6 +6848,8 @@
   {
     "id": 490,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "490",
     "player": "Jason Thompson",
     "team": "Pittsburgh Pirates",
@@ -5882,6 +6862,8 @@
   {
     "id": 491,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "491",
     "player": "Rick Camp",
     "team": "Atlanta Braves",
@@ -5894,6 +6876,8 @@
   {
     "id": 492,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "492",
     "player": "Dave Johnson",
     "team": "New York Mets",
@@ -5906,6 +6890,8 @@
   {
     "id": 493,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "493",
     "player": "Orel Hershiser",
     "team": "Los Angeles Dodgers",
@@ -5918,6 +6904,8 @@
   {
     "id": 494,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "494",
     "player": "Rich Dauer",
     "team": "Baltimore Orioles",
@@ -5930,6 +6918,8 @@
   {
     "id": 495,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "495",
     "player": "Mario Soto",
     "team": "Cincinnati Reds",
@@ -5942,6 +6932,8 @@
   {
     "id": 496,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "496",
     "player": "Donnie Scott",
     "team": "Texas Rangers",
@@ -5954,6 +6946,8 @@
   {
     "id": 497,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "497",
     "player": "Gary Pettis",
     "team": "California Angels",
@@ -5966,6 +6960,8 @@
   {
     "id": 498,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "498",
     "player": "Ed Romero",
     "team": "Milwaukee Brewers",
@@ -5978,6 +6974,8 @@
   {
     "id": 499,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "499",
     "player": "Danny Cox",
     "team": "St. Louis Cardinals",
@@ -5990,6 +6988,8 @@
   {
     "id": 500,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "500",
     "player": "Mike Schmidt",
     "team": "Philadelphia Phillies",
@@ -6002,6 +7002,8 @@
   {
     "id": 501,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "501",
     "player": "Dan Schatzeder",
     "team": "Montreal Expos",
@@ -6014,6 +7016,8 @@
   {
     "id": 502,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "502",
     "player": "Rick Miller",
     "team": "Boston Red Sox",
@@ -6026,6 +7030,8 @@
   {
     "id": 503,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "503",
     "player": "Tim Conroy",
     "team": "Oakland Athletics",
@@ -6038,6 +7044,8 @@
   {
     "id": 504,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "504",
     "player": "Jerry Willard",
     "team": "Cleveland Indians",
@@ -6050,6 +7058,8 @@
   {
     "id": 505,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "505",
     "player": "Jim Beattie",
     "team": "Seattle Mariners",
@@ -6062,6 +7072,8 @@
   {
     "id": 506,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "506",
     "player": "Franklin Stubbs",
     "team": "Los Angeles Dodgers",
@@ -6074,6 +7086,8 @@
   {
     "id": 507,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "507",
     "player": "Ray Fontenot",
     "team": "New York Yankees",
@@ -6086,6 +7100,8 @@
   {
     "id": 508,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "508",
     "player": "John Shelby",
     "team": "Baltimore Orioles",
@@ -6098,6 +7114,8 @@
   {
     "id": 509,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "509",
     "player": "Milt May",
     "team": "Pittsburgh Pirates",
@@ -6110,6 +7128,8 @@
   {
     "id": 510,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "510",
     "player": "Kent Hrbek",
     "team": "Minnesota Twins",
@@ -6122,6 +7142,8 @@
   {
     "id": 511,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "511",
     "player": "Lee Smith",
     "team": "Chicago Cubs",
@@ -6134,6 +7156,8 @@
   {
     "id": 512,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "512",
     "player": "Tom Brookens",
     "team": "Detroit Tigers",
@@ -6146,6 +7170,8 @@
   {
     "id": 513,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "513",
     "player": "Lynn Jones",
     "team": "Kansas City Royals",
@@ -6158,6 +7184,8 @@
   {
     "id": 514,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "514",
     "player": "Jeff Cornell",
     "team": "San Francisco Giants",
@@ -6170,6 +7198,8 @@
   {
     "id": 515,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "515",
     "player": "Dave Concepcion",
     "team": "Cincinnati Reds",
@@ -6182,6 +7212,8 @@
   {
     "id": 516,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "516",
     "player": "Roy Lee Jackson",
     "team": "Toronto Blue Jays",
@@ -6194,6 +7226,8 @@
   {
     "id": 517,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "517",
     "player": "Jerry Martin",
     "team": "New York Mets",
@@ -6206,6 +7240,8 @@
   {
     "id": 518,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "518",
     "player": "Chris Chambliss",
     "team": "Atlanta Braves",
@@ -6218,6 +7254,8 @@
   {
     "id": 519,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "519",
     "player": "Doug Rader",
     "team": "Texas Rangers",
@@ -6230,6 +7268,8 @@
   {
     "id": 520,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "520",
     "player": "LaMarr Hoyt",
     "team": "Chicago White Sox",
@@ -6242,6 +7282,8 @@
   {
     "id": 521,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "521",
     "player": "Rick Dempsey",
     "team": "Baltimore Orioles",
@@ -6254,6 +7296,8 @@
   {
     "id": 522,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "522",
     "player": "Paul Molitor",
     "team": "Milwaukee Brewers",
@@ -6266,6 +7310,8 @@
   {
     "id": 523,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "523",
     "player": "Candy Maldonado",
     "team": "Los Angeles Dodgers",
@@ -6278,6 +7324,8 @@
   {
     "id": 524,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "524",
     "player": "Rob Wilfong",
     "team": "California Angels",
@@ -6290,6 +7338,8 @@
   {
     "id": 525,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "525",
     "player": "Darrell Porter",
     "team": "St. Louis Cardinals",
@@ -6302,6 +7352,8 @@
   {
     "id": 526,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "526",
     "player": "David Palmer",
     "team": "Montreal Expos",
@@ -6314,6 +7366,8 @@
   {
     "id": 527,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "527",
     "player": "Checklist: 397-528",
     "team": "nan",
@@ -6326,6 +7380,8 @@
   {
     "id": 528,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "528",
     "player": "Bill Krueger",
     "team": "Oakland Athletics",
@@ -6338,6 +7394,8 @@
   {
     "id": 529,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "529",
     "player": "Rich Gedman",
     "team": "Boston Red Sox",
@@ -6350,6 +7408,8 @@
   {
     "id": 530,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "530",
     "player": "Dave Dravecky",
     "team": "San Diego Padres",
@@ -6362,6 +7422,8 @@
   {
     "id": 531,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "531",
     "player": "Joe Lefebvre",
     "team": "Philadelphia Phillies",
@@ -6374,6 +7436,8 @@
   {
     "id": 532,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "532",
     "player": "Frank DiPino",
     "team": "Houston Astros",
@@ -6386,6 +7450,8 @@
   {
     "id": 533,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "533",
     "player": "Tony Bernazard",
     "team": "Cleveland Indians",
@@ -6398,6 +7464,8 @@
   {
     "id": 534,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "534",
     "player": "Brian Dayett",
     "team": "New York Yankees",
@@ -6410,6 +7478,8 @@
   {
     "id": 535,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "535",
     "player": "Pat Putnam",
     "team": "Minnesota Twins",
@@ -6422,6 +7492,8 @@
   {
     "id": 536,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "536",
     "player": "Kirby Puckett",
     "team": "Minnesota Twins",
@@ -6434,6 +7506,8 @@
   {
     "id": 537,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "537",
     "player": "Don Robinson",
     "team": "Pittsburgh Pirates",
@@ -6446,6 +7520,8 @@
   {
     "id": 538,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "538",
     "player": "Keith Moreland",
     "team": "Chicago Cubs",
@@ -6458,6 +7534,8 @@
   {
     "id": 539,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "539",
     "player": "Aurelio Lopez",
     "team": "Detroit Tigers",
@@ -6470,6 +7548,8 @@
   {
     "id": 540,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "540",
     "player": "Claudell Washington",
     "team": "Atlanta Braves",
@@ -6482,6 +7562,8 @@
   {
     "id": 541,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "541",
     "player": "Mark Davis",
     "team": "San Francisco Giants",
@@ -6494,6 +7576,8 @@
   {
     "id": 542,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "542",
     "player": "Don Slaught",
     "team": "Kansas City Royals",
@@ -6506,6 +7590,8 @@
   {
     "id": 543,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "543",
     "player": "Mike Squires",
     "team": "Chicago White Sox",
@@ -6518,6 +7604,8 @@
   {
     "id": 544,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "544",
     "player": "Bruce Kison",
     "team": "California Angels",
@@ -6530,6 +7618,8 @@
   {
     "id": 545,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "545",
     "player": "Lloyd Moseby",
     "team": "Toronto Blue Jays",
@@ -6542,6 +7632,8 @@
   {
     "id": 546,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "546",
     "player": "Brent Gaff",
     "team": "New York Mets",
@@ -6554,6 +7646,8 @@
   {
     "id": 547,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "547",
     "player": "Pete Rose",
     "team": "Cincinnati Reds",
@@ -6566,6 +7660,8 @@
   {
     "id": 548,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "548",
     "player": "Larry Parrish",
     "team": "Texas Rangers",
@@ -6578,6 +7674,8 @@
   {
     "id": 549,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "549",
     "player": "Mike Scioscia",
     "team": "Los Angeles Dodgers",
@@ -6590,6 +7688,8 @@
   {
     "id": 550,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "550",
     "player": "Scott McGregor",
     "team": "Baltimore Orioles",
@@ -6602,6 +7702,8 @@
   {
     "id": 551,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "551",
     "player": "Andy Van Slyke",
     "team": "St. Louis Cardinals",
@@ -6614,6 +7716,8 @@
   {
     "id": 552,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "552",
     "player": "Chris Codiroli",
     "team": "Oakland Athletics",
@@ -6626,6 +7730,8 @@
   {
     "id": 553,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "553",
     "player": "Bob Clark",
     "team": "Milwaukee Brewers",
@@ -6638,6 +7744,8 @@
   {
     "id": 554,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "554",
     "player": "Doug Flynn",
     "team": "Montreal Expos",
@@ -6650,6 +7758,8 @@
   {
     "id": 555,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "555",
     "player": "Bob Stanley",
     "team": "Boston Red Sox",
@@ -6662,6 +7772,8 @@
   {
     "id": 556,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "556",
     "player": "Sixto Lezcano",
     "team": "Philadelphia Phillies",
@@ -6674,6 +7786,8 @@
   {
     "id": 557,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "557",
     "player": "Len Barker",
     "team": "Atlanta Braves",
@@ -6686,6 +7800,8 @@
   {
     "id": 558,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "558",
     "player": "Carmelo Martinez",
     "team": "San Diego Padres",
@@ -6698,6 +7814,8 @@
   {
     "id": 559,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "559",
     "player": "Jay Howell",
     "team": "New York Yankees",
@@ -6710,6 +7828,8 @@
   {
     "id": 560,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "560",
     "player": "Bill Madlock",
     "team": "Pittsburgh Pirates",
@@ -6722,6 +7842,8 @@
   {
     "id": 561,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "561",
     "player": "Darryl Motley",
     "team": "Kansas City Royals",
@@ -6734,6 +7856,8 @@
   {
     "id": 562,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "562",
     "player": "Houston Jimenez",
     "team": "Minnesota Twins",
@@ -6746,6 +7870,8 @@
   {
     "id": 563,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "563",
     "player": "Dick Ruthven",
     "team": "Chicago Cubs",
@@ -6758,6 +7884,8 @@
   {
     "id": 564,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "564",
     "player": "Alan Ashby",
     "team": "Houston Astros",
@@ -6770,6 +7898,8 @@
   {
     "id": 565,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "565",
     "player": "Kirk Gibson",
     "team": "Detroit Tigers",
@@ -6782,6 +7912,8 @@
   {
     "id": 566,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "566",
     "player": "Ed VandeBerg",
     "team": "Seattle Mariners",
@@ -6794,6 +7926,8 @@
   {
     "id": 567,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "567",
     "player": "Joel Youngblood",
     "team": "San Francisco Giants",
@@ -6806,6 +7940,8 @@
   {
     "id": 568,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "568",
     "player": "Cliff Johnson",
     "team": "Toronto Blue Jays",
@@ -6818,6 +7954,8 @@
   {
     "id": 569,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "569",
     "player": "Ken Oberkfell",
     "team": "Atlanta Braves",
@@ -6830,6 +7968,8 @@
   {
     "id": 570,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "570",
     "player": "Darryl Strawberry",
     "team": "New York Mets",
@@ -6842,6 +7982,8 @@
   {
     "id": 571,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "571",
     "player": "Charlie Hough",
     "team": "Texas Rangers",
@@ -6854,6 +7996,8 @@
   {
     "id": 572,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "572",
     "player": "Tom Paciorek",
     "team": "Chicago White Sox",
@@ -6866,6 +8010,8 @@
   {
     "id": 573,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "573",
     "player": "Jay Tibbs",
     "team": "Cincinnati Reds",
@@ -6878,6 +8024,8 @@
   {
     "id": 574,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "574",
     "player": "Joe Altobelli",
     "team": "Baltimore Orioles",
@@ -6890,6 +8038,8 @@
   {
     "id": 575,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "575",
     "player": "Pedro Guerrero",
     "team": "Los Angeles Dodgers",
@@ -6902,6 +8052,8 @@
   {
     "id": 576,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "576",
     "player": "Jaime Cocanower",
     "team": "Milwaukee Brewers",
@@ -6914,6 +8066,8 @@
   {
     "id": 577,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "577",
     "player": "Chris Speier",
     "team": "Minnesota Twins",
@@ -6926,6 +8080,8 @@
   {
     "id": 578,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "578",
     "player": "Terry Francona",
     "team": "Montreal Expos",
@@ -6938,6 +8094,8 @@
   {
     "id": 579,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "579",
     "player": "Ron Romanick",
     "team": "California Angels",
@@ -6950,6 +8108,8 @@
   {
     "id": 580,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "580",
     "player": "Dwight Evans",
     "team": "Boston Red Sox",
@@ -6962,6 +8122,8 @@
   {
     "id": 581,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "581",
     "player": "Mark Wagner",
     "team": "Oakland Athletics",
@@ -6974,6 +8136,8 @@
   {
     "id": 582,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "582",
     "player": "Ken Phelps",
     "team": "Seattle Mariners",
@@ -6986,6 +8150,8 @@
   {
     "id": 583,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "583",
     "player": "Bobby Brown",
     "team": "San Diego Padres",
@@ -6998,6 +8164,8 @@
   {
     "id": 584,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "584",
     "player": "Kevin Gross",
     "team": "Philadelphia Phillies",
@@ -7010,6 +8178,8 @@
   {
     "id": 585,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "585",
     "player": "Butch Wynegar",
     "team": "New York Yankees",
@@ -7022,6 +8192,8 @@
   {
     "id": 586,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "586",
     "player": "Bill Scherrer",
     "team": "Detroit Tigers",
@@ -7034,6 +8206,8 @@
   {
     "id": 587,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "587",
     "player": "Doug Frobel",
     "team": "Pittsburgh Pirates",
@@ -7046,6 +8220,8 @@
   {
     "id": 588,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "588",
     "player": "Bobby Castillo",
     "team": "Minnesota Twins",
@@ -7058,6 +8234,8 @@
   {
     "id": 589,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "589",
     "player": "Bob Dernier",
     "team": "Chicago Cubs",
@@ -7070,6 +8248,8 @@
   {
     "id": 590,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "590",
     "player": "Ray Knight",
     "team": "New York Mets",
@@ -7082,6 +8262,8 @@
   {
     "id": 591,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "591",
     "player": "Larry Herndon",
     "team": "Detroit Tigers",
@@ -7094,6 +8276,8 @@
   {
     "id": 592,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "592",
     "player": "Jeff D. Robinson",
     "team": "San Francisco Giants",
@@ -7106,6 +8290,8 @@
   {
     "id": 593,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "593",
     "player": "Rick Leach",
     "team": "Toronto Blue Jays",
@@ -7118,6 +8304,8 @@
   {
     "id": 594,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "594",
     "player": "Curt Wilkerson",
     "team": "Texas Rangers",
@@ -7130,6 +8318,8 @@
   {
     "id": 595,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "595",
     "player": "Larry Gura",
     "team": "Kansas City Royals",
@@ -7142,6 +8332,8 @@
   {
     "id": 596,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "596",
     "player": "Jerry Hairston",
     "team": "Chicago White Sox",
@@ -7154,6 +8346,8 @@
   {
     "id": 597,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "597",
     "player": "Brad Lesley",
     "team": "Cincinnati Reds",
@@ -7166,6 +8360,8 @@
   {
     "id": 598,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "598",
     "player": "Jose Oquendo",
     "team": "New York Mets",
@@ -7178,6 +8374,8 @@
   {
     "id": 599,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "599",
     "player": "Storm Davis",
     "team": "Baltimore Orioles",
@@ -7190,6 +8388,8 @@
   {
     "id": 600,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "600",
     "player": "Pete Rose",
     "team": "Cincinnati Reds",
@@ -7202,6 +8402,8 @@
   {
     "id": 601,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "601",
     "player": "Tom Lasorda",
     "team": "Los Angeles Dodgers",
@@ -7214,6 +8416,8 @@
   {
     "id": 602,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "602",
     "player": "Jeff Dedmon",
     "team": "Atlanta Braves",
@@ -7226,6 +8430,8 @@
   {
     "id": 603,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "603",
     "player": "Rick Manning",
     "team": "Milwaukee Brewers",
@@ -7238,6 +8444,8 @@
   {
     "id": 604,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "604",
     "player": "Daryl Sconiers",
     "team": "California Angels",
@@ -7250,6 +8458,8 @@
   {
     "id": 605,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "605",
     "player": "Ozzie Smith",
     "team": "St. Louis Cardinals",
@@ -7262,6 +8472,8 @@
   {
     "id": 606,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "606",
     "player": "Rich Gale",
     "team": "Boston Red Sox",
@@ -7274,6 +8486,8 @@
   {
     "id": 607,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "607",
     "player": "Bill Almon",
     "team": "Oakland Athletics",
@@ -7286,6 +8500,8 @@
   {
     "id": 608,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "608",
     "player": "Craig Lefferts",
     "team": "San Diego Padres",
@@ -7298,6 +8514,8 @@
   {
     "id": 609,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "609",
     "player": "Broderick Perkins",
     "team": "Cleveland Indians",
@@ -7310,6 +8528,8 @@
   {
     "id": 610,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "610",
     "player": "Jack Morris",
     "team": "Detroit Tigers",
@@ -7322,6 +8542,8 @@
   {
     "id": 611,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "611",
     "player": "Ozzie Virgil",
     "team": "Philadelphia Phillies",
@@ -7334,6 +8556,8 @@
   {
     "id": 612,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "612",
     "player": "Mike Armstrong",
     "team": "New York Yankees",
@@ -7346,6 +8570,8 @@
   {
     "id": 613,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "613",
     "player": "Terry Puhl",
     "team": "Houston Astros",
@@ -7358,6 +8584,8 @@
   {
     "id": 614,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "614",
     "player": "Al Williams",
     "team": "Minnesota Twins",
@@ -7370,6 +8598,8 @@
   {
     "id": 615,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "615",
     "player": "Marvell Wynne",
     "team": "Pittsburgh Pirates",
@@ -7382,6 +8612,8 @@
   {
     "id": 616,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "616",
     "player": "Scott Sanderson",
     "team": "Chicago Cubs",
@@ -7394,6 +8626,8 @@
   {
     "id": 617,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "617",
     "player": "Willie Wilson",
     "team": "Kansas City Royals",
@@ -7406,6 +8640,8 @@
   {
     "id": 618,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "618",
     "player": "Pete Falcone",
     "team": "Atlanta Braves",
@@ -7418,6 +8654,8 @@
   {
     "id": 619,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "619",
     "player": "Jeff Leonard",
     "team": "San Francisco Giants",
@@ -7430,6 +8668,8 @@
   {
     "id": 620,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "620",
     "player": "Dwight Gooden",
     "team": "New York Mets",
@@ -7442,6 +8682,8 @@
   {
     "id": 621,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "621",
     "player": "Marvis Foley",
     "team": "Texas Rangers",
@@ -7454,6 +8696,8 @@
   {
     "id": 622,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "622",
     "player": "Luis Leal",
     "team": "Toronto Blue Jays",
@@ -7466,6 +8710,8 @@
   {
     "id": 623,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "623",
     "player": "Greg Walker",
     "team": "Chicago White Sox",
@@ -7478,6 +8724,8 @@
   {
     "id": 624,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "624",
     "player": "Benny Ayala",
     "team": "Baltimore Orioles",
@@ -7490,6 +8738,8 @@
   {
     "id": 625,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "625",
     "player": "Mark Langston",
     "team": "Seattle Mariners",
@@ -7502,6 +8752,8 @@
   {
     "id": 626,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "626",
     "player": "German Rivera",
     "team": "Los Angeles Dodgers",
@@ -7514,6 +8766,8 @@
   {
     "id": 627,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "627",
     "player": "Eric Davis",
     "team": "Cincinnati Reds",
@@ -7526,6 +8780,8 @@
   {
     "id": 628,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "628",
     "player": "Rene Lachemann",
     "team": "Milwaukee Brewers",
@@ -7538,6 +8794,8 @@
   {
     "id": 629,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "629",
     "player": "Dick Schofield",
     "team": "California Angels",
@@ -7550,6 +8808,8 @@
   {
     "id": 630,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "630",
     "player": "Tim Raines",
     "team": "Montreal Expos",
@@ -7562,6 +8822,8 @@
   {
     "id": 631,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "631",
     "player": "Bob Forsch",
     "team": "St. Louis Cardinals",
@@ -7574,6 +8836,8 @@
   {
     "id": 632,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "632",
     "player": "Bruce Bochte",
     "team": "Oakland Athletics",
@@ -7586,6 +8850,8 @@
   {
     "id": 633,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "633",
     "player": "Glenn Hoffman",
     "team": "Boston Red Sox",
@@ -7598,6 +8864,8 @@
   {
     "id": 634,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "634",
     "player": "Bill Dawley",
     "team": "Houston Astros",
@@ -7610,6 +8878,8 @@
   {
     "id": 635,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "635",
     "player": "Terry Kennedy",
     "team": "San Diego Padres",
@@ -7622,6 +8892,8 @@
   {
     "id": 636,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "636",
     "player": "Shane Rawley",
     "team": "Philadelphia Phillies",
@@ -7634,6 +8906,8 @@
   {
     "id": 637,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "637",
     "player": "Brett Butler",
     "team": "Cleveland Indians",
@@ -7646,6 +8920,8 @@
   {
     "id": 638,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "638",
     "player": "Mike Pagliarulo",
     "team": "New York Yankees",
@@ -7658,6 +8934,8 @@
   {
     "id": 639,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "639",
     "player": "Ed Hodge",
     "team": "Minnesota Twins",
@@ -7670,6 +8948,8 @@
   {
     "id": 640,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "640",
     "player": "Steve Henderson",
     "team": "Seattle Mariners",
@@ -7682,6 +8962,8 @@
   {
     "id": 641,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "641",
     "player": "Rod Scurry",
     "team": "Pittsburgh Pirates",
@@ -7694,6 +8976,8 @@
   {
     "id": 642,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "642",
     "player": "Dave Owen",
     "team": "Chicago Cubs",
@@ -7706,6 +8990,8 @@
   {
     "id": 643,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "643",
     "player": "Johnny Grubb",
     "team": "Detroit Tigers",
@@ -7718,6 +9004,8 @@
   {
     "id": 644,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "644",
     "player": "Mark Huismann",
     "team": "Kansas City Royals",
@@ -7730,6 +9018,8 @@
   {
     "id": 645,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "645",
     "player": "Damaso Garcia",
     "team": "Toronto Blue Jays",
@@ -7742,6 +9032,8 @@
   {
     "id": 646,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "646",
     "player": "Scot Thompson",
     "team": "San Francisco Giants",
@@ -7754,6 +9046,8 @@
   {
     "id": 647,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "647",
     "player": "Rafael Ramirez",
     "team": "Atlanta Braves",
@@ -7766,6 +9060,8 @@
   {
     "id": 648,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "648",
     "player": "Bob Jones",
     "team": "Texas Rangers",
@@ -7778,6 +9074,8 @@
   {
     "id": 649,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "649",
     "player": "Sid Fernandez",
     "team": "New York Mets",
@@ -7790,6 +9088,8 @@
   {
     "id": 650,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "650",
     "player": "Greg Luzinski",
     "team": "Chicago White Sox",
@@ -7802,6 +9102,8 @@
   {
     "id": 651,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "651",
     "player": "Jeff Russell",
     "team": "Cincinnati Reds",
@@ -7814,6 +9116,8 @@
   {
     "id": 652,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "652",
     "player": "Joe Nolan",
     "team": "Baltimore Orioles",
@@ -7826,6 +9130,8 @@
   {
     "id": 653,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "653",
     "player": "Mark Brouhard",
     "team": "Milwaukee Brewers",
@@ -7838,6 +9144,8 @@
   {
     "id": 654,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "654",
     "player": "Dave Anderson",
     "team": "Los Angeles Dodgers",
@@ -7850,6 +9158,8 @@
   {
     "id": 655,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "655",
     "player": "Joaquin Andujar",
     "team": "St. Louis Cardinals",
@@ -7862,6 +9172,8 @@
   {
     "id": 656,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "656",
     "player": "Chuck Cottier",
     "team": "Seattle Mariners",
@@ -7874,6 +9186,8 @@
   {
     "id": 657,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "657",
     "player": "Jim Slaton",
     "team": "California Angels",
@@ -7886,6 +9200,8 @@
   {
     "id": 658,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "658",
     "player": "Mike Stenhouse",
     "team": "Montreal Expos",
@@ -7898,6 +9214,8 @@
   {
     "id": 659,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "659",
     "player": "Checklist: 529-660",
     "team": "nan",
@@ -7910,6 +9228,8 @@
   {
     "id": 660,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "660",
     "player": "Tony Gwynn",
     "team": "San Diego Padres",
@@ -7922,6 +9242,8 @@
   {
     "id": 661,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "661",
     "player": "Steve Crawford",
     "team": "Boston Red Sox",
@@ -7934,6 +9256,8 @@
   {
     "id": 662,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "662",
     "player": "Mike Heath",
     "team": "Oakland Athletics",
@@ -7946,6 +9270,8 @@
   {
     "id": 663,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "663",
     "player": "Luis Aguayo",
     "team": "Philadelphia Phillies",
@@ -7958,6 +9284,8 @@
   {
     "id": 664,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "664",
     "player": "Steve Farr",
     "team": "Cleveland Indians",
@@ -7970,6 +9298,8 @@
   {
     "id": 665,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "665",
     "player": "Don Mattingly",
     "team": "New York Yankees",
@@ -7982,6 +9312,8 @@
   {
     "id": 666,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "666",
     "player": "Mike LaCoss",
     "team": "Houston Astros",
@@ -7994,6 +9326,8 @@
   {
     "id": 667,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "667",
     "player": "Dave Engle",
     "team": "Minnesota Twins",
@@ -8006,6 +9340,8 @@
   {
     "id": 668,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "668",
     "player": "Steve Trout",
     "team": "Chicago Cubs",
@@ -8018,6 +9354,8 @@
   {
     "id": 669,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "669",
     "player": "Lee Lacy",
     "team": "Pittsburgh Pirates",
@@ -8030,6 +9368,8 @@
   {
     "id": 670,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "670",
     "player": "Tom Seaver",
     "team": "Chicago White Sox",
@@ -8042,6 +9382,8 @@
   {
     "id": 671,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "671",
     "player": "Dane Iorg",
     "team": "Kansas City Royals",
@@ -8054,6 +9396,8 @@
   {
     "id": 672,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "672",
     "player": "Juan Berenguer",
     "team": "Detroit Tigers",
@@ -8066,6 +9410,8 @@
   {
     "id": 673,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "673",
     "player": "Buck Martinez",
     "team": "Toronto Blue Jays",
@@ -8078,6 +9424,8 @@
   {
     "id": 674,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "674",
     "player": "Atlee Hammaker",
     "team": "San Francisco Giants",
@@ -8090,6 +9438,8 @@
   {
     "id": 675,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "675",
     "player": "Tony Perez",
     "team": "Cincinnati Reds",
@@ -8102,6 +9452,8 @@
   {
     "id": 676,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "676",
     "player": "Albert Hall",
     "team": "Atlanta Braves",
@@ -8114,6 +9466,8 @@
   {
     "id": 677,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "677",
     "player": "Wally Backman",
     "team": "New York Mets",
@@ -8126,6 +9480,8 @@
   {
     "id": 678,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "678",
     "player": "Joey McLaughlin",
     "team": "Texas Rangers",
@@ -8138,6 +9494,8 @@
   {
     "id": 679,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "679",
     "player": "Bob Kearney",
     "team": "Seattle Mariners",
@@ -8150,6 +9508,8 @@
   {
     "id": 680,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "680",
     "player": "Jerry Reuss",
     "team": "Los Angeles Dodgers",
@@ -8162,6 +9522,8 @@
   {
     "id": 681,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "681",
     "player": "Ben Oglivie",
     "team": "Milwaukee Brewers",
@@ -8174,6 +9536,8 @@
   {
     "id": 682,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "682",
     "player": "Doug Corbett",
     "team": "California Angels",
@@ -8186,6 +9550,8 @@
   {
     "id": 683,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "683",
     "player": "Whitey Herzog",
     "team": "St. Louis Cardinals",
@@ -8198,6 +9564,8 @@
   {
     "id": 684,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "684",
     "player": "Bill Doran",
     "team": "Houston Astros",
@@ -8210,6 +9578,8 @@
   {
     "id": 685,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "685",
     "player": "Bill Caudill",
     "team": "Oakland Athletics",
@@ -8222,6 +9592,8 @@
   {
     "id": 686,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "686",
     "player": "Mike Easler",
     "team": "Boston Red Sox",
@@ -8234,6 +9606,8 @@
   {
     "id": 687,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "687",
     "player": "Bill Gullickson",
     "team": "Montreal Expos",
@@ -8246,6 +9620,8 @@
   {
     "id": 688,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "688",
     "player": "Len Matuszek",
     "team": "Philadelphia Phillies",
@@ -8258,6 +9634,8 @@
   {
     "id": 689,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "689",
     "player": "Luis DeLeon",
     "team": "San Diego Padres",
@@ -8270,6 +9648,8 @@
   {
     "id": 690,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "690",
     "player": "Alan Trammell",
     "team": "Detroit Tigers",
@@ -8282,6 +9662,8 @@
   {
     "id": 691,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "691",
     "player": "Dennis Rasmussen",
     "team": "New York Yankees",
@@ -8294,6 +9676,8 @@
   {
     "id": 692,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "692",
     "player": "Randy Bush",
     "team": "Minnesota Twins",
@@ -8306,6 +9690,8 @@
   {
     "id": 693,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "693",
     "player": "Tim Stoddard",
     "team": "Chicago Cubs",
@@ -8318,6 +9704,8 @@
   {
     "id": 694,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "694",
     "player": "Joe Carter",
     "team": "Cleveland Indians",
@@ -8330,6 +9718,8 @@
   {
     "id": 695,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "695",
     "player": "Rick Rhoden",
     "team": "Pittsburgh Pirates",
@@ -8342,6 +9732,8 @@
   {
     "id": 696,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "696",
     "player": "John Rabb",
     "team": "San Francisco Giants",
@@ -8354,6 +9746,8 @@
   {
     "id": 697,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "697",
     "player": "Onix Concepcion",
     "team": "Kansas City Royals",
@@ -8366,6 +9760,8 @@
   {
     "id": 698,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "698",
     "player": "George Bell",
     "team": "Toronto Blue Jays",
@@ -8378,6 +9774,8 @@
   {
     "id": 699,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "699",
     "player": "Donnie Moore",
     "team": "Atlanta Braves",
@@ -8390,6 +9788,8 @@
   {
     "id": 700,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "700",
     "player": "Eddie Murray",
     "team": "Baltimore Orioles",
@@ -8402,6 +9802,8 @@
   {
     "id": 701,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "701",
     "player": "Eddie Murray",
     "team": "Baltimore Orioles",
@@ -8414,6 +9816,8 @@
   {
     "id": 702,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "702",
     "player": "Damaso Garcia",
     "team": "Toronto Blue Jays",
@@ -8426,6 +9830,8 @@
   {
     "id": 703,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "703",
     "player": "George Brett",
     "team": "Kansas City Royals",
@@ -8438,6 +9844,8 @@
   {
     "id": 704,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "704",
     "player": "Cal Ripken",
     "team": "Baltimore Orioles",
@@ -8450,6 +9858,8 @@
   {
     "id": 705,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "705",
     "player": "Dave Winfield",
     "team": "New York Yankees",
@@ -8462,6 +9872,8 @@
   {
     "id": 706,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "706",
     "player": "Rickey Henderson",
     "team": "Oakland Athletics",
@@ -8474,6 +9886,8 @@
   {
     "id": 707,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "707",
     "player": "Tony Armas",
     "team": "Boston Red Sox",
@@ -8486,6 +9900,8 @@
   {
     "id": 708,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "708",
     "player": "Lance Parrish",
     "team": "Detroit Tigers",
@@ -8498,6 +9914,8 @@
   {
     "id": 709,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "709",
     "player": "Mike Boddicker",
     "team": "Baltimore Orioles",
@@ -8510,6 +9928,8 @@
   {
     "id": 710,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "710",
     "player": "Frank Viola",
     "team": "Minnesota Twins",
@@ -8522,6 +9942,8 @@
   {
     "id": 711,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "711",
     "player": "Dan Quisenberry",
     "team": "Kansas City Royals",
@@ -8534,6 +9956,8 @@
   {
     "id": 712,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "712",
     "player": "Keith Hernandez",
     "team": "New York Mets",
@@ -8546,6 +9970,8 @@
   {
     "id": 713,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "713",
     "player": "Ryne Sandberg",
     "team": "Chicago Cubs",
@@ -8558,6 +9984,8 @@
   {
     "id": 714,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "714",
     "player": "Mike Schmidt",
     "team": "Philadelphia Phillies",
@@ -8570,6 +9998,8 @@
   {
     "id": 715,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "715",
     "player": "Ozzie Smith",
     "team": "St. Louis Cardinals",
@@ -8582,6 +10012,8 @@
   {
     "id": 716,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "716",
     "player": "Dale Murphy",
     "team": "Atlanta Braves",
@@ -8594,6 +10026,8 @@
   {
     "id": 717,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "717",
     "player": "Tony Gwynn",
     "team": "San Diego Padres",
@@ -8606,6 +10040,8 @@
   {
     "id": 718,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "718",
     "player": "Jeff Leonard",
     "team": "San Francisco Giants",
@@ -8618,6 +10054,8 @@
   {
     "id": 719,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "719",
     "player": "Gary Carter",
     "team": "Montreal Expos",
@@ -8630,6 +10068,8 @@
   {
     "id": 720,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "720",
     "player": "Rick Sutcliffe",
     "team": "Chicago Cubs",
@@ -8642,6 +10082,8 @@
   {
     "id": 721,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "721",
     "player": "Bob Knepper",
     "team": "Houston Astros",
@@ -8654,6 +10096,8 @@
   {
     "id": 722,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "722",
     "player": "Bruce Sutter",
     "team": "St. Louis Cardinals",
@@ -8666,6 +10110,8 @@
   {
     "id": 723,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "723",
     "player": "Dave Stewart",
     "team": "Texas Rangers",
@@ -8678,6 +10124,8 @@
   {
     "id": 724,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "724",
     "player": "Oscar Gamble",
     "team": "New York Yankees",
@@ -8690,6 +10138,8 @@
   {
     "id": 725,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "725",
     "player": "Floyd Bannister",
     "team": "Chicago White Sox",
@@ -8702,6 +10152,8 @@
   {
     "id": 726,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "726",
     "player": "Al Bumbry",
     "team": "Baltimore Orioles",
@@ -8714,6 +10166,8 @@
   {
     "id": 727,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "727",
     "player": "Frank Pastore",
     "team": "Cincinnati Reds",
@@ -8726,6 +10180,8 @@
   {
     "id": 728,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "728",
     "player": "Bob Bailor",
     "team": "Los Angeles Dodgers",
@@ -8738,6 +10194,8 @@
   {
     "id": 729,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "729",
     "player": "Don Sutton",
     "team": "Milwaukee Brewers",
@@ -8750,6 +10208,8 @@
   {
     "id": 730,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "730",
     "player": "Dave Kingman",
     "team": "Oakland Athletics",
@@ -8762,6 +10222,8 @@
   {
     "id": 731,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "731",
     "player": "Neil Allen",
     "team": "St. Louis Cardinals",
@@ -8774,6 +10236,8 @@
   {
     "id": 732,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "732",
     "player": "John McNamara",
     "team": "California Angels",
@@ -8786,6 +10250,8 @@
   {
     "id": 733,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "733",
     "player": "Tony Scott",
     "team": "Montreal Expos",
@@ -8798,6 +10264,8 @@
   {
     "id": 734,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "734",
     "player": "John Henry Johnson",
     "team": "Boston Red Sox",
@@ -8810,6 +10278,8 @@
   {
     "id": 735,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "735",
     "player": "Garry Templeton",
     "team": "San Diego Padres",
@@ -8822,6 +10292,8 @@
   {
     "id": 736,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "736",
     "player": "Jerry Mumphrey",
     "team": "Houston Astros",
@@ -8834,6 +10306,8 @@
   {
     "id": 737,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "737",
     "player": "Bo Diaz",
     "team": "Philadelphia Phillies",
@@ -8846,6 +10320,8 @@
   {
     "id": 738,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "738",
     "player": "Omar Moreno",
     "team": "New York Yankees",
@@ -8858,6 +10334,8 @@
   {
     "id": 739,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "739",
     "player": "Ernie Camacho",
     "team": "Cleveland Indians",
@@ -8870,6 +10348,8 @@
   {
     "id": 740,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "740",
     "player": "Jack Clark",
     "team": "San Francisco Giants",
@@ -8882,6 +10362,8 @@
   {
     "id": 741,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "741",
     "player": "John Butcher",
     "team": "Minnesota Twins",
@@ -8894,6 +10376,8 @@
   {
     "id": 742,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "742",
     "player": "Ron Hassey",
     "team": "Chicago Cubs",
@@ -8906,6 +10390,8 @@
   {
     "id": 743,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "743",
     "player": "Frank White",
     "team": "Kansas City Royals",
@@ -8918,6 +10404,8 @@
   {
     "id": 744,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "744",
     "player": "Doug Bair",
     "team": "Detroit Tigers",
@@ -8930,6 +10418,8 @@
   {
     "id": 745,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "745",
     "player": "Buddy Bell",
     "team": "Texas Rangers",
@@ -8942,6 +10432,8 @@
   {
     "id": 746,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "746",
     "player": "Jim Clancy",
     "team": "Toronto Blue Jays",
@@ -8954,6 +10446,8 @@
   {
     "id": 747,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "747",
     "player": "Alex Trevino",
     "team": "Atlanta Braves",
@@ -8966,6 +10460,8 @@
   {
     "id": 748,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "748",
     "player": "Lee Mazzilli",
     "team": "Pittsburgh Pirates",
@@ -8978,6 +10474,8 @@
   {
     "id": 749,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "749",
     "player": "Julio Cruz",
     "team": "Chicago White Sox",
@@ -8990,6 +10488,8 @@
   {
     "id": 750,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "750",
     "player": "Rollie Fingers",
     "team": "Milwaukee Brewers",
@@ -9002,6 +10502,8 @@
   {
     "id": 751,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "751",
     "player": "Kelvin Chapman",
     "team": "New York Mets",
@@ -9014,6 +10516,8 @@
   {
     "id": 752,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "752",
     "player": "Bob Owchinko",
     "team": "Cincinnati Reds",
@@ -9026,6 +10530,8 @@
   {
     "id": 753,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "753",
     "player": "Greg Brock",
     "team": "Los Angeles Dodgers",
@@ -9038,6 +10544,8 @@
   {
     "id": 754,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "754",
     "player": "Larry Milbourne",
     "team": "Seattle Mariners",
@@ -9050,6 +10558,8 @@
   {
     "id": 755,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "755",
     "player": "Ken Singleton",
     "team": "Baltimore Orioles",
@@ -9062,6 +10572,8 @@
   {
     "id": 756,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "756",
     "player": "Rob Picciolo",
     "team": "California Angels",
@@ -9074,6 +10586,8 @@
   {
     "id": 757,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "757",
     "player": "Willie McGee",
     "team": "St. Louis Cardinals",
@@ -9086,6 +10600,8 @@
   {
     "id": 758,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "758",
     "player": "Ray Burris",
     "team": "Oakland Athletics",
@@ -9098,6 +10614,8 @@
   {
     "id": 759,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "759",
     "player": "Jim Fanning",
     "team": "Montreal Expos",
@@ -9110,6 +10628,8 @@
   {
     "id": 760,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "760",
     "player": "Nolan Ryan",
     "team": "Houston Astros",
@@ -9122,6 +10642,8 @@
   {
     "id": 761,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "761",
     "player": "Jerry Remy",
     "team": "Boston Red Sox",
@@ -9134,6 +10656,8 @@
   {
     "id": 762,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "762",
     "player": "Eddie Whitson",
     "team": "San Diego Padres",
@@ -9146,6 +10670,8 @@
   {
     "id": 763,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "763",
     "player": "Kiko Garcia",
     "team": "Philadelphia Phillies",
@@ -9158,6 +10684,8 @@
   {
     "id": 764,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "764",
     "player": "Jamie Easterly",
     "team": "Cleveland Indians",
@@ -9170,6 +10698,8 @@
   {
     "id": 765,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "765",
     "player": "Willie Randolph",
     "team": "New York Yankees",
@@ -9182,6 +10712,8 @@
   {
     "id": 766,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "766",
     "player": "Paul Mirabella",
     "team": "Seattle Mariners",
@@ -9194,6 +10726,8 @@
   {
     "id": 767,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "767",
     "player": "Darrell Brown",
     "team": "Minnesota Twins",
@@ -9206,6 +10740,8 @@
   {
     "id": 768,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "768",
     "player": "Ron Cey",
     "team": "Chicago Cubs",
@@ -9218,6 +10754,8 @@
   {
     "id": 769,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "769",
     "player": "Joe Cowley",
     "team": "New York Yankees",
@@ -9230,6 +10768,8 @@
   {
     "id": 770,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "770",
     "player": "Carlton Fisk",
     "team": "Chicago White Sox",
@@ -9242,6 +10782,8 @@
   {
     "id": 771,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "771",
     "player": "Geoff Zahn",
     "team": "California Angels",
@@ -9254,6 +10796,8 @@
   {
     "id": 772,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "772",
     "player": "Johnnie LeMaster",
     "team": "San Francisco Giants",
@@ -9266,6 +10810,8 @@
   {
     "id": 773,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "773",
     "player": "Hal McRae",
     "team": "Kansas City Royals",
@@ -9278,6 +10824,8 @@
   {
     "id": 774,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "774",
     "player": "Dennis Lamp",
     "team": "Toronto Blue Jays",
@@ -9290,6 +10838,8 @@
   {
     "id": 775,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "775",
     "player": "Mookie Wilson",
     "team": "New York Mets",
@@ -9302,6 +10852,8 @@
   {
     "id": 776,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "776",
     "player": "Jerry Royster",
     "team": "Atlanta Braves",
@@ -9314,6 +10866,8 @@
   {
     "id": 777,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "777",
     "player": "Ned Yost",
     "team": "Texas Rangers",
@@ -9326,6 +10880,8 @@
   {
     "id": 778,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "778",
     "player": "Mike Davis",
     "team": "Oakland Athletics",
@@ -9338,6 +10894,8 @@
   {
     "id": 779,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "779",
     "player": "Nick Esasky",
     "team": "Cincinnati Reds",
@@ -9350,6 +10908,8 @@
   {
     "id": 780,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "780",
     "player": "Mike Flanagan",
     "team": "Baltimore Orioles",
@@ -9362,6 +10922,8 @@
   {
     "id": 781,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "781",
     "player": "Jim Gantner",
     "team": "Milwaukee Brewers",
@@ -9374,6 +10936,8 @@
   {
     "id": 782,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "782",
     "player": "Tom Niedenfuer",
     "team": "Los Angeles Dodgers",
@@ -9386,6 +10950,8 @@
   {
     "id": 783,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "783",
     "player": "Mike Jorgensen",
     "team": "St. Louis Cardinals",
@@ -9398,6 +10964,8 @@
   {
     "id": 784,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "784",
     "player": "Checklist: 661-792",
     "team": "nan",
@@ -9410,6 +10978,8 @@
   {
     "id": 785,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "785",
     "player": "Tony Armas",
     "team": "Boston Red Sox",
@@ -9422,6 +10992,8 @@
   {
     "id": 786,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "786",
     "player": "Enos Cabell",
     "team": "Houston Astros",
@@ -9434,6 +11006,8 @@
   {
     "id": 787,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "787",
     "player": "Jim Wohlford",
     "team": "Montreal Expos",
@@ -9446,6 +11020,8 @@
   {
     "id": 788,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "788",
     "player": "Steve Comer",
     "team": "Cleveland Indians",
@@ -9458,6 +11034,8 @@
   {
     "id": 789,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "789",
     "player": "Luis Salazar",
     "team": "San Diego Padres",
@@ -9470,6 +11048,8 @@
   {
     "id": 790,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "790",
     "player": "Ron Guidry",
     "team": "New York Yankees",
@@ -9482,6 +11062,8 @@
   {
     "id": 791,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "791",
     "player": "Ivan DeJesus",
     "team": "Philadelphia Phillies",
@@ -9494,6 +11076,8 @@
   {
     "id": 792,
     "year": 1985,
+    "set": "Topps Baseball 1985",
+    "category": "sports",
     "number": "792",
     "player": "Darrell Evans",
     "team": "Detroit Tigers",
