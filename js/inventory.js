@@ -15,7 +15,7 @@ const sets = [
   {
     year: 1987,
     category: "sports",
-    img: "https://raw.githubusercontent.com/iam4phils/Ebay_card_Listings/main/topps_baseball_1987/1987%20Topps%20Baseball%20IMG_2026_01_29_19_12_37S.jpg"
+    img: "https://raw.githubusercontent.com/iam4phils/Ebay_card_Listings/main/topps_baseball_1987/1987%20Topps%20Basepsball%20IMG_2026_01_29_19_12_37S.jpg"
   },
   {
     year: 1988,
@@ -86,7 +86,9 @@ function renderSetLanding() {
 
   sets.forEach(set => {
     const div = document.createElement("div");
-    div.className = "card";
+
+    // ⭐ FIX: set tiles now get the set-tile class
+    div.className = "card set-tile";
 
     const link =
       set.category === "sports"
@@ -205,6 +207,8 @@ function renderCards() {
 
   filteredCards.forEach(card => {
     const div = document.createElement("div");
+
+    // ⭐ Player cards stay normal
     div.className = "card";
 
     div.innerHTML = `

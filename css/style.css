@@ -82,7 +82,7 @@ footer {
 }
 
 /* ------------------------------
-   Set Tiles + Card Tiles
+   Card Containers
 --------------------------------*/
 .card {
   background: white;
@@ -114,7 +114,7 @@ footer {
 .set-tile img {
   width: 100%;
   height: 180px;         /* uniform tile height */
-  object-fit: cover;     /* clean crop, no distortion */
+  object-fit: cover;     /* clean crop */
   border-radius: 4px;
   margin-bottom: 10px;
 }
