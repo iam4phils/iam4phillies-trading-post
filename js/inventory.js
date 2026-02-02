@@ -4,23 +4,35 @@
 const sets = [
   {
     year: 1985,
+    category: "sports",
     img: "https://raw.githubusercontent.com/iam4phils/Ebay_card_Listings/main/topps_baseball_1985/1985%20Topps%20Baseball%20IMG_2026_01_29_19_12_37S.jpg"
   },
   {
     year: 1986,
+    category: "sports",
     img: "https://raw.githubusercontent.com/iam4phils/Ebay_card_Listings/main/topps_baseball_1986/1986%20Topps%20Baseball%20IMG_2026_01_29_19_12_37S.jpg"
   },
   {
     year: 1987,
+    category: "sports",
     img: "https://raw.githubusercontent.com/iam4phils/Ebay_card_Listings/main/topps_baseball_1987/1987%20Topps%20Baseball%20IMG_2026_01_29_19_12_37S.jpg"
   },
   {
     year: 1988,
+    category: "sports",
     img: "https://raw.githubusercontent.com/iam4phils/Ebay_card_Listings/main/topps_baseball_1988/1988%20Topps%20Baseball%20IMG_2026_01_29_19_12_37S.jpg"
   },
   {
     year: 1989,
+    category: "sports",
     img: "https://raw.githubusercontent.com/iam4phils/Ebay_card_Listings/main/topps_baseball_1989/1989%20Topps%20Baseball%20IMG_2026_01_29_19_12_37S.jpg"
+  },
+
+  // ⭐ NEW NON-SPORT SET (GPK)
+  {
+    year: 2025,
+    category: "nonsports",
+    img: "https://raw.githubusercontent.com/iam4phils/Ebay_card_Listings/main/gpk_topps_2025_media_menace/gpk_2025_media_menace.jpg"
   }
 ];
 
@@ -30,9 +42,44 @@ const sets = [
 let allCards = [];
 let filteredCards = [];
 
-// Detect if user arrived from a landing page (inventory.html?year=1985)
 const urlParams = new URLSearchParams(window.location.search);
 const preselectYear = urlParams.get("year");
+
+// ------------------------------
+// UNIVERSAL DATA FILE LIST
+// ------------------------------
+const dataFiles = [
+  // Sports
+  "data/topps_baseball_1985.json",
+  "data/topps_baseball_1986.json",
+  "data/topps_baseball_1987.json",
+  "data/topps_baseball_1988.json",
+  "data/topps_baseball_1989.json",
+
+  // Non-Sports
+  "data/gpk_topps_2025_media_menace.json"
+];
+
+// ------------------------------
+// LOAD ALL CARDS (Landing page + global search)
+// ------------------------------
+async function loadAllData() {
+  allCards = [];
+
+  for (const file of dataFiles) {
+    try {
+      const res = await fetch(file);
+      const data = await res.json();
+      allCards = allCards.concat(data);
+    } catch (e) {
+      console.warn("Missing or unreadable file:", file);
+    }
+  }
+
+  populateYears();
+  populateTeams();
+  renderSetLanding();
+}
 
 // ------------------------------
 // RENDER SET LANDING PAGE
@@ -51,9 +98,9 @@ function renderSetLanding() {
     div.className = "card";
 
     div.innerHTML = `
-      <img src="${set.img}" alt="${set.year} Topps Baseball">
-      <h3>${set.year} Topps Baseball</h3>
-      <a href="sets/topps_baseball_${set.year}.html" class="details-btn">View Set</a>
+      <img src="${set.img}" alt="${set.year}">
+      <h3>${set.year} ${set.category === "sports" ? "Topps Baseball" : "Topps GPK Media Menace"}</h3>
+      <a href="sets/${set.category}_${set.year}.html" class="details-btn">View Set</a>
     `;
 
     setGrid.appendChild(div);
@@ -61,37 +108,55 @@ function renderSetLanding() {
 }
 
 // ------------------------------
-// LOAD CARDS FOR A SPECIFIC YEAR
+// POPULATE YEAR DROPDOWN (Step 5)
 // ------------------------------
-async function loadCards(year) {
-  const setGrid = document.getElementById("setGrid");
-  const cardGrid = document.getElementById("cardGrid");
+function populateYears() {
+  const yearFilter = document.getElementById("yearFilter");
+  const category = document.getElementById("categoryFilter").value;
 
-  // Hide set landing page, show card grid
-  setGrid.style.display = "none";
-  cardGrid.style.display = "grid";
+  const selectedYear = yearFilter.value;
 
-  allCards = [];
+  yearFilter.innerHTML = `<option value="all">All Years</option>`;
 
-  const file = `data/topps_baseball_${year}.json`;
-  const res = await fetch(file);
-  const data = await res.json();
-  allCards = data;
+  const years = [...new Set(
+    allCards
+      .filter(card => category === "all" || card.category === category)
+      .map(card => card.year)
+  )].sort((a, b) => a - b);
 
-  populateTeams();
-  applyFilters();
+  years.forEach(year => {
+    const opt = document.createElement("option");
+    opt.value = year;
+    opt.textContent = year;
+    yearFilter.appendChild(opt);
+  });
+
+  if (selectedYear) {
+    yearFilter.value = selectedYear;
+  }
 }
 
 // ------------------------------
-// POPULATE TEAM DROPDOWN
+// POPULATE TEAM DROPDOWN (Step 6)
 // ------------------------------
 function populateTeams() {
   const teamFilter = document.getElementById("teamFilter");
+  const category = document.getElementById("categoryFilter").value;
+
   const selectedTeam = teamFilter.value;
 
-  teamFilter.innerHTML = `<option value="">All Teams</option>`;
+  teamFilter.innerHTML = `<option value="all">All Teams</option>`;
 
-  const teams = [...new Set(allCards.map(card => card.team).sort())];
+  let teams = [...new Set(
+    allCards
+      .filter(card => category === "all" || card.category === category)
+      .map(card => card.team)
+  )].sort();
+
+  // ⭐ Non-Sports → only show N/A
+  if (category === "nonsports") {
+    teams = ["N/A"];
+  }
 
   teams.forEach(team => {
     const opt = document.createElement("option");
@@ -106,14 +171,27 @@ function populateTeams() {
 }
 
 // ------------------------------
-// APPLY FILTERS (when inside a year)
+// APPLY FILTERS (Category + Year + Search + Team)
 // ------------------------------
 function applyFilters() {
   const search = document.getElementById("search").value.toLowerCase();
   const team = document.getElementById("teamFilter").value;
+  const category = document.getElementById("categoryFilter").value;
+  const year = document.getElementById("yearFilter").value;
 
   filteredCards = allCards;
 
+  // CATEGORY FILTER
+  if (category !== "all") {
+    filteredCards = filteredCards.filter(card => card.category === category);
+  }
+
+  // YEAR FILTER
+  if (year !== "all") {
+    filteredCards = filteredCards.filter(card => String(card.year) === year);
+  }
+
+  // SEARCH FILTER
   if (search) {
     filteredCards = filteredCards.filter(card =>
       card.player.toLowerCase().includes(search) ||
@@ -121,7 +199,8 @@ function applyFilters() {
     );
   }
 
-  if (team) {
+  // TEAM FILTER
+  if (team !== "all") {
     filteredCards = filteredCards.filter(card => card.team === team);
   }
 
@@ -156,39 +235,48 @@ function renderCards() {
 }
 
 // ------------------------------
-// GLOBAL SEARCH (search from landing page)
+// GLOBAL SEARCH (Category + Year aware)
 // ------------------------------
 async function globalSearch() {
   const query = document.getElementById("search").value.toLowerCase();
+  const category = document.getElementById("categoryFilter").value;
+  const year = document.getElementById("yearFilter").value;
 
-  // If search is empty → return to set landing page
   if (!query) {
     renderSetLanding();
     return;
   }
 
-  // Load ALL years for global search
-  const years = [1985, 1986, 1987, 1988, 1989];
   allCards = [];
 
-  for (const y of years) {
-    const file = `data/topps_baseball_${y}.json`;
+  for (const file of dataFiles) {
     try {
       const res = await fetch(file);
       const data = await res.json();
       allCards = allCards.concat(data);
     } catch (e) {
-      console.warn(`Missing file: ${file}`);
+      console.warn("Missing file:", file);
     }
   }
 
-  // Filter by player name or card number
-  filteredCards = allCards.filter(card =>
+  let results = allCards;
+
+  // CATEGORY FILTER
+  if (category !== "all") {
+    results = results.filter(card => card.category === category);
+  }
+
+  // YEAR FILTER
+  if (year !== "all") {
+    results = results.filter(card => String(card.year) === year);
+  }
+
+  // SEARCH FILTER
+  filteredCards = results.filter(card =>
     card.player.toLowerCase().includes(query) ||
     card.number.includes(query)
   );
 
-  // Show card grid, hide set grid
   document.getElementById("setGrid").style.display = "none";
   document.getElementById("cardGrid").style.display = "grid";
 
@@ -200,28 +288,21 @@ async function globalSearch() {
 // ------------------------------
 document.getElementById("search").addEventListener("input", globalSearch);
 
-document.getElementById("yearFilter").addEventListener("change", (e) => {
-  const year = e.target.value;
-
-  if (year) {
-    // Redirect to set landing page
-    window.location.href = `sets/topps_baseball_${year}.html`;
-  } else {
-    // Return to set landing page
-    renderSetLanding();
-  }
+document.getElementById("categoryFilter").addEventListener("change", () => {
+  populateYears();
+  populateTeams();
+  applyFilters();
 });
 
+document.getElementById("yearFilter").addEventListener("change", applyFilters);
 document.getElementById("teamFilter").addEventListener("change", applyFilters);
 
 // ------------------------------
 // INITIAL LOAD
 // ------------------------------
 if (preselectYear) {
-  // Coming from a set landing page → load that year
   document.getElementById("yearFilter").value = preselectYear;
   loadCards(preselectYear);
 } else {
-  // Default → show set thumbnails
-  renderSetLanding();
+  loadAllData();
 }

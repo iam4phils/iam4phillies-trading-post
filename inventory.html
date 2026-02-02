@@ -12,61 +12,54 @@
     <h1>Inventory</h1>
     <nav>
       <a href="index.html">Home</a>
-      <a href="inventory.html">Inventory</a>
+      <a href="inventory.html" class="active">Inventory</a>
       <a href="about.html">About</a>
     </nav>
   </header>
 
   <main>
-
-    <!-- Filters -->
     <section class="filters">
-      <input type="text" id="search" placeholder="Search by player name">
 
+      <!-- ⭐ NEW CATEGORY DROPDOWN -->
+      <label for="categoryFilter">Category:</label>
+      <select id="categoryFilter">
+        <option value="all">All Categories</option>
+        <option value="sports">Sports</option>
+        <option value="nonsports">Non‑Sports</option>
+      </select>
+
+      <!-- ⭐ UPDATED SEARCH BOX -->
+      <label for="searchInput">Search:</label>
+      <input 
+        type="text" 
+        id="searchInput" 
+        placeholder="Search by player/character name"
+      >
+
+      <!-- YEAR DROPDOWN (JS will populate) -->
+      <label for="yearFilter">Year:</label>
       <select id="yearFilter">
-        <option value="">All Years</option>
-        <option value="1985">1985</option>
-        <option value="1986">1986</option>
-        <option value="1987">1987</option>
-        <option value="1988">1988</option>
-        <option value="1989">1989</option>
+        <option value="all">All Years</option>
       </select>
 
+      <!-- TEAM DROPDOWN (JS will populate) -->
+      <label for="teamFilter">Team:</label>
       <select id="teamFilter">
-        <option value="">All Teams</option>
+        <option value="all">All Teams</option>
       </select>
+
     </section>
 
-    <!-- SET LANDING PAGE GRID -->
-    <section id="setGrid" class="grid"></section>
-
-    <!-- CARD GRID (hidden until a year or search is active) -->
-    <section id="cardGrid" class="grid" style="display:none;"></section>
+    <!-- Inventory grid -->
+    <section id="inventoryGrid" class="inventory-grid">
+      <!-- JS will populate this -->
+    </section>
 
   </main>
 
   <footer>
     <p>© 2026 iam4phillies Trading Post</p>
-    <p>Page views: <span id="viewCounter">Loading...</span></p>
   </footer>
-
-  <script>
-    async function updateCounter() {
-      const url = "https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https://iam4phillies.github.io/inventory";
-
-      try {
-        const res = await fetch(url);
-        const svgText = await res.text();
-        const match = svgText.match(/>(\d+)</);
-        const count = match ? match[1] : "N/A";
-        document.getElementById("viewCounter").textContent = count;
-      } catch (e) {
-        document.getElementById("viewCounter").textContent = "N/A";
-      }
-    }
-
-    updateCounter();
-  </script>
 
 </body>
 </html>
