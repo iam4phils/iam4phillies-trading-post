@@ -129,12 +129,15 @@ footer {
 .set-hero {
   text-align: center;
   margin: 0 auto 30px auto;
-  max-width: 600px;
+  max-width: 900px; /* expanded for larger image */
 }
 
+/* ------------------------------
+   Set Page Image Sizing (updated)
+--------------------------------*/
 .set-image {
   width: 100%;
-  max-width: 400px; /* prevents giant images */
+  max-width: 650px; /* increased from 400px */
   height: auto;
   border-radius: 8px;
   display: block;
