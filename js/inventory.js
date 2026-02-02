@@ -20,12 +20,12 @@ const sets = [
   {
     year: 1988,
     category: "sports",
-    img: "https://raw.githubusercontent.com/iam4phils/Ebay_card_Listings/main/topps_baseball_1988/1988%20Topps%20Baseball%20IMG_2026_01_29_19_12_37S.jpg"
+    img: "https://raw.githubusercontent.com/iam4phils/Ebay_card_Listings/main/topps_baseball_1988/1988%20Topps%20Baseball%20IMG_2026_01_06_19_41_50S.jpg"
   },
   {
     year: 1989,
     category: "sports",
-    img: "https://raw.githubusercontent.com/iam4phils/Ebay_card_Listings/main/topps_baseball_1989/1989%20Topps%20Baseball%20IMG_2026_01_29_19_12_37S.jpg"
+    img: "https://raw.githubusercontent.com/iam4phils/Ebay_card_Listings/main/topps_baseball_1989/1989%20Topps%20Baseball%20IMG_2026_01_07_23_01_37S.jpg"
   },
   {
     year: 2025,
