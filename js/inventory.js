@@ -28,7 +28,7 @@ const sets = [
     img: "https://raw.githubusercontent.com/iam4phils/Ebay_card_Listings/main/topps_baseball_1989/1989%20Topps%20Baseball%20IMG_2026_01_29_19_12_37S.jpg"
   },
 
-  // ⭐ NEW NON-SPORT SET (GPK)
+  // ⭐ GPK placeholder (will work once JSON exists)
   {
     year: 2025,
     category: "nonsports",
@@ -59,7 +59,14 @@ const dataFiles = [
 ];
 
 // ------------------------------
-// LOAD ALL CARDS (Landing page + global search)
+// INITIAL LOAD
+// ------------------------------
+window.addEventListener("DOMContentLoaded", () => {
+  loadAllData();
+});
+
+// ------------------------------
+// LOAD ALL CARDS
 // ------------------------------
 async function loadAllData() {
   allCards = [];
@@ -95,10 +102,15 @@ function renderSetLanding() {
     const div = document.createElement("div");
     div.className = "card";
 
+    const link =
+      set.category === "sports"
+        ? `sets/topps_baseball_${set.year}.html`
+        : `sets/topps_gpk_media_menace_${set.year}.html`;
+
     div.innerHTML = `
       <img src="${set.img}" alt="${set.year}">
       <h3>${set.year} ${set.category === "sports" ? "Topps Baseball" : "Topps GPK Media Menace"}</h3>
-      <a href="sets/topps_${set.category}_media_menace_${set.year}.html" class="details-btn">View Set</a>
+      <a href="${link}" class="details-btn">View Set</a>
     `;
 
     setGrid.appendChild(div);
@@ -111,8 +123,6 @@ function renderSetLanding() {
 function populateYears() {
   const yearFilter = document.getElementById("yearFilter");
   const category = document.getElementById("categoryFilter").value;
-
-  const selectedYear = yearFilter.value;
 
   yearFilter.innerHTML = `<option value="all">All Years</option>`;
 
@@ -128,10 +138,6 @@ function populateYears() {
     opt.textContent = year;
     yearFilter.appendChild(opt);
   });
-
-  if (selectedYear) {
-    yearFilter.value = selectedYear;
-  }
 }
 
 // ------------------------------
@@ -140,8 +146,6 @@ function populateYears() {
 function populateTeams() {
   const teamFilter = document.getElementById("teamFilter");
   const category = document.getElementById("categoryFilter").value;
-
-  const selectedTeam = teamFilter.value;
 
   teamFilter.innerHTML = `<option value="all">All Teams</option>`;
 
@@ -161,10 +165,6 @@ function populateTeams() {
     opt.textContent = team;
     teamFilter.appendChild(opt);
   });
-
-  if (selectedTeam) {
-    teamFilter.value = selectedTeam;
-  }
 }
 
 // ------------------------------
@@ -204,11 +204,16 @@ function applyFilters() {
 // RENDER CARDS
 // ------------------------------
 function renderCards() {
-  const grid = document.getElementById("cardGrid");
-  grid.innerHTML = "";
+  const setGrid = document.getElementById("setGrid");
+  const cardGrid = document.getElementById("cardGrid");
+
+  setGrid.style.display = "none";
+  cardGrid.style.display = "grid";
+
+  cardGrid.innerHTML = "";
 
   if (filteredCards.length === 0) {
-    grid.innerHTML = "<p>No cards found.</p>";
+    cardGrid.innerHTML = "<p>No cards found.</p>";
     return;
   }
 
@@ -223,61 +228,18 @@ function renderCards() {
       <a href="card.html?id=${card.id}" class="details-btn">View Details</a>
     `;
 
-    grid.appendChild(div);
+    cardGrid.appendChild(div);
   });
 }
 
 // ------------------------------
 // GLOBAL SEARCH
 // ------------------------------
-async function globalSearch() {
-  const query = document.getElementById("search").value.toLowerCase();
-  const category = document.getElementById("categoryFilter").value;
-  const year = document.getElementById("yearFilter").value;
-
-  if (!query) {
-    renderSetLanding();
-    return;
-  }
-
-  allCards = [];
-
-  for (const file of dataFiles) {
-    try {
-      const res = await fetch(file);
-      const data = await res.json();
-      allCards = allCards.concat(data);
-    } catch (e) {
-      console.warn("Missing file:", file);
-    }
-  }
-
-  let results = allCards;
-
-  if (category !== "all") {
-    results = results.filter(card => card.category === category);
-  }
-
-  if (year !== "all") {
-    results = results.filter(card => String(card.year) === year);
-  }
-
-  filteredCards = results.filter(card =>
-    card.player.toLowerCase().includes(query) ||
-    card.number.includes(query)
-  );
-
-  document.getElementById("setGrid").style.display = "none";
-  document.getElementById("cardGrid").style.display = "grid";
-
-  renderCards();
-}
+document.getElementById("search").addEventListener("input", applyFilters);
 
 // ------------------------------
-// EVENT LISTENERS
+// FILTER LISTENERS
 // ------------------------------
-document.getElementById("search").addEventListener("input", globalSearch);
-
 document.getElementById("categoryFilter").addEventListener("change", () => {
   populateYears();
   populateTeams();
@@ -286,13 +248,3 @@ document.getElementById("categoryFilter").addEventListener("change", () => {
 
 document.getElementById("yearFilter").addEventListener("change", applyFilters);
 document.getElementById("teamFilter").addEventListener("change", applyFilters);
-
-// ------------------------------
-// INITIAL LOAD
-// ------------------------------
-if (preselectYear) {
-  document.getElementById("yearFilter").value = preselectYear;
-  loadCards(preselectYear);
-} else {
-  loadAllData();
-}
