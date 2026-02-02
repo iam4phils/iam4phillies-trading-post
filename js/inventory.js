@@ -231,7 +231,7 @@ document.getElementById("yearFilter").addEventListener("change", applyFilters);
 document.getElementById("teamFilter").addEventListener("change", applyFilters);
 
 // ------------------------------
-// INITIAL LOAD WITH URL PARAM SUPPORT
+// INITIAL LOAD WITH URL PARAM SUPPORT 
 // ------------------------------
 window.addEventListener("DOMContentLoaded", () => {
   const urlParams = new URLSearchParams(window.location.search);
