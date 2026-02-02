@@ -5,7 +5,7 @@ const sets = [
   {
     year: 1985,
     category: "sports",
-    img: "https://raw.githubusercontent.com/iam4phils/Ebay_card_Listings/main/topps_baseball_1985/1985%20Topps%20Basepsball%20IMG_2026_01_29_19_12_37S.jpg"
+    img: "https://raw.githubusercontent.com/iam4phils/Ebay_card_Listings/main/topps_baseball_1985/1985%20Topps%20Baseball%20IMG_2026_01_29_19_12_37S.jpg"
   },
   {
     year: 1986,
