@@ -86,14 +86,10 @@ function renderSetLanding() {
 
   sets.forEach(set => {
     const div = document.createElement("div");
-
-    // ⭐ FIX: set tiles now get the set-tile class
     div.className = "card set-tile";
 
-    const link =
-      set.category === "sports"
-        ? `sets/topps_baseball_${set.year}.html`
-        : `sets/topps_gpk_media_menace_${set.year}.html`;
+    // ⭐ NEW: Universal inventory engine link
+    const link = `inventory.html?year=${set.year}&category=${set.category}`;
 
     div.innerHTML = `
       <img src="${set.img}" alt="${set.year}">
@@ -207,8 +203,6 @@ function renderCards() {
 
   filteredCards.forEach(card => {
     const div = document.createElement("div");
-
-    // ⭐ Player cards stay normal
     div.className = "card";
 
     div.innerHTML = `
