@@ -124,6 +124,24 @@ footer {
 }
 
 /* ------------------------------
+   Set Page Hero Section
+--------------------------------*/
+.set-hero {
+  text-align: center;
+  margin: 0 auto 30px auto;
+  max-width: 600px;
+}
+
+.set-image {
+  width: 100%;
+  max-width: 400px; /* prevents giant images */
+  height: auto;
+  border-radius: 8px;
+  display: block;
+  margin: 0 auto 20px auto;
+}
+
+/* ------------------------------
    Card Details Page
 --------------------------------*/
 .card-details {

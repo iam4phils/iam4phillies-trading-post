@@ -5,7 +5,7 @@ const sets = [
   {
     year: 1985,
     category: "sports",
-    img: "https://raw.githubusercontent.com/iam4phils/Ebay_card_Listings/main/topps_baseball_1985/1985%20Topps%20Baseball%20IMG_2026_01_29_19_12_37S.jpg"
+    img: "https://raw.githubusercontent.com/iam4phils/Ebay_card_Listings/main/topps_baseball_1985/1985%20Topps%20Basepsball%20IMG_2026_01_29_19_12_37S.jpg"
   },
   {
     year: 1986,
@@ -27,8 +27,6 @@ const sets = [
     category: "sports",
     img: "https://raw.githubusercontent.com/iam4phils/Ebay_card_Listings/main/topps_baseball_1989/1989%20Topps%20Baseball%20IMG_2026_01_29_19_12_37S.jpg"
   },
-
-  // ⭐ GPK placeholder (will work once JSON exists)
   {
     year: 2025,
     category: "nonsports",
@@ -42,9 +40,6 @@ const sets = [
 let allCards = [];
 let filteredCards = [];
 
-const urlParams = new URLSearchParams(window.location.search);
-const preselectYear = urlParams.get("year");
-
 // ------------------------------
 // ABSOLUTE PATHS FOR GITHUB PAGES
 // ------------------------------
@@ -54,19 +49,11 @@ const dataFiles = [
   "/iam4phillies-trading-post/data/topps_baseball_1987.json",
   "/iam4phillies-trading-post/data/topps_baseball_1988.json",
   "/iam4phillies-trading-post/data/topps_baseball_1989.json",
-
   "/iam4phillies-trading-post/data/gpk_topps_2025_media_menace.json"
 ];
 
 // ------------------------------
-// INITIAL LOAD
-// ------------------------------
-window.addEventListener("DOMContentLoaded", () => {
-  loadAllData();
-});
-
-// ------------------------------
-// LOAD ALL CARDS
+// LOAD ALL DATA
 // ------------------------------
 async function loadAllData() {
   allCards = [];
@@ -83,7 +70,6 @@ async function loadAllData() {
 
   populateYears();
   populateTeams();
-  renderSetLanding();
 }
 
 // ------------------------------
@@ -233,13 +219,10 @@ function renderCards() {
 }
 
 // ------------------------------
-// GLOBAL SEARCH
+// EVENT LISTENERS
 // ------------------------------
 document.getElementById("search").addEventListener("input", applyFilters);
 
-// ------------------------------
-// FILTER LISTENERS
-// ------------------------------
 document.getElementById("categoryFilter").addEventListener("change", () => {
   populateYears();
   populateTeams();
@@ -248,3 +231,26 @@ document.getElementById("categoryFilter").addEventListener("change", () => {
 
 document.getElementById("yearFilter").addEventListener("change", applyFilters);
 document.getElementById("teamFilter").addEventListener("change", applyFilters);
+
+// ------------------------------
+// INITIAL LOAD WITH URL PARAM SUPPORT
+// ------------------------------
+window.addEventListener("DOMContentLoaded", () => {
+  const urlParams = new URLSearchParams(window.location.search);
+  const year = urlParams.get("year");
+  const category = urlParams.get("category");
+
+  loadAllData().then(() => {
+    if (year || category) {
+      if (category) {
+        document.getElementById("categoryFilter").value = category;
+      }
+      if (year) {
+        document.getElementById("yearFilter").value = year;
+      }
+      applyFilters();
+    } else {
+      renderSetLanding();
+    }
+  });
+});
