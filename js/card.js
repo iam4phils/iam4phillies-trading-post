@@ -25,7 +25,6 @@ const dataFiles = [
 async function loadCard() {
   let allCards = [];
 
-  // Load all sets
   for (const file of dataFiles) {
     try {
       const res = await fetch(file);
@@ -36,7 +35,6 @@ async function loadCard() {
     }
   }
 
-  // Find the card by ID
   const card = allCards.find(c => String(c.id) === cardId);
 
   if (!card) {
@@ -48,29 +46,24 @@ async function loadCard() {
 }
 
 // ------------------------------
-// RENDER CARD DETAILS (Sports + GPK)
+// RENDER CARD DETAILS
 // ------------------------------
 function renderCard(card) {
   const container = document.getElementById("cardDetails");
 
-  // Determine if this is Sports or Non-Sports
   const isSports = card.category === "sports";
-  const isNonSports = card.category === "nonsports";
+  const nameLabel = isSports ? "Player" : "Character";
 
-  // Build Team row (Sports only)
   const teamRow = isSports
     ? `<p><strong>Team:</strong> ${card.team}</p>`
     : ``;
 
-  // Build Player/Character row
-  const nameLabel = isSports ? "Player" : "Character";
-
   container.innerHTML = `
     <div class="card-details">
 
-      <div class="images">
-        <img src="${card.front_url}" alt="${card.player}" class="front-img">
-        <img src="${card.back_url}" alt="${card.player} Back" class="back-img">
+      <div class="card-images">
+        <img src="${card.front_url}" alt="${card.player}">
+        <img src="${card.back_url}" alt="${card.player} Back">
       </div>
 
       <div class="info">
