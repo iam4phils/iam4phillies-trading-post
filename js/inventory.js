@@ -144,7 +144,7 @@ function populateTeams() {
   )].sort();
 
   if (category === "nonsports") {
-    teams = ["N/A"];
+    teams = ["N/A"]; // still needed for dropdown
   }
 
   teams.forEach(team => {
@@ -209,10 +209,6 @@ function renderCards() {
     const div = document.createElement("div");
     div.className = "card";
 
-    const teamOrSet = card.category === "sports"
-      ? card.team
-      : "N/A";
-
     const fullSetName =
       card.category === "sports"
         ? `${card.year} Topps Baseball`
@@ -227,7 +223,8 @@ function renderCards() {
 
       <h3>${card.number} – ${card.player}</h3>
       <p><strong>${fullSetName}</strong></p>
-      <p>${teamOrSet}</p>
+
+      ${card.category === "sports" ? `<p>${card.team}</p>` : ""}
 
       <a href="card.html?id=${card.id}" class="details-btn">View Details</a>
       ${ebayButton}
@@ -257,10 +254,6 @@ function renderCompact() {
   filteredCards.forEach(card => {
     const div = document.createElement("div");
     div.className = "compact-row";
-
-    const teamOrSet = card.category === "sports"
-      ? card.team
-      : "N/A";
 
     const fullSetName =
       card.category === "sports"
