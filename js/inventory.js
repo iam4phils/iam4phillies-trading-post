@@ -30,7 +30,7 @@ const sets = [
   {
     year: 2025,
     category: "nonsports",
-    img: "https://raw.githubusercontent.com/iam4phils/Ebay_card_Listings/main/gpk_topps_2025_media_menace/gpk_2025_media_menace.jpg"
+    img: "https://raw.githubusercontent.com/iam4phils/Ebay_card_Listings/main/topps_gpk_media_menace_2025/25-MEDIA-MENACE.jpg"
   }
 ];
 
