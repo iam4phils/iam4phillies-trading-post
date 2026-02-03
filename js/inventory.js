@@ -220,7 +220,7 @@ function renderCards() {
     div.innerHTML = `
       <img src="${card.front_url}" alt="${card.player}">
       <h3>${card.number} – ${card.player}</h3>
-      <p>${teamOrSet}</p>
+      <p>${teamOrSet} — ${card.year}</p>
 
       <a href="card.html?id=${card.id}" class="details-btn">View Details</a>
       ${ebayButton}
@@ -258,7 +258,7 @@ function renderCompact() {
     div.innerHTML = `
       <span class="compact-num">${card.number}</span>
       <span class="compact-player">${card.player}</span>
-      <span class="compact-team">${teamOrSet}</span>
+      <span class="compact-team">${teamOrSet} — ${card.year}</span>
       <a href="card.html?id=${card.id}" class="compact-details">Details</a>
     `;
 
