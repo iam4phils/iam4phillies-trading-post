@@ -129,30 +129,35 @@ function populateYears() {
 }
 
 // ------------------------------
-// POPULATE TEAM DROPDOWN
+// POPULATE TEAM/SET DROPDOWN
 // ------------------------------
 function populateTeams() {
   const teamFilter = document.getElementById("teamFilter");
   const category = document.getElementById("categoryFilter").value;
 
-  teamFilter.innerHTML = `<option value="all">All Teams</option>`;
+  // Default option changes depending on category
+  teamFilter.innerHTML =
+    category === "nonsports"
+      ? `<option value="all">Set</option>`
+      : `<option value="all">All Teams</option>`;
 
-  let teams = [...new Set(
-    allCards
-      .filter(card => category === "all" || card.category === category)
-      .map(card => card.team)
-  )].sort();
+  // SPORTS → real teams
+  if (category === "sports") {
+    let teams = [...new Set(
+      allCards
+        .filter(card => card.category === "sports")
+        .map(card => card.team)
+    )].sort();
 
-  if (category === "nonsports") {
-    teams = ["N/A"]; // still needed for dropdown
+    teams.forEach(team => {
+      const opt = document.createElement("option");
+      opt.value = team;
+      opt.textContent = team;
+      teamFilter.appendChild(opt);
+    });
   }
 
-  teams.forEach(team => {
-    const opt = document.createElement("option");
-    opt.value = team;
-    opt.textContent = team;
-    teamFilter.appendChild(opt);
-  });
+  // NON‑SPORTS → no team list at all
 }
 
 // ------------------------------

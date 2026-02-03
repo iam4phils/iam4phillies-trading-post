@@ -65,6 +65,11 @@ footer {
   margin-bottom: 20px;
 }
 
+/* NEW: Bold filter labels */
+.filters label {
+  font-weight: bold;
+}
+
 .filters input,
 .filters select {
   padding: 8px;
