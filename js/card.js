@@ -9,11 +9,16 @@ const cardId = urlParams.get("id");
 // ------------------------------
 const dataFiles = [
   // Sports
+  "data/topps_baseball_1983.json",
+  "data/topps_baseball_1984.json",
   "data/topps_baseball_1985.json",
   "data/topps_baseball_1986.json",
   "data/topps_baseball_1987.json",
   "data/topps_baseball_1988.json",
   "data/topps_baseball_1989.json",
+  "data/topps_baseball_1990.json",
+  "data/topps_baseball_1992.json",
+  "data/topps_baseball_1993.json",
 
   // Non-Sports
   "data/gpk_topps_2025_media_menace.json"
