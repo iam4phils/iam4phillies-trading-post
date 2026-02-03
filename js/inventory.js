@@ -213,14 +213,21 @@ function renderCards() {
       ? card.team
       : card.set;
 
+    const fullSetName =
+      card.category === "sports"
+        ? `${card.year} Topps Baseball`
+        : card.set;
+
     const ebayButton = card.ebay_listing
       ? `<a href="${card.ebay_listing}" target="_blank" class="ebay-btn">Buy on eBay</a>`
       : ``;
 
     div.innerHTML = `
-      <img src="${card.front_url}" alt="${card.player}">
       <h3>${card.number} – ${card.player}</h3>
-      <p>${teamOrSet} — ${card.year}</p>
+      <p><strong>${fullSetName}</strong></p>
+      <p>${teamOrSet}</p>
+
+      <img src="${card.front_url}" alt="${card.player}">
 
       <a href="card.html?id=${card.id}" class="details-btn">View Details</a>
       ${ebayButton}
@@ -255,10 +262,20 @@ function renderCompact() {
       ? card.team
       : card.set;
 
+    const fullSetName =
+      card.category === "sports"
+        ? `${card.year} Topps Baseball`
+        : card.set;
+
     div.innerHTML = `
       <span class="compact-num">${card.number}</span>
-      <span class="compact-player">${card.player}</span>
-      <span class="compact-team">${teamOrSet} — ${card.year}</span>
+
+      <span class="compact-player">
+        <strong>${card.number} – ${card.player}</strong><br>
+        ${fullSetName}<br>
+        ${teamOrSet}
+      </span>
+
       <a href="card.html?id=${card.id}" class="compact-details">Details</a>
     `;
 
