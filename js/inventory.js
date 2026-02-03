@@ -25,7 +25,7 @@ const sets = [
   {
     year: 1989,
     category: "sports",
-    img: "https://raw.githubusercontent.com/iam4phils/Ebay_card_Listings/main/topps_baseball_1989/1989%20Topps%20Baseball_IMG_2026_01_07_23_01_37S.jpg"
+    img: "https://raw.githubusercontent.com/iam4phils/Ebay_card_Listings/main/topps_baseball_1989/1989%20Topps%20Basepsball_IMG_2026_01_07_23_01_37S.jpg"
   },
   {
     year: 2025,
@@ -211,7 +211,7 @@ function renderCards() {
 
     const teamOrSet = card.category === "sports"
       ? card.team
-      : card.set;
+      : "N/A";
 
     const fullSetName =
       card.category === "sports"
@@ -260,7 +260,7 @@ function renderCompact() {
 
     const teamOrSet = card.category === "sports"
       ? card.team
-      : card.set;
+      : "N/A";
 
     const fullSetName =
       card.category === "sports"
@@ -271,7 +271,6 @@ function renderCompact() {
       <span class="compact-num">${card.number}</span>
       <span class="compact-player">${card.player}</span>
       <span class="compact-set">${fullSetName}</span>
-      <span class="compact-team">${teamOrSet}</span>
 
       <a href="card.html?id=${card.id}" class="compact-details">Details</a>
 
