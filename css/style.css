@@ -236,11 +236,8 @@ footer {
    Compact Mode Styles
 --------------------------------*/
 .compact-row {
-  display: grid;
-  grid-template-columns: 60px 1fr 1fr 100px;
-  padding: 8px 12px;
+  padding: 10px 12px;
   border-bottom: 1px solid #ddd;
-  align-items: center;
   font-size: 14px;
 }
 
@@ -252,10 +249,29 @@ footer {
   font-weight: bold;
 }
 
-.compact-details {
+/* NEW: Set + Team on same line */
+.compact-meta {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  font-size: 13px;
+  color: #444;
+  margin: 2px 0;
+}
+
+.compact-set {
+  font-weight: 500;
+}
+
+.compact-team {
   text-align: right;
+}
+
+/* Details link */
+.compact-details {
   color: #0077cc;
   text-decoration: none;
+  font-weight: bold;
 }
 
 .compact-details:hover {
