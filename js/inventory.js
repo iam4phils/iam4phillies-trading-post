@@ -88,12 +88,15 @@ function renderSetLanding() {
     const div = document.createElement("div");
     div.className = "card set-tile";
 
-    // ⭐ UNIVERSAL ENGINE LINK — THIS IS THE FIX
     const link = `inventory.html?year=${set.year}&category=${set.category}`;
 
     div.innerHTML = `
       <img src="${set.img}" alt="${set.year}">
-      <h3>${set.year} ${set.category === "sports" ? "Topps Baseball" : "Topps GPK Media Menace"}</h3>
+      <h3>${set.year} ${
+        set.category === "sports"
+          ? "Topps Baseball"
+          : "Topps GPK Media Menace"
+      }</h3>
       <a href="${link}" class="details-btn">View Set</a>
     `;
 
@@ -231,7 +234,7 @@ document.getElementById("yearFilter").addEventListener("change", applyFilters);
 document.getElementById("teamFilter").addEventListener("change", applyFilters);
 
 // ------------------------------
-// INITIAL LOAD WITH URL PARAM SUPPORT 
+// INITIAL LOAD WITH URL PARAM SUPPORT
 // ------------------------------
 window.addEventListener("DOMContentLoaded", () => {
   const urlParams = new URLSearchParams(window.location.search);

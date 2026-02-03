@@ -122,10 +122,12 @@ footer {
 /* ------------------------------
    Buttons
 --------------------------------*/
-.details-btn {
+.details-btn,
+.back-btn,
+.ebay-btn {
   display: inline-block;
   margin-top: 10px;
-  padding: 8px 12px;
+  padding: 10px 14px;
   background: #b30000;
   color: white;
   text-decoration: none;
@@ -133,8 +135,22 @@ footer {
   font-weight: bold;
 }
 
-.details-btn:hover {
+.details-btn:hover,
+.back-btn:hover,
+.ebay-btn:hover {
   background: #cc0000;
+}
+
+/* ------------------------------
+   eBay Button (Special Styling)
+--------------------------------*/
+.ebay-btn {
+  background: #0064d2; /* eBay blue */
+  margin-right: 10px;
+}
+
+.ebay-btn:hover {
+  background: #0052ad;
 }
 
 /* ------------------------------
@@ -185,20 +201,6 @@ footer {
   width: 45%;
   border-radius: 6px;
   box-shadow: 0 0 5px rgba(0,0,0,0.2);
-}
-
-.back-btn {
-  display: inline-block;
-  margin-top: 20px;
-  padding: 10px 14px;
-  background: #b30000;
-  color: white;
-  text-decoration: none;
-  border-radius: 4px;
-}
-
-.back-btn:hover {
-  background: #cc0000;
 }
 
 /* ------------------------------

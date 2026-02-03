@@ -58,6 +58,14 @@ function renderCard(card) {
     ? `<p><strong>Team:</strong> ${card.team}</p>`
     : ``;
 
+  const price = card.price_ungraded
+    ? `$${card.price_ungraded}`
+    : "N/A";
+
+  const ebayButton = card.ebay_listing
+    ? `<a href="${card.ebay_listing}" target="_blank" class="ebay-btn">Buy on eBay</a>`
+    : ``;
+
   container.innerHTML = `
     <div class="card-details">
 
@@ -74,7 +82,9 @@ function renderCard(card) {
         <p><strong>Year:</strong> ${card.year}</p>
         <p><strong>Set:</strong> ${card.set}</p>
 
-        <p><strong>Price (Ungraded):</strong> $${card.price_ungraded}</p>
+        <p><strong>Price (Ungraded):</strong> ${price}</p>
+
+        ${ebayButton}
 
         <a href="inventory.html" class="back-btn">Back to Inventory</a>
       </div>
