@@ -3,6 +3,16 @@
 // ------------------------------
 const sets = [
   {
+    year: 1983,
+    category: "sports",
+    img: "https://raw.githubusercontent.com/iam4phils/Ebay_card_Listings/main/topps_baseball_1983/1983%20Topps%20Baseball%20IMG_2026_01_30_23_12_23S.jpg"
+  },
+  {
+    year: 1984,
+    category: "sports",
+    img: "https://raw.githubusercontent.com/iam4phils/Ebay_card_Listings/main/topps_baseball_1984/1984%20Topps%20Baseball%20IMG_2026_01_30_21_03_26S.jpg"
+  },
+  {
     year: 1985,
     category: "sports",
     img: "https://raw.githubusercontent.com/iam4phils/Ebay_card_Listings/main/topps_baseball_1985/1985%20Topps%20Baseball%20IMG_2026_01_29_19_12_37S.jpg"
@@ -60,6 +70,8 @@ let isCompactMode = false;
 // JSON FILES TO LOAD
 // ------------------------------
 const dataFiles = [
+  "/iam4phillies-trading-post/data/topps_baseball_1983.json",
+  "/iam4phillies-trading-post/data/topps_baseball_1984.json",
   "/iam4phillies-trading-post/data/topps_baseball_1985.json",
   "/iam4phillies-trading-post/data/topps_baseball_1986.json",
   "/iam4phillies-trading-post/data/topps_baseball_1987.json",
