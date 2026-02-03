@@ -25,7 +25,7 @@ const sets = [
   {
     year: 1989,
     category: "sports",
-    img: "https://raw.githubusercontent.com/iam4phils/Ebay_card_Listings/main/topps_baseball_1989/1989%20Topps%20Basepsball_IMG_2026_01_07_23_01_37S.jpg"
+    img: "https://raw.githubusercontent.com/iam4phils/Ebay_card_Listings/main/topps_baseball_1989/1989%20Topps%20Baseball_IMG_2026_01_07_23_01_37S.jpg"
   },
   {
     year: 2025,
@@ -238,7 +238,7 @@ function renderCards() {
 }
 
 // ------------------------------
-// RENDER COMPACT MODE (ONE-LINE)
+// RENDER COMPACT MODE (ONE-LINE, PERFECT ALIGNMENT)
 // ------------------------------
 function renderCompact() {
   const setGrid = document.getElementById("setGrid");

@@ -233,11 +233,15 @@ footer {
 }
 
 /* ------------------------------
-   Compact Mode Styles
+   Compact Mode Styles (FINAL)
 --------------------------------*/
 .compact-row {
+  display: grid;
+  grid-template-columns: 70px 250px 1fr 90px 90px;
+  gap: 12px;
   padding: 10px 12px;
   border-bottom: 1px solid #ddd;
+  align-items: center;
   font-size: 14px;
 }
 
@@ -249,31 +253,27 @@ footer {
   font-weight: bold;
 }
 
-/* NEW: Set + Team on same line */
-.compact-meta {
-  display: flex;
-  justify-content: space-between;
-  width: 100%;
-  font-size: 13px;
-  color: #444;
-  margin: 2px 0;
+.compact-player {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .compact-set {
+  text-align: center;
   font-weight: 500;
+  white-space: nowrap;
 }
 
-.compact-team {
+.compact-details,
+.compact-ebay {
   text-align: right;
-}
-
-/* Details link */
-.compact-details {
   color: #0077cc;
   text-decoration: none;
   font-weight: bold;
 }
 
-.compact-details:hover {
+.compact-details:hover,
+.compact-ebay:hover {
   text-decoration: underline;
 }
