@@ -38,6 +38,11 @@ const sets = [
     img: "https://raw.githubusercontent.com/iam4phils/Ebay_card_Listings/main/topps_baseball_1992/1992%20Topps%20Baseball_IMG_2026_01_11_18_30_10S.jpg"
   },
   {
+    year: 1993,
+    category: "sports",
+    img: "https://raw.githubusercontent.com/iam4phils/Ebay_card_Listings/main/topps_baseball_1993/1993%20Topps%20Baseball%20IMG_2026_01_12_17_08_44S.jpg"
+  },
+  {
     year: 2025,
     category: "nonsports",
     img: "https://raw.githubusercontent.com/iam4phils/Ebay_card_Listings/main/topps_gpk_media_menace_2025/25-MEDIA-MENACE.jpg"
@@ -62,6 +67,7 @@ const dataFiles = [
   "/iam4phillies-trading-post/data/topps_baseball_1989.json",
   "/iam4phillies-trading-post/data/topps_baseball_1990.json",
   "/iam4phillies-trading-post/data/topps_baseball_1992.json",
+  "/iam4phillies-trading-post/data/topps_baseball_1993.json",
   "/iam4phillies-trading-post/data/gpk_topps_2025_media_menace.json"
 ];
 
