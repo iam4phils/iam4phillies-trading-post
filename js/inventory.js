@@ -208,6 +208,11 @@ function renderCards() {
     const div = document.createElement("div");
     div.className = "card";
 
+    // Show team for sports, set name for non-sports
+    const teamOrSet = card.category === "sports"
+      ? card.team
+      : card.set;
+
     const ebayButton = card.ebay_listing
       ? `<a href="${card.ebay_listing}" target="_blank" class="ebay-btn">Buy on eBay</a>`
       : ``;
@@ -215,7 +220,7 @@ function renderCards() {
     div.innerHTML = `
       <img src="${card.front_url}" alt="${card.player}">
       <h3>${card.number} – ${card.player}</h3>
-      <p>${card.team}</p>
+      <p>${teamOrSet}</p>
 
       <a href="card.html?id=${card.id}" class="details-btn">View Details</a>
       ${ebayButton}

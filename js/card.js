@@ -54,9 +54,10 @@ function renderCard(card) {
   const isSports = card.category === "sports";
   const nameLabel = isSports ? "Player" : "Character";
 
+// Show team for sports, set name for non-sports
   const teamRow = isSports
-    ? `<p><strong>Team:</strong> ${card.team}</p>`
-    : ``;
+  ? `<p><strong>Team:</strong> ${card.team}</p>`
+  : `<p><strong>Set:</strong> ${card.set}</p>`;
 
   const price = card.price_ungraded
     ? `$${card.price_ungraded}`
