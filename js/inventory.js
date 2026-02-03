@@ -208,11 +208,17 @@ function renderCards() {
     const div = document.createElement("div");
     div.className = "card";
 
+    const ebayButton = card.ebay_listing
+      ? `<a href="${card.ebay_listing}" target="_blank" class="ebay-btn">Buy on eBay</a>`
+      : ``;
+
     div.innerHTML = `
       <img src="${card.front_url}" alt="${card.player}">
       <h3>${card.number} – ${card.player}</h3>
       <p>${card.team}</p>
+
       <a href="card.html?id=${card.id}" class="details-btn">View Details</a>
+      ${ebayButton}
     `;
 
     cardGrid.appendChild(div);
