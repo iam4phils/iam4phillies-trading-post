@@ -238,7 +238,7 @@ function renderCards() {
 }
 
 // ------------------------------
-// RENDER COMPACT MODE
+// RENDER COMPACT MODE (ONE-LINE)
 // ------------------------------
 function renderCompact() {
   const setGrid = document.getElementById("setGrid");
@@ -269,17 +269,17 @@ function renderCompact() {
 
     div.innerHTML = `
       <span class="compact-num">${card.number}</span>
-
-      <span class="compact-player">
-        <strong>${card.number} – ${card.player}</strong><br>
-
-        <span class="compact-meta">
-          <span class="compact-set">${fullSetName}</span>
-          <span class="compact-team">${teamOrSet}</span>
-        </span>
-      </span>
+      <span class="compact-player">${card.player}</span>
+      <span class="compact-set">${fullSetName}</span>
+      <span class="compact-team">${teamOrSet}</span>
 
       <a href="card.html?id=${card.id}" class="compact-details">Details</a>
+
+      ${
+        card.ebay_listing
+          ? `<a href="${card.ebay_listing}" target="_blank" class="compact-ebay">eBay</a>`
+          : `<span></span>`
+      }
     `;
 
     cardGrid.appendChild(div);
