@@ -103,7 +103,7 @@ footer {
 --------------------------------*/
 .card img {
   width: 100%;
-  height: auto;          /* preserves original proportions */
+  height: auto;
   border-radius: 4px;
   margin-bottom: 10px;
 }
@@ -113,8 +113,8 @@ footer {
 --------------------------------*/
 .set-tile img {
   width: 100%;
-  height: 180px;         /* uniform tile height */
-  object-fit: cover;     /* clean crop */
+  height: 180px;
+  object-fit: cover;
   border-radius: 4px;
   margin-bottom: 10px;
 }
@@ -145,7 +145,7 @@ footer {
    eBay Button (Special Styling)
 --------------------------------*/
 .ebay-btn {
-  background: #0064d2; /* eBay blue */
+  background: #0064d2;
   margin-right: 10px;
 }
 
@@ -230,4 +230,34 @@ footer {
   .card-images img {
     width: 100%;
   }
+}
+
+/* ------------------------------
+   Compact Mode Styles
+--------------------------------*/
+.compact-row {
+  display: grid;
+  grid-template-columns: 60px 1fr 1fr 100px;
+  padding: 8px 12px;
+  border-bottom: 1px solid #ddd;
+  align-items: center;
+  font-size: 14px;
+}
+
+.compact-row:hover {
+  background: #f7f7f7;
+}
+
+.compact-num {
+  font-weight: bold;
+}
+
+.compact-details {
+  text-align: right;
+  color: #0077cc;
+  text-decoration: none;
+}
+
+.compact-details:hover {
+  text-decoration: underline;
 }

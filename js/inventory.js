@@ -39,6 +39,7 @@ const sets = [
 // ------------------------------
 let allCards = [];
 let filteredCards = [];
+let isCompactMode = false;
 
 // ------------------------------
 // JSON FILES TO LOAD
@@ -184,11 +185,11 @@ function applyFilters() {
     filteredCards = filteredCards.filter(card => card.team === team);
   }
 
-  renderCards();
+  isCompactMode ? renderCompact() : renderCards();
 }
 
 // ------------------------------
-// RENDER CARDS
+// RENDER CARDS (GRID MODE)
 // ------------------------------
 function renderCards() {
   const setGrid = document.getElementById("setGrid");
@@ -208,7 +209,6 @@ function renderCards() {
     const div = document.createElement("div");
     div.className = "card";
 
-    // Show team for sports, set name for non-sports
     const teamOrSet = card.category === "sports"
       ? card.team
       : card.set;
@@ -231,6 +231,42 @@ function renderCards() {
 }
 
 // ------------------------------
+// RENDER COMPACT MODE
+// ------------------------------
+function renderCompact() {
+  const setGrid = document.getElementById("setGrid");
+  const cardGrid = document.getElementById("cardGrid");
+
+  setGrid.style.display = "none";
+  cardGrid.style.display = "block";
+
+  cardGrid.innerHTML = "";
+
+  if (filteredCards.length === 0) {
+    cardGrid.innerHTML = "<p>No cards found.</p>";
+    return;
+  }
+
+  filteredCards.forEach(card => {
+    const div = document.createElement("div");
+    div.className = "compact-row";
+
+    const teamOrSet = card.category === "sports"
+      ? card.team
+      : card.set;
+
+    div.innerHTML = `
+      <span class="compact-num">${card.number}</span>
+      <span class="compact-player">${card.player}</span>
+      <span class="compact-team">${teamOrSet}</span>
+      <a href="card.html?id=${card.id}" class="compact-details">Details</a>
+    `;
+
+    cardGrid.appendChild(div);
+  });
+}
+
+// ------------------------------
 // EVENT LISTENERS
 // ------------------------------
 document.getElementById("search").addEventListener("input", applyFilters);
@@ -243,6 +279,21 @@ document.getElementById("categoryFilter").addEventListener("change", () => {
 
 document.getElementById("yearFilter").addEventListener("change", applyFilters);
 document.getElementById("teamFilter").addEventListener("change", applyFilters);
+
+// ------------------------------
+// COMPACT MODE TOGGLE
+// ------------------------------
+document.getElementById("toggleView").addEventListener("click", () => {
+  isCompactMode = !isCompactMode;
+
+  if (isCompactMode) {
+    renderCompact();
+    document.getElementById("toggleView").textContent = "Grid Mode";
+  } else {
+    renderCards();
+    document.getElementById("toggleView").textContent = "Compact Mode";
+  }
+});
 
 // ------------------------------
 // INITIAL LOAD WITH URL PARAM SUPPORT
