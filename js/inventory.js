@@ -85,7 +85,7 @@ const dataFiles = [
   "/iam4phillies-trading-post/data/topps_baseball_1990.json",
   "/iam4phillies-trading-post/data/topps_baseball_1992.json",
   "/iam4phillies-trading-post/data/topps_baseball_1993.json",
-  "/iam4phillies-trading-post/data/gpk_topps_2025_media_menace_SPs_Gold.json"
+  "/iam4phillies-trading-post/data/gpk_topps_2025_media_menace_SPs_Gold.json",
   "/iam4phillies-trading-post/data/gpk_topps_2025_media_menace.json"
 ];
 

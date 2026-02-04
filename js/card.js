@@ -21,7 +21,7 @@ const dataFiles = [
   "data/topps_baseball_1993.json",
 
   // Non-Sports
-  "data/gpk_topps_2025_media_menace_SPs_Gold.json"
+  "data/gpk_topps_2025_media_menace_SPs_Gold.json",
   "data/gpk_topps_2025_media_menace.json"
 ];
 
