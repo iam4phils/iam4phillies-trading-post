@@ -193,7 +193,21 @@ function populateTeams() {
     });
   }
 
-  // NON‑SPORTS → no team list at all
+  // NON‑SPORTS → unique set names
+  if (category === "nonsports") {
+    let sets = [...new Set(
+      allCards
+        .filter(card => card.category === "nonsports")
+        .map(card => card.set)
+    )].sort();
+
+    sets.forEach(setName => {
+      const opt = document.createElement("option");
+      opt.value = setName;
+      opt.textContent = setName;
+      teamFilter.appendChild(opt);
+    });
+  }
 }
 
 // ------------------------------
