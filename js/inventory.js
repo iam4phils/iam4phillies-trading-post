@@ -221,14 +221,17 @@ function applyFilters() {
 
   filteredCards = allCards;
 
+  // CATEGORY FILTER
   if (category !== "all") {
     filteredCards = filteredCards.filter(card => card.category === category);
   }
 
+  // YEAR FILTER
   if (year !== "all") {
     filteredCards = filteredCards.filter(card => String(card.year) === year);
   }
 
+  // SEARCH FILTER
   if (search) {
     filteredCards = filteredCards.filter(card =>
       card.player.toLowerCase().includes(search) ||
@@ -236,10 +239,18 @@ function applyFilters() {
     );
   }
 
+  // TEAM / SET FILTER
   if (team !== "all") {
-    filteredCards = filteredCards.filter(card => card.team === team);
+    if (category === "sports") {
+      // SPORTS → filter by team
+      filteredCards = filteredCards.filter(card => card.team === team);
+    } else {
+      // NON‑SPORTS → filter by set name
+      filteredCards = filteredCards.filter(card => card.set === team);
+    }
   }
 
+  // RENDER
   isCompactMode ? renderCompact() : renderCards();
 }
 
