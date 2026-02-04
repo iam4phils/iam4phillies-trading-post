@@ -55,11 +55,13 @@ const sets = [
   {
     year: 2025,
     category: "nonsports",
+    setName: "Topps GPK Media Menace 2025_SPs & Gold",
     img: "https://raw.githubusercontent.com/iam4phils/Ebay_card_Listings/main/topps_gpk_media_menace_2025/25-MEDIA-MENACE%20SSP.jpg"
   },
   {
     year: 2025,
     category: "nonsports",
+    setName: "Topps GPK Media Menace 2025",
     img: "https://raw.githubusercontent.com/iam4phils/Ebay_card_Listings/main/topps_gpk_media_menace_2025/25-MEDIA-MENACE.jpg"
   }
 ];
@@ -127,13 +129,14 @@ function renderSetLanding() {
 
     const link = `inventory.html?year=${set.year}&category=${set.category}`;
 
+    // Use setName if provided (Non‑Sports), otherwise fall back to old logic
+    const title = set.setName
+      ? set.setName
+      : `${set.year} ${set.category === "sports" ? "Topps Baseball" : "Topps GPK Media Menace"}`;
+
     div.innerHTML = `
-      <img src="${set.img}" alt="${set.year}">
-      <h3>${set.year} ${
-        set.category === "sports"
-          ? "Topps Baseball"
-          : "Topps GPK Media Menace"
-      }</h3>
+      <img src="${set.img}" alt="${title}">
+      <h3>${title}</h3>
       <a href="${link}" class="details-btn">View Set</a>
     `;
 
