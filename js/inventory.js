@@ -337,6 +337,14 @@ document.getElementById("teamFilter").addEventListener("change", applyFilters);
 // COMPACT MODE TOGGLE
 // ------------------------------
 document.getElementById("toggleView").addEventListener("click", () => {
+
+  // ⭐ Prevent compact mode on landing page
+  const setGridVisible = document.getElementById("setGrid").style.display !== "none";
+  if (setGridVisible) {
+    alert("Select a set or apply filters before using Compact Mode.");
+    return;
+  }
+
   isCompactMode = !isCompactMode;
 
   if (isCompactMode) {
